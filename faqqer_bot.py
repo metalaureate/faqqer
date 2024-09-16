@@ -70,7 +70,7 @@ def find_faq_answer(question):
     return answer
 
 # Telegram bot event handler
-@client.on(events.NewMessage(pattern='/ask'))
+@client.on(events.NewMessage(pattern=r'/(ask|faq|faqqer)'))
 async def handler(event):
     # Extract the user's question from the message
     user_message = event.message.text[len('/ask '):]

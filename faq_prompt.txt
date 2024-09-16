@@ -1,0 +1,185 @@
+# Tari Universe FAQs
+
+- **Connection to Tari Network Uncertainty**
+    - Details: Users are unsure how to confirm if their Tari Universe is connected to the Tari network.
+    - Status: Ongoing
+    - Priority: Very High
+    - Current Status: Developers acknowledged the need for a connection status indicator. @stringhandler mentioned, "there's a guy here who asks me every day for connected status ... so we'll have to add it soon."
+    - Solution: Connection Status indicator
+- **CPU Power Data Not Displaying**
+    - Details: Some users reported that CPU power data was not showing in the Tari Universe app.
+    - Status: Monitoring
+    - Priority: ?
+    - Resolution: @sparkslice advised, "best thing to do is restart Tari Universe. There is a small bug here where sometimes it doesn't show."
+- **Wallet Balance Showing Zero**
+    - Details: Multiple users reported their tXTM balance showing as zero even after mining for days.
+    - Status: Ongoing
+    - Priority: V High
+    - Current Status: This is due to the competitive nature of solo mining. @sparkslice explained, "Mining is super competitive rn so it's hard to win. We are shipping an update early next week that includes a feature called p2pool. This feature will enable everyone to join a decentralized pool and make it a lot easier to win portions of blocks!"
+- **P2Pool Implementation**
+    - Details: Users are waiting for the implementation of P2Pool to make mining more accessible.
+    - Status: Ongoing
+    - Current Status: Developers are actively working on implementing P2Pool. @sparkslice mentioned, "Our goal is to get p2pool up and running and stable" and "p2pool is already baked in but it's buggy so it doesn't work very well yet. New update coming asap to fix!"
+- **Antivirus Software Flagging Tari Universe**
+    - Details: Some antivirus software, like Norton, was flagging and quarantining Tari Universe components.
+    - Status: Resolved (with workaround)
+    - Resolution: Users were advised to whitelist or restore the quarantined files. @Platss confirmed, "Norton quarantined and seemed like as soon as I restored the file it works now."
+- **Linux Version Availability**
+    - Details: Users inquired about running Tari Universe on Linux servers.
+    - Status: Partially Resolved
+    - Current Status: While there isn't a dedicated Linux GUI version, @sparkslice mentioned, "You can build a Linux binary if desired." However, detailed documentation for this process is not yet available.
+- **Auto-Update Issues**
+    - Details: Some users experienced problems with the auto-update feature, getting stuck on loading screens, or going round in circles.
+    - Status: Monitoring
+    - Priority: Very High
+    - Current Status: No specific resolution was provided in the chat. Users experiencing this issue were advised to share their logs with the development team for further investigation.
+- **Multiple Machine Mining Synchronization**
+    - Details: Users reported issues when mining with multiple machines, with some machines not receiving rewards or showing unusual behavior.
+    - Status: Monitoring
+    - Priority: Low
+    - Current Status: Developers are investigating this issue. @stringhandler requested logs from affected users for further analysis.
+- **Visual Mode Animation Bug**
+    - Details: Users reported having to toggle visual mode off and on to start mining successfully.
+    - Status: Monitoring
+    - Priority: Medium
+    - Current Status: Developers (@possumously and @stringhandler) were tagged to look into this issue.
+- **Unintended Symbol in Block Animation**
+    - Details: A user pointed out that the block animation sometimes forms a shape resembling a controversial symbol.
+    - Status: Ongoing
+    - Current Status: @sparkslice acknowledged this as an unintentional bug and stated, "it's an unintentional bug and will be def be fixed!"
+    - Resolution: Blocks will disintegrate after they have been around a while
+- **tXTM Value and Relationship to Mainnet**
+    - Details: Users were confused about the value of tXTM and its relationship to mainnet Tari tokens.
+    - Status: Resolved
+    - Resolution: @sparkslice clarified, "tXTM has no value and has nothing to do with the Tari Airdrop game (airdrop.tari.com). What will happen is we will be integrating the Airdrop game into Tari Universe so you will earn Gems for mining + inviting friends."
+- **Performance Monitoring and Alerts**
+    - Details: Suggestion for implementing performance baselines and alerts for suboptimal mining performance.
+    - Status: Ongoing
+    - Priority: Low
+    - Current Status: This suggestion was made by a user and acknowledged by the development team. @stringhandler mentioned, "We're using 3rd party miners so I'm thinking of adding a check for hashrate drops and restart them."
+    - Resolution: Make a web page for benchmarks
+- **Tor Network Support**
+    - Details: Request for integrating Tor network support for regions with restricted access.
+    - Status: Unresolved
+    - Priority: Low
+    - Current Status: This request was made by users, but no official response or plan was provided in the chat.
+- **Mobile Version Availability**
+    - Details: Users inquired about a mobile version of Tari Universe.
+    - Status: Resolved
+    - Resolution: It was clarified that Tari Universe is only available for PC and Mac, not for mobile devices.
+- **GPU Detection Issues**
+    - Details: Some users reported that their GPUs were not being detected or utilized properly by Tari Universe.
+    - Status: Ongoing
+    - Priority: V High
+    - Current Status: This issue was acknowledged, with @sparkslice mentioning, "yah there is an inconsistency with this feature for sure. On some machines it only displays CPU and some it only displays GPU and some it displays both."
+    - Resolution: Fix in the works
+- **Wallet Address and Seed Phrase Confusion**
+    - Details: Users were confused about wallet addresses being the same across different installations and the relationship between seed phrases and addresses.
+    - Status: Resolved
+    - Priority: Medium
+    - Resolution: @stringhandler clarified that the address shown was actually a Monero donation address, and the Tari address is in experimental settings. They also explained how to properly sync wallets across machines.
+        - Moving the Monero and Tari address to new page
+- **Mining Rewards Distribution Clarity**
+    - Details: Users sought clarification on how mining rewards are distributed, especially for those with less powerful hardware.
+    - Status: Partially Resolved
+    - Current Status: It was explained that the current system is competitive, but the upcoming P2Pool implementation will help distribute rewards more evenly.
+- **Integration with Tari Airdrop Game**
+    - Details: Questions about how mining will integrate with the Tari Airdrop game and gem rewards.
+    - Status: Ongoing
+    - Current Status: @sparkslice announced, "on 9/24 we're hoping to ship the airdrop game integration so everyone can earn lots of gems for mining and inviting friends!"
+- **XMR Address Functionality**
+    - Details: Users were curious about the functionality of the XMR address field in the app.
+    - Status: Partially Resolved
+    - Resolution: It was clarified that this is currently a placeholder and will be functional in future updates.
+    - The Monero side of things needs to be either explained or hidden under Advanced
+- **Mining Mode Options (Eco vs. Ludicrous)**
+    - Details: Users requested more granular control over mining intensity between Eco and Ludicrous modes.
+    - Status: Ongoing
+    - Priority: High
+    - Current Status: This feedback was noted by the team, with @sparkslice mentioning, "We hear you loud and clear. Also hear @Untraceablexmr doubling down on this feedback. @possumously pls capture for our community feedback review."
+- **VPN Compatibility**
+    - Details: Users inquired about using VPNs with Tari Universe, and some reported issues.
+    - Status: Resolved
+    - Current Status: @uforiaio reported, "Proton VPN works now." However, there may still be issues with other VPNs, as @possumously suggested turning off VPNs to troubleshoot connection problems.
+- **Windows Defender/Firewall Issues**
+    - Details: Some users reported Windows Defender or firewall blocking the application.
+    - Status: Ongoing
+    - Priority: High
+    - Resolution: Users were advised to add exceptions or temporarily disable their firewall to test. A more permanent solution is being worked on.
+- **macOS Compatibility Issues**
+    - Details: Some users, particularly those with older x86 Macs, reported connection issues.
+    - Status: Resolved
+    - Current Status: This was listed as a known issue in the release notes: "Installs on old x86 Macs connect to the wrong chain."
+- **Temperature Display for GPUs and CPUs**
+    - Details: Inconsistent or incorrect temperature displays for various GPU and CPU makes.
+    - Status: Resolved — removed
+    - Current Status: Listed as a known issue: "Working on supporting correct temperature display for all makes of GPUs and CPUs."
+- **Motherboard with Combined CPU/GPU Issues**
+    - Details: Systems with combined CPU and GPU on the motherboard showed fluctuating hash rates.
+    - Status: Ongoing
+    - Current Status: Listed as a known issue in the release notes.
+    - Fix in the works
+- **Mining Continuation After Pause**
+    - Details: Animations occasionally continue after the user pauses mining.
+    - Status: Ongoing
+    - Current Status: Listed as a known issue in the release notes.
+    - Fix in the works
+- **Factory Reset Wallet Balance Issue**
+    - Details: Performing a factory reset also resets the wallet balance.
+    - Status: Ongoing
+    - Current Status: Listed as a known issue in the release notes.
+    - Warning needed
+- **Aurora Wallet Integration**
+    - Details: Users asked about integrating their Aurora wallet with Tari Universe.
+    - Status: Ongoing
+    - Current Status: @sparkslice mentioned, "We are sorting out the connection between Tari Universe and Aurora in a future release. The goal is for to be QR code driven."
+- **Tari Universe on Virtual Private Servers (VPS)**
+    - Details: A user asked about using a VPS to mine Tari.
+    - Status: Partially Resolved
+    - Resolution: While not explicitly addressing VPS use, @sparkslice explained that Tari uses a hybrid Proof of Work system utilizing both CPU and GPU.
+    - FAQ needed: shouldn’t do it
+- **Accidental Chain Splitting**
+    - Details: A user expressed concern about accidentally connecting to the wrong chain or splitting the chain.
+    - Status: Ongoing
+    - Current Status: @possumously acknowledged this as a "Known issue and will be fixed v soon."
+    - In the works
+- **Remote Monitoring Feature Request**
+    - Details: A user suggested having a feature in the Aurora app to remotely monitor Tari Universe mining.
+    - Status: Unresolved
+    - Current Status: @sparkslice acknowledged this as something contributors are thinking about.
+- **CPU vs GPU Mining Efficiency**
+    - Details: Users discussed the efficiency of CPU vs GPU mining and how to optimize their setup.
+    - Status: Ongoing
+    - Current Status: While some users shared their experiences, there wasn't a definitive guide provided by the team on optimizing between CPU and GPU mining.
+- **Slow/Low Bandwidth Internet Connections**
+    - Details: Some users experienced issues with slow internet connections or long loading times.
+    - Status: Ongoing
+    - Current Status: This was indirectly addressed when troubleshooting other issues. @possumously suggested checking internet speed as one of the troubleshooting steps: "3) check your Internet speed. If these all seem okay, we would like to analyze your logs."
+- **xmrig Compatibility Issues**
+    - Details: Some users reported errors related to xmrig, a mining software used by Tari Universe.
+    - Status: Ongoing
+    - Resolution: For some users, this was resolved by whitelisting xmrig in their antivirus software. For others, it remained an ongoing issue that the team was investigating.
+    - 
+- **Testnet Resets and Balance Wipes**
+    - Details: Users expressed confusion when their testnet balances were reset to zero.
+    - Status: Resolved (Explanation Provided)
+    - Resolution: @possumously explained, "Testnet was reset. This will happen a few times before mainnet as prepare the network."
+- **Downloading Issues in Certain Countries**
+    - Details: Some users, particularly from Nigeria, reported difficulties downloading the software.
+    - Status: Partially Resolved
+    - Current Status: One user reported success after using a VPN, suggesting potential geo-blocking issues.
+- **Inconsistent Mining Performance Across Multiple Machines**
+    - Details: A user reported that when running multiple machines, only the first two would mine effectively.
+    - Status: Ongoing
+    - Current Status: The development team requested logs and further information to investigate this issue.
+- **Clarity on Mining Impact for Airdrop Before 9/24**
+    - Details: Users were unsure if mining before the 9/24 update would count towards the airdrop.
+    - Status: Resolved
+    - Resolution: @sparkslice clarified that mining before 9/24 would not count towards the airdrop or gem earning.
+- **Request for Proxy Settings in Tari Universe**
+    - Details: A user suggested adding proxy settings to Tari Universe.
+    - Status: Unresolved
+    - Current Status: This suggestion was noted but no immediate plans were announced to implement it.
+    - FAQs
+- Windows is sometimes missing the Visual C+ Redistributable
+    - Details: Several users run into Windows issues where

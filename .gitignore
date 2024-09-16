@@ -1,2 +1,4 @@
 .env
 media_files/
+bot.session
+session_name.session

@@ -1,4 +1,5 @@
 # Tari Universe FAQs
+Updated: Monday September 16th 2024
 - **Connection to Tari Network Uncertainty**
     - Details: Users are unsure how to confirm if their Tari Universe is connected to the Tari network.
     - Status: Ongoing

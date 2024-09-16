@@ -1,5 +1,4 @@
 # Tari Universe FAQs
-
 - **Connection to Tari Network Uncertainty**
     - Details: Users are unsure how to confirm if their Tari Universe is connected to the Tari network.
     - Status: Ongoing
@@ -183,3 +182,38 @@
     - FAQs
 - Windows is sometimes missing the Visual C+ Redistributable
     - Details: Several users run into Windows issues where
+- **Connection to Tari Network Uncertainty**
+    - **Details**: Users are unsure how to confirm if their Tari Universe is connected to the Tari network.
+    - **Status**: Ongoing
+    - **Priority**: Very High
+    - **Current Status**: Developers acknowledged the need for a connection status indicator. @stringhandler mentioned, "there's a guy here who asks me every day for connected status ... so we'll have to add it soon."
+    - **Solution**: Connection Status indicator
+- **Linux Version Availability and Documentation**
+    - **Details**: Users asked about running Tari Universe on Linux servers and requested documentation for building Linux binaries.
+    - **Status**: Partially Resolved
+    - **Current Status**: Users can build a Linux binary, but no detailed documentation is available. @Antetsir mentioned, "compilation is very simple, just need a programming software, and then compile it into Linux software." While there is no official UI for Linux yet, it is recommended to configure a non-command-line Linux server.
+    - **Resolution**: Documentation pending. Users advised to use a non-command-line Linux server if UI is involved.
+- **P2Pool Mining Integration Issues**
+    - **Details**: Users are testing P2Pool, but some report issues with rewards and connection stability when using CPU mining.
+    - **Status**: Ongoing
+    - **Current Status**: CPU mining has a known bug when using P2Pool. @stringhandler mentioned, "We've identified a bug in CPU mining with p2pool, but GPU mining works, and I mined a few rewards on p2pool over the weekend." The team is working to resolve this.
+    - **Solution**: Investigation and fixes in progress, users suggested to use GPU mining for now.
+- **GPU Power Flickering Issue**
+    - **Details**: Some users reported flickering GPU power usage while mining.
+    - **Status**: Ongoing
+    - **Priority**: High
+    - **Current Status**: This is a known issue and will be fixed in the next update, according to @possumously.
+- **Switching Between Mining Modes (Ludicrous and Eco)**
+    - **Details**: Users encountered issues switching between Ludicrous and Eco mining modes, where it doesn’t switch back properly.
+    - **Status**: Ongoing
+    - **Priority**: Medium
+    - **Current Status**: Known issue, and it’s being looked into. Users advised to wait for an update.
+- **VIP Code System and Issues**
+    - **Details**: Several users have asked for VIP codes, and there’s been ongoing distribution through the channel.
+    - **Status**: Resolved (distribution ongoing)
+    - **Current Status**: Codes distributed periodically; VIP code access issues resolved by sharing new codes.
+- **GPU vs CPU Mining Optimization**
+    - **Details**: Users experienced issues with CPU mining on certain machines, especially when switching between CPU and GPU mining.
+    - **Status**: Ongoing
+    - **Priority**: Medium
+    - **Current Status**: Known bug in the p2pool setup for CPU mining. Users advised to restart and use GPU mining until a fix is applied.

@@ -8,7 +8,6 @@ from dotenv import load_dotenv
 import json
 # Load environment variables from the .env file
 load_dotenv()
-print(os.getenv('OPEN_API_KEY'))
 # Replace these with your actual API details
 bot_token=os.getenv('TELEGRAM_BOT_TOKEN')
 api_id = os.getenv('TELEGRAM_API_ID')  # From Telegram Developer Portal

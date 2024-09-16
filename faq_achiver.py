@@ -4,33 +4,36 @@ import os
 import logging
 from datetime import datetime
 import pytz
-
 from dotenv import load_dotenv
-import json
+import sys
+
 # Load environment variables from the .env file
 load_dotenv()
+
 # Replace these with your actual API details
-bot_token=os.getenv('TELEGRAM_BOT_TOKEN')
+bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
 api_id = os.getenv('TELEGRAM_API_ID')  # From Telegram Developer Portal
 api_hash = os.getenv('TELEGRAM_API_HASH')  # From Telegram Developer Portal
 CHANNEL_USERNAME = os.getenv('TELEGRAM_CHANNEL_USERNAME')  # The channel you want to archive
-
 phone_number = os.getenv('TELEGRAM_PHONE_NUMBER')  # Your own Telegram account phone number
 
 # File to save the messages
 output_html_file = 'archive/channel_history.html'
 output_text_file = 'archive/channel_history.txt'
 media_folder = 'media_files'  # Folder to save media
+
 # Define date range for filtering (Make sure they're timezone-aware)
 timezone = pytz.utc  # Adjust the timezone as needed
-start_date = timezone.localize(datetime(2024, 9, 15))  # Start date
+start_date = timezone.localize(datetime(2024, 9, 15
+                                        ))  # Start date
 end_date = timezone.localize(datetime(2025, 1, 1))  # End date
+
 # Ensure media folder exists
 if not os.path.exists(media_folder):
     os.makedirs(media_folder)
 
-# Set up logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+# Set up logging to print to console
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', stream=sys.stdout)
 
 # Initialize the Telegram client for user login
 client = TelegramClient('session_name', api_id, api_hash)
@@ -38,10 +41,8 @@ client = TelegramClient('session_name', api_id, api_hash)
 # To store a mapping of message ID to its content
 message_dict = {}
 
-
-
 # Flag to choose between HTML or text output
-output_as_text = False  # Set to True for plain text output, False for HTML output
+output_as_text = True  # Set to True for plain text output, False for HTML output
 
 async def get_full_channel_history(channel_username):
     # Initialize offset_id for pagination
@@ -59,13 +60,22 @@ async def get_full_channel_history(channel_username):
 
         # If no more messages are found, stop the loop
         if not messages:
+            logging.info("No more messages found. Exiting loop.")
             break
         
         # Filter messages based on the date range
         for message in messages:
-            if start_date <= message.date <= end_date:
-                all_messages.append(message)
-        
+            all_messages.append(message)
+            
+            # Log details of each message to the console
+            sender = await message.get_sender()
+            username = sender.username if sender else "Unknown"
+            date = message.date.strftime('%Y-%m-%d %H:%M:%S')
+            content = message.text or "Media message"
+            
+            # Print the message to the console
+            logging.info(f"User: {username} | Date: {date} | Message: {content}")
+
         # Log the number of messages fetched
         total_fetched += len(messages)
         logging.info(f"Fetched {len(messages)} messages (Total so far: {total_fetched})")

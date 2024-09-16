@@ -5,17 +5,26 @@ import logging
 from datetime import datetime
 import pytz
 
-# Replace with your own values
-api_id = '20469652'       # From Telegram Developer Portal
-api_hash = '58532914b4d2671ad2a59cd57d15c6fd'   # From Telegram Developer Portal
-phone_number = '+17202449221'  # Your own Telegram account phone number
-CHANNEL_USERNAME = "OrderOfSoon"  # The channel you want to archive
+from dotenv import load_dotenv
+import json
+# Load environment variables from the .env file
+load_dotenv()
+# Replace these with your actual API details
+bot_token=os.getenv('TELEGRAM_BOT_TOKEN')
+api_id = os.getenv('TELEGRAM_API_ID')  # From Telegram Developer Portal
+api_hash = os.getenv('TELEGRAM_API_HASH')  # From Telegram Developer Portal
+CHANNEL_USERNAME = os.getenv('TELEGRAM_CHANNEL_USERNAME')  # The channel you want to archive
+
+phone_number = os.getenv('TELEGRAM_PHONE_NUMBER')  # Your own Telegram account phone number
 
 # File to save the messages
-output_html_file = 'channel_history.html'
-output_text_file = 'channel_history.txt'
+output_html_file = 'archive/channel_history.html'
+output_text_file = 'archive/channel_history.txt'
 media_folder = 'media_files'  # Folder to save media
-
+# Define date range for filtering (Make sure they're timezone-aware)
+timezone = pytz.utc  # Adjust the timezone as needed
+start_date = timezone.localize(datetime(2024, 9, 15))  # Start date
+end_date = timezone.localize(datetime(2025, 1, 1))  # End date
 # Ensure media folder exists
 if not os.path.exists(media_folder):
     os.makedirs(media_folder)
@@ -29,10 +38,7 @@ client = TelegramClient('session_name', api_id, api_hash)
 # To store a mapping of message ID to its content
 message_dict = {}
 
-# Define date range for filtering (Make sure they're timezone-aware)
-timezone = pytz.utc  # Adjust the timezone as needed
-start_date = timezone.localize(datetime(2024, 9, 12))  # Start date
-end_date = timezone.localize(datetime(2025, 1, 1))  # End date
+
 
 # Flag to choose between HTML or text output
 output_as_text = False  # Set to True for plain text output, False for HTML output

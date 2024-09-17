@@ -79,6 +79,7 @@ There are no plans announced for a mobile version. Mining is resource-intensive 
 19. How are mining rewards distributed?
 
 Currently, with solo mining, you only receive rewards if you solve a block first. With the upcoming p2pool feature, rewards will be distributed more frequently based on your contribution to the pool.
+Additionally, mining will be connected to the Airdrop (airdrop.tari.com) very shortly to award you gems for mining.
 
 20. What should I do if Tari Universe crashes or won't start?
 

@@ -24,8 +24,13 @@ faq_file_path = 'faq_prompt.txt'
 with open(faq_file_path, 'r', encoding='utf-8') as faq_file:
     faq_text = faq_file.read()
 
+with open("avoidance_"+faq_file_path, 'r', encoding='utf-8') as faq_file:
+    faq_avoidance_text = faq_file.read()
+
 # Function to query OpenAI GPT-4o and handle any API errors
-def query_openai_gpt(system,prompt):
+def query_openai_gpt(system,faq_avoidance_text,prompt):
+
+    system=system + "\n\nDo not talk about the following topics:\n" +faq_avoidance_text
     try:
         client = OpenAI()
         response = client.chat.completions.create(
@@ -56,13 +61,13 @@ def find_faq_answer(question):
     # Create the prompt to send to GPT-4o
 
     prompt = """
-    Search the FAQ for the answer.
+    Search the FAQ for the answer, while avoiding mentioning banned topics.
     Question:  %s
     Answer in JSON format: {'answer': '<answer>'}
     """ % question
 
     # Get the response from OpenAI GPT-4o
-    answer = query_openai_gpt(faq_text, prompt)
+    answer = query_openai_gpt(faq_text, faq_avoidance_text,prompt)
     if answer:
         # get json object from the answer
         answer = json.loads(answer)['answer']

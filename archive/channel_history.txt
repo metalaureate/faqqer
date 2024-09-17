@@ -3651,7 +3651,7 @@ Message: Media message
 User: Huilovlesu | Date: 2024-09-12 14:50:43
 Message: Media message 
 --------------------------------------------------
-User: Michael_MSResults | Date: 2024-09-12 14:50:46
+User: Stoeger7 | Date: 2024-09-12 14:50:46
 Message: Media message 
 --------------------------------------------------
 User: None | Date: 2024-09-12 14:51:08
@@ -3678,7 +3678,7 @@ Message: Media message
 User: Deegold1000 | Date: 2024-09-12 14:56:59
 Message: Media message 
 --------------------------------------------------
-User: Michael_MSResults | Date: 2024-09-12 14:58:28
+User: Stoeger7 | Date: 2024-09-12 14:58:28
 Message: How do I get the code? Just fill in the form? 
 --------------------------------------------------
 User: MrMooning | Date: 2024-09-12 14:58:51
@@ -3735,7 +3735,7 @@ Message: Where
 User: Mjamyam | Date: 2024-09-12 15:06:40
 Message: where to find the mine tari token? 
 --------------------------------------------------
-User: Michael_MSResults | Date: 2024-09-12 15:08:24
+User: Stoeger7 | Date: 2024-09-12 15:08:24
 Message: Here's the link (Replying to: ```🌟 TARI UNIVERSE v0.3.1 🌟
 ==================================
 
@@ -3766,16 +3766,16 @@ Message: Here's the link (Replying to: ```🌟 TARI UNIVERSE v0.3.1 🌟
 3. 🍏 Installs on old x86 Macs connect to the wrong chain
 4. 🌡️ Working on supporting correct temperature display for all makes of GPUs and CPUs```)
 --------------------------------------------------
-User: Michael_MSResults | Date: 2024-09-12 15:08:34
+User: Stoeger7 | Date: 2024-09-12 15:08:34
 Message: It was pinned and now it's not 
 --------------------------------------------------
 User: fomka57 | Date: 2024-09-12 15:08:44
 Message: Media message 
 --------------------------------------------------
-User: Michael_MSResults | Date: 2024-09-12 15:08:50
+User: Stoeger7 | Date: 2024-09-12 15:08:50
 Message: . (Replying to: How you install?)
 --------------------------------------------------
-User: Michael_MSResults | Date: 2024-09-12 15:08:52
+User: Stoeger7 | Date: 2024-09-12 15:08:52
 Message: . (Replying to: where to find the mine tari token?)
 --------------------------------------------------
 User: Nikitaestje | Date: 2024-09-12 15:08:54
@@ -7444,4 +7444,163 @@ Message: Media message
 --------------------------------------------------
 User: sparkslice | Date: 2024-09-16 18:49:10
 Message: welcome @gino133 ! 
+--------------------------------------------------
+User: sparkslice | Date: 2024-09-16 20:53:05
+Message: @gigiNFTz hey! did you try Tari Universe yet? 🙂 
+--------------------------------------------------
+User: sparkslice | Date: 2024-09-16 20:53:09
+Message: @alphaconft same with you brother 
+--------------------------------------------------
+User: alphaconft | Date: 2024-09-16 20:59:20
+Message: next day or 2 family (Replying to: @alphaconft same with you brother)
+--------------------------------------------------
+User: gino133 | Date: 2024-09-16 21:34:29
+Message: Hi all, i'm happy to be part of this journey. Just a question (for now). I've been mining for an hour and my est tXTM/day shows around 15k, but my wallet balance still shows 0. How are rewards distributed? Hourly? Daily? Is it normal my balance is still at 0? I know i haven't been mining for long, but was wondering why it still hasn't moved one bit.Thanks in advance for any reply 
+--------------------------------------------------
+User: stringhandler | Date: 2024-09-16 21:49:24
+Message: 15k a day works out to about one block a day, so you’ll need to mine for quite a bit longer to see anything. 
+--------------------------------------------------
+User: sparkslice | Date: 2024-09-16 22:24:18
+Message: Hi there our goal is to get p2pool stable asap (hopefully this week). This will help because instead of solo mining and never winning you’ll win smaller amounts of tXTM more frequently (Replying to: Hi all, i'm happy to be part of this journey. Just a question (for now). I've been mining for an hour and my est tXTM/day shows around 15k, but my wallet balance still shows 0. How are rewards distributed? Hourly? Daily? Is it normal my balance is still at 0? I know i haven't been mining for long, but was wondering why it still hasn't moved one bit.Thanks in advance for any reply)
+--------------------------------------------------
+User: sparkslice | Date: 2024-09-16 22:26:01
+Message: Thank you for being on this journey w us and for helping us test Tari Universe! 
+--------------------------------------------------
+User: LarpCapital | Date: 2024-09-16 22:29:17
+Message: Imagine you're participating in a huge lottery where millions of people are trying to guess a really complex number. That's kind of what mining Tari is like.
+
+When you're solo mining, it's just you trying to guess this number on your own. The thing is, there are many other miners out there, often in large groups called "mining pools," all trying to guess the same number at the same time.
+Here's why you might not be seeing rewards:
+
+It's really competitive: There are a lot of miners out there, many with very powerful computers dedicated to mining.
+It's chance-based: Finding the right "number" (solving the block) is partly luck. Even if you have good equipment, you might not get lucky for a long time.
+
+Mining difficulty: As more people mine, it gets harder to find the right solution. This is designed to keep the rate of new coins steady.
+
+Your mining power: If you're using a regular computer or even a few specialized mining machines, your chances are still pretty slim compared to large mining operations.
+
+Time between rewards: With solo mining, you only get a reward if you solve the block first. This can take a very long time - maybe even years - depending on your mining power and luck.
+
+It's a bit like fishing in a huge ocean. Mining pools are like big fishing boats with huge nets, while solo mining is more like fishing with a single rod. You might catch a big fish (solve a block) eventually, but it could take a very long time.
+Many miners join pools to get smaller, but more consistent rewards. In a pool, you team up with other miners and share the rewards when anyone in the group solves a block. (Replying to: Hi all, i'm happy to be part of this journey. Just a question (for now). I've been mining for an hour and my est tXTM/day shows around 15k, but my wallet balance still shows 0. How are rewards distributed? Hourly? Daily? Is it normal my balance is still at 0? I know i haven't been mining for long, but was wondering why it still hasn't moved one bit.Thanks in advance for any reply)
+--------------------------------------------------
+User: LarpCapital | Date: 2024-09-16 22:30:00
+Message: When p2pool is live / stable, you can mine alongside thousands of other people... combining your power into one big fishing net / sharing any fish you catch 
+--------------------------------------------------
+User: LarpCapital | Date: 2024-09-16 22:30:58
+Message: at 15k / day tari... it sounds like your net is very small... this is totally ok / p2pool will def make sure you get plenty of coins... and get them relatively frequently 
+--------------------------------------------------
+User: sparkslice | Date: 2024-09-16 22:31:30
+Message: @LarpCapital w the banger explainer! 
+--------------------------------------------------
+User: LarpCapital | Date: 2024-09-16 22:31:52
+Message: I'd love to take complete credit, but thank claude (and my expert prompting skills as a professional lazy person) 
+--------------------------------------------------
+User: etfinvests | Date: 2024-09-16 22:52:16
+Message: Media message 
+--------------------------------------------------
+User: etfinvests | Date: 2024-09-16 22:52:41
+Message: Please how do I get the VIP code for TARI 
+--------------------------------------------------
+User: gino133 | Date: 2024-09-16 22:54:18
+Message: Wow! That was a great explanation! Thank you very much. So my next question would be, when will the p2pool be live and how do i get in? (Replying to: at 15k / day tari... it sounds like your net is very small... this is totally ok / p2pool will def make sure you get plenty of coins... and get them relatively frequently)
+--------------------------------------------------
+User: sparkslice | Date: 2024-09-16 23:10:50
+Message: Our goal is to ship an update at some point this week! Contributors are hustling! (Replying to: Wow! That was a great explanation! Thank you very much. So my next question would be, when will the p2pool be live and how do i get in?)
+--------------------------------------------------
+User: RandomTask | Date: 2024-09-17 00:29:40
+Message: TARI Shell Miner rig 😎 4090 (Replying to: 1.242b? What card(s) you rocking for a number like that?)
+--------------------------------------------------
+User: mlow44 | Date: 2024-09-17 00:30:13
+Message: What do I need to mine tari external from my computer 
+--------------------------------------------------
+User: Akash_TCC | Date: 2024-09-17 01:10:50
+Message: How Can I Increase GPU Power? 
+--------------------------------------------------
+User: LarpCapital | Date: 2024-09-17 01:33:44
+Message: You can overclock your Gpu but wouldn't recommend unless you REALLY know what you're doing (Replying to: How Can I Increase GPU Power?)
+--------------------------------------------------
+User: LarpCapital | Date: 2024-09-17 01:33:54
+Message: The easy way is buy a better gpu 
+--------------------------------------------------
+User: sparkslice | Date: 2024-09-17 02:00:24
+Message: what do you mean external from your computer? (Replying to: What do I need to mine tari external from my computer)
+--------------------------------------------------
+User: mlow44 | Date: 2024-09-17 02:00:46
+Message: Like using a miner / rig (Replying to: what do you mean external from your computer?)
+--------------------------------------------------
+User: mlow44 | Date: 2024-09-17 02:01:47
+Message: I need the gpu on my computer so I can run all of my other ai tools and I’d rather mine tari on a diff device 
+--------------------------------------------------
+User: sparkslice | Date: 2024-09-17 02:03:05
+Message: oh sure you can just install Tari Universe on another device. No problem! 
+--------------------------------------------------
+User: Akash_TCC | Date: 2024-09-17 02:18:24
+Message: Please Suggest Me Any Good GPU (Replying to: The easy way is buy a better gpu)
+--------------------------------------------------
+User: RGBitcoin | Date: 2024-09-17 02:20:02
+Message: The more money you spend the better it will be generally it is a very competitive market (Replying to: Please Suggest Me Any Good GPU)
+--------------------------------------------------
+User: RGBitcoin | Date: 2024-09-17 02:20:39
+Message: That said there isn't much difference between each GPU type so an expensive 4080 is not much better than a cheap 4080 for example so you want to get the most expensive type(in your budget) but not necessarily the most expensive one of a particular type 
+--------------------------------------------------
+User: sparkslice | Date: 2024-09-17 02:51:48
+Message: https://x.com/NaveenSpark/status/1835873786119237878 
+--------------------------------------------------
+User: OxSahand | Date: 2024-09-17 04:43:14
+Message: Hey guys, is there an updated version I could download, which may not crash on Mac M3? 
+--------------------------------------------------
+User: sparkslice | Date: 2024-09-17 04:55:01
+Message: Very soon! @possumously fyi (Replying to: Hey guys, is there an updated version I could download, which may not crash on Mac M3?)
+--------------------------------------------------
+User: sparkslice | Date: 2024-09-17 04:55:16
+Message: We are working on a new build as we speak ! 
+--------------------------------------------------
+User: OxSahand | Date: 2024-09-17 05:24:59
+Message: Cool, thanks :) (Replying to: We are working on a new build as we speak !)
+--------------------------------------------------
+User: sam6ft9 | Date: 2024-09-17 05:28:33
+Message: Will we be able to set up our own pools? 
+--------------------------------------------------
+User: sparkslice | Date: 2024-09-17 05:29:24
+Message: Currently the thinking is no because that could mean some squads have an unfair advantage over others (Replying to: Will we be able to set up our own pools?)
+--------------------------------------------------
+User: sparkslice | Date: 2024-09-17 05:29:59
+Message: That’s why In the squad model they are randomly assigned 
+--------------------------------------------------
+User: sam6ft9 | Date: 2024-09-17 05:31:48
+Message: Ok, thank you 
+--------------------------------------------------
+User: ironman8505 | Date: 2024-09-17 06:34:57
+Message: Should i update this? i hope there is no virus on it? (Replying to: Several mainstream malware packages can drop monero miners, so it's a common indicator of compromise. It's a false positive.)
+--------------------------------------------------
+User: ironman8505 | Date: 2024-09-17 06:35:39
+Message: @sparkslice please check (Replying to: Should i update this? i hope there is no virus on it?)
+--------------------------------------------------
+User: MrMooning | Date: 2024-09-17 06:36:59
+Message: Yes!!!! All good :) (Replying to: Should i update this? i hope there is no virus on it?)
+--------------------------------------------------
+User: ironman8505 | Date: 2024-09-17 06:48:49
+Message: My laptop start heating when i start this app any solution? (Replying to: Yes!!!! All good :))
+--------------------------------------------------
+User: MrMooning | Date: 2024-09-17 06:53:57
+Message: Is your CPU overloading? 
+--------------------------------------------------
+User: ironman8505 | Date: 2024-09-17 07:05:56
+Message: 20% showing cpu (Replying to: Is your CPU overloading?)
+--------------------------------------------------
+User: Platss | Date: 2024-09-17 07:55:22
+Message: Random question - when it comes to estimated payout. My GPU has a significantly higher number of H/s than say my CPU, but the estimated payout on my CPU seems to be much more significant. Does that mean that proportionally, relative to the specific algorithm (randomx vs sha3) that the proportion for GPU hashrate is significantly smaller than the cpu proportion? Or how does that work 
+--------------------------------------------------
+User: stringhandler | Date: 2024-09-17 09:49:04
+Message: Exactly 
+--------------------------------------------------
+User: stringhandler | Date: 2024-09-17 09:50:07
+Message: You can see network hashrates here https://explore-nextnet.tari.com/ 
+--------------------------------------------------
+User: KumakumaBear12 | Date: 2024-09-17 11:11:20
+Message: You can use my VIP code: wk996u92l9k0rtk (Replying to: Please how do I get the VIP code for TARI)
+--------------------------------------------------
+User: Urkann | Date: 2024-09-17 13:02:13
+Message: What is this code for ? 🥹 (Replying to: You can use my VIP code: wk996u92l9k0rtk)
 --------------------------------------------------

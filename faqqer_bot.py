@@ -31,7 +31,7 @@ def query_openai_gpt(system,prompt):
         response = client.chat.completions.create(
             model="gpt-4o-2024-08-06",  # gpt-3.5-turbo
             response_format={"type": "json_object"},
-            temperature=0,
+            temperature=.4,
 
             messages=[
                 {"role": "system", "content": system},

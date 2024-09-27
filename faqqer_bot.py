@@ -30,7 +30,7 @@ with open("avoidance_"+faq_file_path, 'r', encoding='utf-8') as faq_file:
 # Function to query OpenAI GPT-4o and handle any API errors
 def query_openai_gpt(system,faq_avoidance_text,prompt):
 
-    system=system + "\n\nDo not talk about the following topics:\n" +faq_avoidance_text+ "\n\nIf you do not know the answer with certainty, tell the user that their question will be forwarded to support staff for answering.\n\nIf the questions seems missing, remind the user that the format for interacting with you is /faqqer <question>."
+    system=system + "\n\nDo not talk about the following topics:\n" +faq_avoidance_text+ "\n\nIf you do not know the answer with certainty, tell the user that their question will be forwarded to support staff for answering.\n\nIf the questions seems missing, remind the user that the format for interacting with you is /faqqer <question>. Give an example, e.g., /faqqer What is Tari Universe?"
     try:
         client = OpenAI()
         response = client.chat.completions.create(

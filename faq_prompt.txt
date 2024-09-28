@@ -205,6 +205,9 @@ Some antivirus programs may flag cryptocurrency miners by default. This is a com
 15. What should I do if the application is stuck on "Waiting" or keeps reloading?
 Try closing the application completely (including from the task manager) and restarting it. If the issue persists, try uninstalling and reinstalling the application. If you still encounter problems, submit a bug report with your logs.
 
+16. What should I do if I get an error trying to download?
+Try turning off any VPNs you have running. Tari Universe has been experiencing issues with downloading from some countries and we are working on setting up its own mirrors to solve the problem.
+
 Chinese Community:
 
 1. Is there a Chinese community for Tari?

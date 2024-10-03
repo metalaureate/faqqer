@@ -1,12 +1,11 @@
 Tari Universe FAQ
 
-Updated: September 28th 2024
+Updated: October 3rd 2024
 
 General Information:
 
 1. What is Tari Universe?
 Tari Universe is a desktop mining application for the Tari cryptocurrency. It is designed to be easy to use, allowing anyone to mine Tari with minimal setup. As described by @possumously: "Tari Universe is the world's first no-clicks-required desktop mining app. It's designed for everyone to earn Tari by contributing hash power to the Tari network, claiming their stake in a new internet of digital freedom and possibility."
-
 2. What are the key features of Tari Universe?
 Key features include:
 - Instant mining: Start mining testnet immediately with zero setup required
@@ -15,39 +14,45 @@ Key features include:
 - Auto-updates
 - Multi-language support
 - P2pool mining (pool mining)
-
-3. What operating systems does Tari Universe support?
-Tari Universe supports Windows, macOS, and Linux. However, Linux support is still being improved.
-
-4. What is the Order of Soon?
+1. What operating systems does Tari Universe support?
+Tari Universe supports Windows, macOS, and Linux. Linux support is available but may require manual building from source. Pre-built binaries for Linux are expected to be released soon.
+2. What is the Order of Soon?
 The Order of Soon is the name given to the early access group of Tari Universe testers. As @sparkslice mentioned: "ya'll are cohort numero uno.. the true OGs!"
-
-5. How does Tari Universe compare to other cryptocurrency miners in terms of ease of use?
+3. How does Tari Universe compare to other cryptocurrency miners in terms of ease of use?
 Multiple users praised Tari Universe for its simplicity. It's designed to be the easiest crypto app ever created, with no need for manual configuration.
-
-6. What's the difference between Tari Universe and Tari Suite?
+4. What's the difference between Tari Universe and Tari Suite?
 Tari Suite is an older version. Tari Universe is the new, user-friendly mining application that's being developed and tested.
-
-7. What is the Tari Launchpad?
+5. What is the Tari Launchpad?
 Tari Launchpad is an older tool that will be retired. @stringhandler stated: "launchpad will be retired"
-
-8. What is the Minotari Suite?
+6. What is the Minotari Suite?
 Minotari Suite is one of the subcomponents of Tari Universe and exists as its own set of tools.
 
 Installation and System Requirements:
 
 1. How do I install Tari Universe?
-For Windows and macOS, you can download the installer using your VIP codes. For Linux, you may need to build from source or use the AppImage.
-
+For Windows and macOS, you can download the installer using your VIP codes. For Linux, you may need to build from source or use the AppImage. A Linux version is coming soon.
 2. What are the system requirements for Tari Universe?
 Exact system requirements are broad. The application can run on a wide range of hardware. For CPU mining, at least 2.5GB of free RAM is recommended. @stringhandler noted: "Your computer only has 8gb of ram. CPU mining requires at least 2.5gb free."
-
 3. What should Linux users do if they encounter installation issues?
-For Ubuntu users encountering issues, @Krakaw suggested: "Best way to get it to work, even from source, is to add `deb <http://ca.archive.ubuntu.com/ubuntu> jammy main` to your sources, on 24.04 then you can `sudo apt install libwebkit2gtk-4.0-dev` and that will let you run the AppImage"
-
+Follow these steps: “
+    
+    a. Add the repository to the sources list
+    echo "deb http://ca.archive.ubuntu.com/ubuntu jammy main" | sudo tee -a /etc/apt/sources.list
+    
+    b. Update package lists
+    sudo apt update
+    
+    c. Install the package
+    sudo apt install libwebkit2gtk-4.0-37
+    
+    d. Comment out the added line in the sources list
+    sudo sed -i '/^deb http:\/\/ca\.archive\.ubuntu\.com\/ubuntu jammy main/s/^/# /' /etc/apt/sources.list
+    
+    e. Update package lists
+    sudo apt update”
+    
 4. How can I build Tari Universe from source?
 @stringhandler provided basic instructions: "Basically get Tauri CLI tools installed and then run 'cargo tauri dev' to debug or 'cargo tauri build' to build"
-
 5. Can I run Tari Universe on multiple devices?
 Yes, you can run Tari Universe on multiple devices. There's no limit to how many devices you can mine on.
 
@@ -55,102 +60,78 @@ Mining:
 
 1. How do I start mining with Tari Universe?
 Simply open the application and it should start mining automatically. There's no need for manual configuration.
-
 2. What is the difference between Eco mode and Ludicrous mode?
 Eco mode is designed for background mining with lower resource usage, while Ludicrous mode is for dedicated mining with higher resource usage.
-
 3. Can I mine with both CPU and GPU?
 Yes, Tari Universe supports both CPU and GPU mining. You can choose to use one or both in the settings.
-
 4. What is p2pool mining?
-P2pool (peer-to-peer pool) is a decentralized mining pool. It allows miners to combine their hashpower and share rewards more frequently. 
-
+P2pool (peer-to-peer pool) is a decentralized mining pool. It allows miners to combine their hashpower and share rewards more frequently.
 5. How do I enable p2pool mining?
-As of the latest updates, p2pool mining should be enabled by default. 
-
+As of the latest updates, p2pool mining should be enabled by default. However, it's still being optimized and may not be fully functional yet.
 6. How often should I expect to receive mining rewards?
-This depends on your hardware and the current network hashrate. @possumously noted: "At the moment you may win tXTM only a few times a day. We're rolling out improvements to make mining more hourly at the moment."
-
+This depends on your hardware and the current network hashrate. Rewards are given when you successfully mine a block, not on a fixed schedule. The frequency can vary greatly depending on your hardware and luck.
 7. How can I optimize my mining performance?
 For CPU mining on Windows, running Tari Universe as administrator can provide a boost. Also, ensure you have enough free RAM (at least 2.5GB for CPU mining). In general, closing any other applications running will help.
-
 8. Is there a way to customize mining intensity beyond Eco and Ludicrous modes?
-Currently, there isn't, but some users have requested this feature. @snakespartan suggested: "Maybe like an intensity slider in 10% increments."
-
+Currently, there isn't, but a "custom mode" allowing more granular control over mining settings is planned for a future update.
 9. Is there a limit to how many devices I can mine on?
 No, there doesn't appear to be a limit. @MrMooning confirmed: "Yes you can mine on as many devices as you'd like"
-
 10. How does Tari Universe handle multiple GPUs?
-Tari Universe can use multiple GPUs, but as of the latest discussed version, there were still some issues being worked out. 
-
+Tari Universe can use multiple GPUs, but some users are reporting issues with GPU selection, especially for those with multiple GPUs.
 11. How does Tari's mining algorithm work?
 Tari uses a hybrid Proof of Work system. @sparkslice explained: "Tari uses a hybrid Proof of Work system so it makes use of both! 50% of blocks are mined using RandomX and 50% of blocks are mined using SHA3"
-
 12. How often are new blocks mined in the Tari network?
 720 per day. Each block takes a few minutes to mine before moving on the next block.
-
 13. Is there a way to mine Monero (XMR) concurrently with Tari?
 @sparkslice mentioned: "we will add XMR support in before mainnet so you can mine XMR concurrent to Tari"
-
 14. Can I mine Tari on mobile devices?
 No, Tari Universe is currently only for desktop operating systems.
-
 15. Is there a way to run Tari Universe without a GUI?
 While Tari Universe is designed with a GUI, some users asked about running it on servers without X installed. This doesn't seem to be officially supported, but building from source might allow for this.
-
 16. What do the numbers up the side of the screen mean?
 This indicates your current block height. The Tari chain mines 720 blocks a day, each taking an average of about 2 minutes to mine.
-
 17. What do the red exploding blocks mean?
 The red block explosion indicates you didn't win a block. Keep mining--it can take some time to win tXTM.
+18. How do GPU and CPU mining compare in Tari?
+Tari uses two different algorithms: 50% of blocks are mined with CPU, 50% with GPU. Hash rates for CPU and GPU are not directly comparable due to the different algorithms.
 
 Wallet and Rewards:
 
 1. What is tXTM?
 tXTM is the testnet token for Tari. It has no real value and is used for testing purposes.
-
 2. Why is my wallet balance showing zero?
 This could be due to a few reasons:
     1. You haven't mined any blocks yet.
     2. There may be a temporary display issue.
     3. There was a network reset.
+    4. You may be mining on an incorrect chain if not properly connected to the Tari network.
     @possumously mentioned: "Wallet shows 0 when it is undefined. We need to change that."
-
 3. How can I view my wallet seed phrase?
-You should be able to view your seed phrase in the settings. 
-
+You should be able to view your seed phrase in the settings.
 4. Can I use the same wallet on multiple machines?
 Yes, you can. @stringhandler provided steps to do this.
-
 5. Is there a way to see transaction history in Tari Universe?
 As of the latest discussed version, there isn't. @sparkslice confirmed this is a planned feature: "re tx history, yes this is a missing feature for now, but is on the list!"
-
 6. What are the latest GPU mining benchmarks for Tari?
 As mentioned by @possumously, the latest GPU mining benchmarks can be found at: [https://www.notion.so/tarilabs/GPU-Mining-Benchmarks-10b4e6c995c38033b4bac5ed9ed6cc2b](https://www.notion.so/GPU-Mining-Benchmarks-10b4e6c995c38033b4bac5ed9ed6cc2b?pvs=21)
-
 7. What should I do if my estimated earnings seem inaccurate?
 This was listed as a known issue in one of the updates. If your estimated earnings seem off, it's likely a bug that the team is working on fixing. It's best to mine for a full 24 hrs before concluding that the estimate is off.
-
 8. Will mining on testnet count towards mainnet rewards?
 No, testnet mining (tXTM) has no direct relation to mainnet Tari. However, starting from October 2nd or 3rd, 2024, mining on testnet will earn you Gems in the Tari Airdrop Game, which will be related to mainnet rewards.
-
 9. When will mining rewards be connected to the Tari Airdrop Game?
 According to @sparkslice, this is planned for October 2nd, 2024.
-
 10. What is the Tari Airdrop Game?
 The Tari Airdrop Game is a way to earn Gems by mining and inviting friends. These Gems will be related to mainnet rewards in the future.
-
 11. What is the Tari Aurora wallet?
-Tari Aurora is the mobile wallet app for Tari. It allows you to view your Tari balance and transactions but does not support mining.
-
+Tari Aurora is the mobile wallet app for Tari. It allows you to view your Tari balance and transactions but does not support mining. Users can import their mining wallet to the Tari Aurora mobile wallet to check balances.
 12. What is the Tari Store?
 The Tari Store is briefly mentioned as a place where users can get exclusive collectibles using their tXTM. However, no further details are provided in this conversation.
-
 13. How much tXTM do I win?
 You are in a pool with other miners and if you win, your tXTM is proportional to the hash power you contributed to mining that block.
-
 14. Why is my balance fluctuating?
 Some users reported their balance going up and down. This might be due to network resets or other temporary issues. If you notice significant discrepancies, please report them to the team.
+15. How do Gems relate to tXTM?
+1 tXTM = 25 gems. There is a cap of 50,000 gems per block that you can win. Gems are the important metric for the airdrop, not tXTM.
 
 Technical Issues and Updates:
 
@@ -161,60 +142,51 @@ Try these steps:
     3. Reinstall the application
     4. If on Windows, try running as administrator
     5. Send logs to the development team using the in-app feature
-
 2. How can I report bugs or issues?
 You can use the "Send Logs to Tari Labs" feature in the settings. This will automatically send your logs along with a bug report.
-
 3. How does Tari Universe handle antivirus warnings?
-Tari Universe is designed to avoid triggering antivirus warnings. If it does, it is safe to allow them.
-
+Tari Universe is designed to avoid triggering antivirus warnings. If it does, it is safe to allow them. Many antivirus programs flag mining software as potentially malicious. This is normal and users may need to add exceptions for Tari Universe.
 4. What should I do if the mining animation disappears?
 This can happen if system resources are low. Restarting the application or freeing up system resources might help.
-
 5. How does Tari Universe handle updates?
-Tari Universe has an auto-update feature. 
-
+Tari Universe has an auto-update feature.
 6. How often are updates released for Tari Universe?
 During the beta testing phase, updates were being released frequently, sometimes daily.
-
 7. When will mainnet launch?
 An exact date hasn't been announced. @sparkslice mentioned: "Mainnet is .. soon .. but not that soon.." The goal is for mainnet to launch at some point this year (2024).
-
 8. Is there a dark mode?
 Not yet, but it's on the list of planned features.
-
 9. Is there a way to change where the blockchain data is stored?
 Not currently, but it's been suggested as a feature.
-
 10. What are Squads in Tari Universe?
 Squads is an upcoming feature to make pool mining more fun.
-
 11. How can I invite others to join Tari Universe?
 Early testers were given VIP codes to invite others. As @GhastlyPack explained: "Today when we launch Tari Universe, anyone with access will get **5 VIP CODES**! These codes can each get 1 person guaranteed into the next batch"
-
 12. What is the Spirit Shell miner?
 The Spirit Shell is a high-performance mining rig.
-
 13. I get system error VCRUNTIME was not found.
 Your Windows is missing the Visual C++ Distributable. See https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist
 We'll be including it in future releases. It's usually part of Windows.
-
 14. Why does my antivirus detect Tari Universe as malware?
 Some antivirus programs may flag cryptocurrency miners by default. This is a common issue with mining software and doesn't indicate any actual malware. You can safely add Tari Universe to your antivirus exceptions.
-
 15. What should I do if the application is stuck on "Waiting" or keeps reloading?
 Try closing the application completely (including from the task manager) and restarting it. If the issue persists, try uninstalling and reinstalling the application. If you still encounter problems, submit a bug report with your logs.
-
 16. What should I do if I get an error trying to download?
 Try turning off any VPNs you have running. Tari Universe has been experiencing issues with downloading from some countries and we are working on setting up its own mirrors to solve the problem.
+17. What should I do if I'm having network connection issues?
+Many users are experiencing issues connecting to the Tari network at the moment. This is a known problem that the developers are actively working on. A fix is expected to be released soon. If you're not connected to the Tari network, your mining may not be effective and rewards may not be saved.
+18. How can I tell if I'm connected to the Tari network?
+Go to Settings -> Experimental. If it shows "Not connected to the Tari Network," set the client to ECO mode until an update is provided. If you are connected, no action is needed.
+19. What is the current block height?
+If your block height is very low (e.g., under 100), you may be mining on an incorrect chain.
+20. Is there TOR support?
+TOR support is built-in for Linux and is being added as an option for Windows.
 
 Chinese Community:
 
 1. Is there a Chinese community for Tari?
 Yes, there is a Chinese Telegram group for Tari. The link is: https://t.me/TarichainCN
-
 2. How can I contribute to the Chinese Tari community?
 You can join the Chinese Telegram group and participate in discussions, help with translations, or assist new users.
-
 3. Are there any special considerations for Chinese users?
 The Tari team is working on providing more resources and support for the Chinese community, including translations of the Tari Universe application.

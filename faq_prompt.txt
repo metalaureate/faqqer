@@ -34,22 +34,19 @@ For Windows and macOS, you can download the installer using your VIP codes. For 
 2. What are the system requirements for Tari Universe?
 Exact system requirements are broad. The application can run on a wide range of hardware. For CPU mining, at least 2.5GB of free RAM is recommended. @stringhandler noted: "Your computer only has 8gb of ram. CPU mining requires at least 2.5gb free."
 3. What should Linux users do if they encounter installation issues?
-Follow these steps: “
-    
+Follow these steps: 
+    ```
     a. Add the repository to the sources list
     echo "deb http://ca.archive.ubuntu.com/ubuntu jammy main" | sudo tee -a /etc/apt/sources.list
-    
     b. Update package lists
     sudo apt update
-    
     c. Install the package
     sudo apt install libwebkit2gtk-4.0-37
-    
     d. Comment out the added line in the sources list
     sudo sed -i '/^deb http:\/\/ca\.archive\.ubuntu\.com\/ubuntu jammy main/s/^/# /' /etc/apt/sources.list
-    
     e. Update package lists
-    sudo apt update”
+    sudo apt update
+    ```
     
 4. How can I build Tari Universe from source?
 @stringhandler provided basic instructions: "Basically get Tauri CLI tools installed and then run 'cargo tauri dev' to debug or 'cargo tauri build' to build"
@@ -117,9 +114,9 @@ As mentioned by @possumously, the latest GPU mining benchmarks can be found at: 
 7. What should I do if my estimated earnings seem inaccurate?
 This was listed as a known issue in one of the updates. If your estimated earnings seem off, it's likely a bug that the team is working on fixing. It's best to mine for a full 24 hrs before concluding that the estimate is off.
 8. Will mining on testnet count towards mainnet rewards?
-No, testnet mining (tXTM) has no direct relation to mainnet Tari. However, starting from October 2nd or 3rd, 2024, mining on testnet will earn you Gems in the Tari Airdrop Game, which will be related to mainnet rewards.
+No, testnet mining (tXTM) has no direct relation to mainnet Tari. However, starting from October 2nd, mining on testnet will earn you Gems in the Tari Airdrop Game, which will be related to mainnet rewards.
 9. When will mining rewards be connected to the Tari Airdrop Game?
-According to @sparkslice, this is planned for October 2nd, 2024.
+Incentivized testnet will begin October 2nd, 2024.
 10. What is the Tari Airdrop Game?
 The Tari Airdrop Game is a way to earn Gems by mining and inviting friends. These Gems will be related to mainnet rewards in the future.
 11. What is the Tari Aurora wallet?
@@ -180,7 +177,9 @@ Go to Settings -> Experimental. If it shows "Not connected to the Tari Network,"
 19. What is the current block height?
 If your block height is very low (e.g., under 100), you may be mining on an incorrect chain.
 20. Is there TOR support?
-TOR support is built-in for Linux and is being added as an option for Windows.
+TOR support is built-in for Mac and Linux and is being added as an option for Windows.
+21. What can I do if I think I am missing gems?
+Go to Settings -> Send Logs and include your Telegram handle and a description of what gems you think are missing. Tag admin @possumously in Telegram to investigate. We will credit any missing gems for tXTM evidenced on the nextnet chain to the best of our ability.
 
 Chinese Community:
 

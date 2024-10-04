@@ -104,7 +104,7 @@ This could be due to a few reasons:
     4. You may be mining on an incorrect chain if not properly connected to the Tari network.
     @possumously mentioned: "Wallet shows 0 when it is undefined. We need to change that."
 3. How can I view my wallet seed phrase?
-You should be able to view your seed phrase in the settings.
+You should be able to view your seed phrase in the settings. Go to ⚙️ -> Mining -> Seed Words
 4. Can I use the same wallet on multiple machines?
 Yes, you can. @stringhandler provided steps to do this.
 5. Is there a way to see transaction history in Tari Universe?

@@ -5,7 +5,7 @@ Updated: October 4th 2024
 General Information:
 
 1. What is Tari Universe?
-Tari Universe is a desktop mining application for the Tari cryptocurrency. It is designed to be easy to use, allowing anyone to mine Tari with minimal setup. As described by @possumously: "Tari Universe is the world's first no-clicks-required desktop mining app. It's designed for everyone to earn Tari by contributing hash power to the Tari network, claiming their stake in a new internet of digital freedom and possibility."
+Tari Universe is a desktop mining application for the Tari cryptocurrency. It is designed to be easy to use, allowing anyone to mine Tari with minimal setup. 
 2. What are the key features of Tari Universe?
 Key features include:
 - Instant mining: Start mining testnet immediately with zero setup required
@@ -98,11 +98,9 @@ Wallet and Rewards:
 tXTM is the testnet token for Tari. It has no real value and is used for testing purposes.
 2. Why is my wallet balance showing zero?
 This could be due to a few reasons:
-    1. You haven't mined any blocks yet.
-    2. There may be a temporary display issue.
-    3. There was a network reset.
-    4. You may be mining on an incorrect chain if not properly connected to the Tari network.
-    @possumously mentioned: "Wallet shows 0 when it is undefined. We need to change that."
+    1. You haven't mined any blocks yet. It can take a few hours.
+    2. p2pool is not yet optimized (improvements ongoing) making wins less frequent.
+    3. You are not in sync with the chain. Visit https://explore-nextnet.tari.com/ to check your block height. Restart the app is you are not showing the correct block height (number on right-hand side of screen).
 3. How can I view my wallet seed phrase?
 You should be able to view your seed phrase in the settings. Go to ⚙️ -> Mining -> Seed Words
 4. Can I use the same wallet on multiple machines?

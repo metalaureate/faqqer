@@ -1,6 +1,6 @@
 Tari Universe FAQ
 
-Updated: October 3rd 2024
+Updated: October 4th 2024
 
 General Information:
 
@@ -189,3 +189,11 @@ Yes, there is a Chinese Telegram group for Tari. The link is: https://t.me/Taric
 You can join the Chinese Telegram group and participate in discussions, help with translations, or assist new users.
 3. Are there any special considerations for Chinese users?
 The Tari team is working on providing more resources and support for the Chinese community, including translations of the Tari Universe application.
+
+Other
+1. So default mining is shared p2p pool or is individual solo mining possible?
+p2pool toggle is only disabled when you are mining. If you stop mining, you can turn it on or off. But remember to relaunch the app after doing so.
+
+2. How can I check I have the right block height?
+Visit https://explore-nextnet.tari.com/ Note: this site is cached for a few minutes.
+

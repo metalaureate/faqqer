@@ -64,7 +64,9 @@ def find_faq_answer(question):
     # Create the prompt to send to GPT-4o
 
     prompt = """
-    Search the FAQ for the answer, while avoiding mentioning banned topics, and translate between the user's language and the FAQ answer as needed. 
+    Search the FAQ for the answer.
+    Avoid mentioning banned topics.
+    If the question is not in English, please interpret the question correctly and translate the answer correctly into the user's language, using idioms appropriate to the technical subject matter. 
     Question:  %s
     Answer in the user's language in JSON format: {'answer': '<answer>'}
     """ % question

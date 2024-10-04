@@ -54,7 +54,10 @@ def query_openai_gpt(system,faq_avoidance_text,prompt):
             "type": type(e).__name__,
             "traceback": traceback.format_exc(),
         }
-        return f"An error occurred while processing your request: {error_info['message']}"
+        print(error_info)
+        return """
+        {'answer': 'Sorry, I encountered an error while trying to answer your question. Please try again.'}
+        """
 
 # Function to search the FAQ for relevant information using GPT-4o
 def find_faq_answer(question):

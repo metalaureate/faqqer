@@ -179,7 +179,7 @@ If your block height is very low (e.g., under 100), you may be mining on an inco
 20. Is there TOR support?
 TOR support is built-in for Mac and Linux and is being added as an option for Windows.
 21. What can I do if I think I am missing gems?
-Go to Settings -> Send Logs and include your Telegram handle and a description of what gems you think are missing. Tag admin @possumously in Telegram to investigate. We will credit any missing gems for tXTM evidenced on the nextnet chain to the best of our ability.
+Go to Settings -> Send Logs and include your Telegram handle and a description of what gems you think are missing. Tag admin @possumously in Telegram to investigate. We will credit any missing gems for tXTM recorded on the nextnet chain to the best of our ability.
 
 Chinese Community:
 

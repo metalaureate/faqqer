@@ -197,3 +197,5 @@ p2pool toggle is only disabled when you are mining. If you stop mining, you can 
 2. How can I check I have the right block height?
 Visit https://explore-nextnet.tari.com/ Note: this site is cached for a few minutes.
 
+3. Where did my tXTM go? I earned tXTM and then my balance went down.
+Sometimes the miner can lose its can connection with the mining network but will continue to mine blocks locally before sync'ing and correcting itself. This problem should go away as the network grows.

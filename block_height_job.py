@@ -22,7 +22,7 @@ async def post_block_height(client):
     try:
         # Fetch the block height stats
         block_height = get_latest_block_info()
-        block_height_stats = f"Current Tari Universe block height: ~{block_height:,}. Try /faq <question> to get your question answered first."
+        block_height_stats = f"Current Tari block height: ~{block_height:,}. Try /faq <question> to get your question answered first."
 
         # Loop over the group IDs and send the message
         for group_id in group_ids:

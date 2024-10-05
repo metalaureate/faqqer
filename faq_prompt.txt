@@ -126,7 +126,7 @@ You are in a pool with other miners and if you win, your tXTM is proportional to
 14. Why is my balance fluctuating?
 Some users reported their balance going up and down. This might be due to network resets or other temporary issues. If you notice significant discrepancies, please report them to the team.
 15. How do Gems relate to tXTM?
-1 tXTM = 25 gems. There is a cap of 50,000 gems per block that you can win. Gems are the important metric for the airdrop, not tXTM.
+1 tXTM = 25 gems with a cap of 50,000 gems per block that you can win. Gems are the important metric for the airdrop, not tXTM.
 
 Technical Issues and Updates:
 

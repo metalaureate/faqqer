@@ -46,7 +46,7 @@ def schedule_block_height_job(client, loop):
 
     # Add the job to post block height every minute
     scheduler.add_job(lambda: loop.create_task(post_block_height(client)),
-                      CronTrigger.from_crontab('*/30 * * * *'))
+                      CronTrigger.from_crontab('*/45 * * * *'))
 
     # Start the scheduler
     scheduler.start()

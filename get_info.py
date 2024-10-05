@@ -3,6 +3,7 @@ from telethon import TelegramClient
 import os
 from dotenv import load_dotenv
 import logging
+from telethon.tl.types import Chat, Channel
 
 # Load environment variables from the .env file
 load_dotenv()
@@ -23,9 +24,15 @@ async def get_group_id(group_username):
     try:
         # Get the entity for the group or channel
         entity = await client.get_entity(group_username)
-
-        # Print the group or channel ID and name
-        print(f"Group/Channel Name: {entity.title}, Group/Channel ID: {entity.id}")
+        
+        # Check if the entity is a Chat (basic group) or a Channel (supergroup/channel)
+        if isinstance(entity, Chat):
+            print(f"Basic Group Name: {entity.title}, ID: {entity.id}")
+        elif isinstance(entity, Channel):
+            print(f"Supergroup/Channel Name: {entity.title}, ID: {entity.id}")
+        else:
+            print(f"Unknown entity type for {group_username}")
+        
     except Exception as e:
         print(f"Error: {e}")
 

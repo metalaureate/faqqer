@@ -7,7 +7,7 @@ import requests
 
 # Initialize logging
 logging.basicConfig(level=logging.INFO)
-group_ids = [2165121610, -1002281038272]
+group_ids = [-2165121610, -1002281038272]
 # Function to get the latest block height and metadata
 def get_latest_block_info():
     url = "https://textexplore-nextnet.tari.com/?json"
@@ -22,7 +22,7 @@ async def post_block_height(client):
     try:
         # Fetch the block height stats
         block_height = get_latest_block_info()
-        block_height_stats = f"Nextnet block height: ~{block_height:,}. Try /faq <question> to get your question answered first."
+        block_height_stats = f"Current Tari Universe block height: ~{block_height:,}. Try /faq <question> to get your question answered first."
 
         # Loop over the group IDs and send the message
         for group_id in group_ids:
@@ -46,7 +46,7 @@ def schedule_block_height_job(client, loop):
 
     # Add the job to post block height every minute
     scheduler.add_job(lambda: loop.create_task(post_block_height(client)),
-                      CronTrigger.from_crontab('*/15 * * * *'))
+                      CronTrigger.from_crontab('*/30 * * * *'))
 
     # Start the scheduler
     scheduler.start()

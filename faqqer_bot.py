@@ -7,6 +7,9 @@ from openai import OpenAI, OpenAIError
 import openai
 from dotenv import load_dotenv
 import json
+from block_height_job import schedule_block_height_job  # Import the block height job
+import asyncio
+from telethon.tl.types import Channel
 
 # Load environment variables from the .env file
 load_dotenv()
@@ -38,6 +41,20 @@ with open(faq_file_path, 'r', encoding='utf-8') as faq_file:
 
 with open("avoidance_" + faq_file_path, 'r', encoding='utf-8') as faq_file:
     faq_avoidance_text = faq_file.read()
+
+
+async def list_channels(client):
+    dialogs = await client.get_dialogs()  # Retrieve all dialogs the bot is part of
+
+    channels = [dialog for dialog in dialogs if isinstance(dialog.entity, Channel)]
+    
+    if channels:
+        logging.info("Bot is subscribed to the following channels:")
+        for channel in channels:
+            logging.info(f"Channel Name: {channel.name}, Channel ID: {channel.id}")
+    else:
+        logging.info("Bot is not subscribed to any channels.")
+
 
 # Function to query OpenAI GPT-4o and handle any API errors
 def query_openai_gpt(system, faq_avoidance_text, prompt):
@@ -97,6 +114,8 @@ def find_faq_answer(question):
 
     return answer
 
+
+
 # Telegram bot event handler
 @client.on(events.NewMessage(pattern=r'/(ask|faq|faqqer)'))
 async def handler(event):
@@ -109,6 +128,11 @@ async def handler(event):
     # Respond to the user with the answer
     await event.reply(f"{answer}")
 
+# Get the current event loop
+loop = asyncio.get_event_loop()
+
+# Schedule the block height job
+schedule_block_height_job(client, -1002281038272 , loop)
 # Start the Telegram bot
 logging.info("Bot is running...")
 client.run_until_disconnected()

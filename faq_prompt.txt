@@ -188,3 +188,6 @@ Visit https://explore-nextnet.tari.com/ Note: this site is cached for a few minu
 
 3. Where did my tXTM go? I earned tXTM and then my balance went down.
 Sometimes the miner can lose its can connection with the mining network but will continue to mine blocks locally before sync'ing and correcting itself. This problem should go away as the network grows.
+
+4. Why are my gems increasing but my wallet is staying the same?
+There are two possibilities we can think of: You really are winning tXTM and the wallet is not updating--we are investigating. Or, someone is using your invite code and you're getting bonuses from it.

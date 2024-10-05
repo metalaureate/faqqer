@@ -1,46 +1,41 @@
-from telethon.errors import ChannelInvalidError
-from telethon.tl.types import Channel
-from telethon import TelegramClient, events
-import logging
-import os
 import asyncio
+from telethon import TelegramClient
+import os
 from dotenv import load_dotenv
+import logging
+
 # Load environment variables from the .env file
 load_dotenv()
+
 # Replace these with your actual API details
-bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
 api_id = os.getenv('TELEGRAM_API_ID')  # From Telegram Developer Portal
 api_hash = os.getenv('TELEGRAM_API_HASH')  # From Telegram Developer Portal
-async def get_channel_from_invite(client, invite_link):
+phone_number = os.getenv('TELEGRAM_PHONE_NUMBER')  # Your own Telegram account phone number
+group_username = os.getenv('TELEGRAM_CHANNEL_USERNAME')  # The group or channel username or invite link
+
+# Set up logging to print to console
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+# Initialize the Telegram client for user login
+client = TelegramClient('session_name', api_id, api_hash)
+
+async def get_group_id(group_username):
     try:
-        # Fetch the entity using the invite link
-        entity = await client.get_entity(invite_link)
+        # Get the entity for the group or channel
+        entity = await client.get_entity(group_username)
 
-        # Check if the entity is a Channel
-        if isinstance(entity, Channel):
-            logging.info(f"Channel name: {entity.title}, Channel ID: {entity.id}")
-            return entity
-        else:
-            logging.error(f"The entity is not a channel: {invite_link}")
-            return None
-    except ChannelInvalidError:
-        logging.error(f"Invalid channel or invite link: {invite_link}")
+        # Print the group or channel ID and name
+        print(f"Group/Channel Name: {entity.title}, Group/Channel ID: {entity.id}")
     except Exception as e:
-        logging.error(f"Error accessing channel: {e}")
-        return None
+        print(f"Error: {e}")
 
-# Example usage in your bot
-async def on_start():
-    invite_link = 'https://t.me/+NMJ1QztkOPcyMjMx'  # Replace with your actual invite link
-    channel_entity = await get_channel_from_invite(client, invite_link)
-    if channel_entity:
-        print(f"Channel name is: {channel_entity.title}, Channel ID: {channel_entity.id}")
-    else:
-        print("Failed to fetch the channel.")
+async def main():
+    # Start the client and log in as a user
+    await client.start(phone=phone_number)
 
-# Initialize the Telegram bot client
-client = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
+    # Get the group or channel ID
+    await get_group_id(group_username)
 
-# Start the event loop and call on_start
-client.loop.run_until_complete(on_start())
-client.run_until_disconnected()
+# Run the client and get the ID
+with client:
+    client.loop.run_until_complete(main())

@@ -1,15 +1,27 @@
 import os
 import re
 import traceback
+import logging
 from telethon import TelegramClient, events
 from openai import OpenAI, OpenAIError
 import openai
 from dotenv import load_dotenv
 import json
+
 # Load environment variables from the .env file
 load_dotenv()
+
+# Set up logging configuration
+logging.basicConfig(
+    level=logging.INFO,  # Set the logging level to INFO (you can change it to DEBUG if needed)
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.StreamHandler()  # This ensures that logs go to stdout, which Docker captures
+    ]
+)
+
 # Replace these with your actual API details
-bot_token=os.getenv('TELEGRAM_BOT_TOKEN')
+bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
 api_id = os.getenv('TELEGRAM_API_ID')  # From Telegram Developer Portal
 api_hash = os.getenv('TELEGRAM_API_HASH')  # From Telegram Developer Portal
 CHANNEL_USERNAME = os.getenv('TELEGRAM_CHANNEL_USERNAME')  # The channel you want to archive
@@ -24,28 +36,29 @@ faq_file_path = 'faq_prompt.txt'
 with open(faq_file_path, 'r', encoding='utf-8') as faq_file:
     faq_text = faq_file.read()
 
-with open("avoidance_"+faq_file_path, 'r', encoding='utf-8') as faq_file:
+with open("avoidance_" + faq_file_path, 'r', encoding='utf-8') as faq_file:
     faq_avoidance_text = faq_file.read()
 
 # Function to query OpenAI GPT-4o and handle any API errors
-def query_openai_gpt(system,faq_avoidance_text,prompt):
+def query_openai_gpt(system, faq_avoidance_text, prompt):
 
-    system=system + "\n\nDo not talk about the following topics:\n" +faq_avoidance_text+ "\n\nIf you do not know the answer with certainty, tell the user that their question will be forwarded to support staff for answering.\n\nIf the questions seems missing, remind the user that the format for interacting with you is /faqqer <question>. Give an example, e.g., /faqqer What is Tari Universe?"
+    system = system + "\n\nDo not talk about the following topics:\n" + faq_avoidance_text + \
+             "\n\nIf you do not know the answer with certainty, tell the user that their question will be forwarded to support staff for answering.\n\nIf the questions seems missing, remind the user that the format for interacting with you is /faqqer <question>. Give an example, e.g., /faqqer What is Tari Universe?"
     try:
         client = OpenAI()
         response = client.chat.completions.create(
             model="gpt-4o-2024-08-06",  # gpt-3.5-turbo
             response_format={"type": "json_object"},
-            temperature=.4,
+            temperature=0.4,
 
             messages=[
                 {"role": "system", "content": system},
                 {"role": "user", "content": prompt}
-                ],
+            ],
             timeout=60,
         )
-        result=response.choices[0].message.content
-        print(result)
+        result = response.choices[0].message.content
+        logging.info(f"OpenAI response: {result}")
         return result
 
     except OpenAIError as e:  # Handle OpenAI API errors
@@ -54,7 +67,7 @@ def query_openai_gpt(system,faq_avoidance_text,prompt):
             "type": type(e).__name__,
             "traceback": traceback.format_exc(),
         }
-        print(error_info)
+        logging.error(f"OpenAI error: {error_info}")
         return """
         {'answer': 'Sorry, I encountered an error while trying to answer your question. Please try again.'}
         """
@@ -72,10 +85,15 @@ def find_faq_answer(question):
     """ % question
 
     # Get the response from OpenAI GPT-4o
-    answer = query_openai_gpt(faq_text, faq_avoidance_text,prompt)
+    answer = query_openai_gpt(faq_text, faq_avoidance_text, prompt)
     if answer:
         # get json object from the answer
-        answer = json.loads(answer)['answer']
+        try:
+            answer = json.loads(answer)['answer']
+            logging.info(f"FAQ answer found: {answer}")
+        except json.JSONDecodeError as e:
+            logging.error(f"Error decoding JSON response: {e}")
+            return "There was an error processing your request."
 
     return answer
 
@@ -90,7 +108,7 @@ async def handler(event):
 
     # Respond to the user with the answer
     await event.reply(f"{answer}")
-# Start the Telegram bot
-print("Bot is running...")
-client.run_until_disconnected()
 
+# Start the Telegram bot
+logging.info("Bot is running...")
+client.run_until_disconnected()

@@ -29,14 +29,15 @@ async def post_block_height(client):
             "What is Tari Universe?",
             "What is tXTM?",
             "What is the reward for mining?",
-            "When will I earn tXTM?"
+            "When will I earn tXTM?",
+            "What is the block height?"
         ]
 
         # Select a random question from the list
         random_question = random.choice(questions)
 
         # Format the block height stats with the random question
-        block_height_stats = f"Current Tari block height: ~{block_height:,}. Got a question? E.g. '/faq {random_question}' to get answers to recent questions."
+        block_height_stats = f"Current Tari block height: ~{block_height:,}. Got a question? Type e.g. '/faq {random_question}' in any language to get answers to recent questions."
         # Loop over the group IDs and send the message
         for group_id in group_ids:
             try:

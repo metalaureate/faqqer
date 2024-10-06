@@ -4,7 +4,7 @@ from apscheduler.schedulers.background import BackgroundScheduler
 from telethon.tl.types import PeerChat, PeerChannel
 from apscheduler.triggers.cron import CronTrigger
 import requests
-
+import random
 # Initialize logging
 logging.basicConfig(level=logging.INFO)
 group_ids = [-2165121610, -1002281038272]
@@ -22,8 +22,21 @@ async def post_block_height(client):
     try:
         # Fetch the block height stats
         block_height = get_latest_block_info()
-        block_height_stats = f"Current Tari block height: ~{block_height:,}. Got a question? Try /faq <your question inline> to get answers to recent questions."
 
+        # List of sample questions
+        questions = [
+            "What are gems?",
+            "What is Tari Universe?",
+            "What is tXTM?",
+            "What is the reward for mining?",
+            "When will I earn tXTM?"
+        ]
+
+        # Select a random question from the list
+        random_question = random.choice(questions)
+
+        # Format the block height stats with the random question
+        block_height_stats = f"Current Tari block height: ~{block_height:,}. Got a question? E.g. '/faq {random_question}' to get answers to recent questions."
         # Loop over the group IDs and send the message
         for group_id in group_ids:
             try:

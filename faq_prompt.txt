@@ -175,7 +175,7 @@ Go to Settings -> Experimental. If it shows "Not connected to the Tari Network,"
 19. What is the current block height?
 If your block height is very low (e.g., under 100), you may be mining on an incorrect chain.
 20. Is there TOR support?
-TOR support is now built-in for Mac and Linux and Windows. It can be turned off by finding the com.universe.tari app_config.json `use_tor` setting on your file system and will be added to Settings soon.
+TOR support is now built-in for Mac and Linux and Windows. It can be turned off by finding the com.universe.tari app_config.json `use_tor` setting on your file system and will be added to Settings soon. And support for TOR bridges is coming soon.
 21. What can I do if I think I am missing gems?
 Go to Settings -> Send Logs and include your Telegram handle and a description of what gems you think are missing. Tag admin @possumously in Telegram to investigate. We will credit any missing gems for tXTM recorded on the nextnet chain to the best of our ability.
 

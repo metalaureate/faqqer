@@ -1,7 +1,5 @@
 Tari Universe FAQ
 
-Updated: October 4th 2024
-
 General Information:
 
 1. What is Tari Universe?
@@ -205,8 +203,8 @@ Windows
 - C:\Users\<username>\AppData\Roaming\com.tari.universe\
 Mac 
 - Library/Application Support/com.tari.universe/
-    - Library/caches/com.tari.universe
-    -Library/logs/com.tari.universe
+- Library/caches/com.tari.universe
+- Library/logs/com.tari.universe
 
 8. I have a corrupt client install, what do i do?
 Corrupt Client or Install fails and can't use re-install since the app is in suspended mode / it's really just msiexec.exe already running, so killing that and trying again may work
@@ -219,3 +217,5 @@ C:\Users\%USERNAME%\AppData\Roaming\com.tari.universe\
 Then, rename the backed up folder:
 C:\Users\%USERNAME%\AppData\Roaming\DOTcom.tari.universe\ to C:\Users\%USERNAME%\AppData\Roaming\com.tari.universe\
 Restart the client, and your wallet will be there. 
+
+Updated October 10th 2024

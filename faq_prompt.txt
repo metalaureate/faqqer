@@ -191,3 +191,31 @@ Sometimes the miner can lose its can connection with the mining network but will
 
 4. Why don't my gems increase when I win tXTM
 We are investigating this update isssue. Rest assured that all on-chain tXTM earnings that were connected to the airdrop will be credited gems.
+
+5. Where did my tXTM go?
+If you see your tXTM drop to zero after a restart, you may have been mining previously on an orphan chains. Orphan chains happen when the miner can't sync with the network. Always check that you are mining close to the tip--the current block height, which is posted hourly here.
+
+6. What do I do if I am mining at the wrong block height?
+Since none of your tXTM earnings count if you are not mining at the tip, you can safely delete all application files.
+
+7. How do I delete all system application files?
+On Windows, delete the com.tari.universe folder in 
+Windows
+- C:\users\<name>\AppData\Local\com.tari.universe
+- C:\Users\<username>\AppData\Roaming\com.tari.universe\
+Mac 
+- Library/Application Support/com.tari.universe/
+    - Library/caches/com.tari.universe
+    -Library/logs/com.tari.universe
+
+8. I have a corrupt client install, what do i do?
+Corrupt Client or Install fails and can't use re-install since the app is in suspended mode / it's really just msiexec.exe already running, so killing that and trying again may work
+Windows:
+rename C:\Users\%USERNAME%\AppData\Local\com.tari.universe to C:\Users\%USERNAME%\AppData\Local\DOTcom.tari.universe
+rename C:\Users\%USERNAME%\AppData\Roaming\com.tari.universe\ to C:\Users\%USERNAME%\AppData\Roaming\DOTcom.tari.universe\ /* wallet is in here
+Also, make sure that in Task Manager there aren't any zombie Tari processes running and if it had issues on an upgrade, check that msiexec.exe isn't running. If it is kill the process, and reinstall. 
+If it succeeds, close Tari down, and then delete the new folder in:
+C:\Users\%USERNAME%\AppData\Roaming\com.tari.universe\
+Then, rename the backed up folder:
+C:\Users\%USERNAME%\AppData\Roaming\DOTcom.tari.universe\ to C:\Users\%USERNAME%\AppData\Roaming\com.tari.universe\
+Restart the client, and your wallet will be there. 

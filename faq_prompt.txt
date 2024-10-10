@@ -218,4 +218,7 @@ Then, rename the backed up folder:
 C:\Users\%USERNAME%\AppData\Roaming\DOTcom.tari.universe\ to C:\Users\%USERNAME%\AppData\Roaming\com.tari.universe\
 Restart the client, and your wallet will be there. 
 
+9. How do I get the Tari Aurora wallet?
+You learn about and download the Aurora wallet at https://aurora.tari.com/, for iOS and Android.
+
 Updated October 10th 2024

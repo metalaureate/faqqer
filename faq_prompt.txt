@@ -221,4 +221,7 @@ Restart the client, and your wallet will be there.
 9. How do I get the Tari Aurora wallet?
 You learn about and download the Aurora wallet at https://aurora.tari.com/, for iOS and Android.
 
+10. How long does it take to sync? I am stuck at 43%.
+Sync'ing or the first time takes between 6 and 12 minutes at the moment. This is necessary to download the current status of the blockchain because the integrity of each new block is dependent on all previous blocks.
+
 Updated October 10th 2024

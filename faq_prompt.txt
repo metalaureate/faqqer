@@ -230,4 +230,7 @@ Engineers are looking into an issue where mining sync is stuck at 30% possibly d
 12. Why didn't I get my gem rewards for installing and invite referral codes?
 Try disconnecting from the airdrop (Settings -> Airdrop) and re-enter your invite code and follow the process to authenticate with X. If that doesn't work, DM possumously with your X handle.
 
-Updated October 10th 2024
+13. How to solve Critical Error No Version Detected?
+If you are getting a Critical Error about missing version, the team is working on this issue at the moment.  Please try again in a few hours.
+
+Updated October 18th 2024

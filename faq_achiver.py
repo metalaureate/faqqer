@@ -54,7 +54,7 @@ async def get_full_channel_history(channel_username):
     
     logging.info(f"Starting to fetch messages from channel: {channel_username}")
     
-    while True:
+    while total_fetched<1000:
         # Get messages with an offset
         messages = await client.get_messages(channel_username, limit=limit, offset_id=offset_id)
 

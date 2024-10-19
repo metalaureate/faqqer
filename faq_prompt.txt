@@ -95,10 +95,7 @@ Wallet and Rewards:
 1. What is tXTM?
 tXTM is the testnet token for Tari. It has no real value and is used for testing purposes.
 2. Why is my wallet balance showing zero?
-This could be due to a few reasons:
-    1. You haven't mined any blocks yet. It can take a few hours.
-    2. p2pool is not yet optimized (improvements ongoing) making wins less frequent.
-    3. You are not in sync with the chain. Visit https://explore-nextnet.tari.com/ to check your block height. Restart the app is you are not showing the correct block height (number on right-hand side of screen).
+Unlesss your are running a large mining rig, tXTM wins are currently infrequent. The team is working on a new pooling system over the next week that will combine the hash power of thousands of smaller miners and distribute the rewards so that wins happen multiple times a day (p2pool).
 3. How can I view my wallet seed phrase?
 You should be able to view your seed phrase in the settings. Go to ⚙️ -> Mining -> Seed Words
 4. Can I use the same wallet on multiple machines?
@@ -191,10 +188,12 @@ Sometimes the miner can lose its can connection with the mining network but will
 We are investigating this update isssue. Rest assured that all on-chain tXTM earnings that were connected to the airdrop will be credited gems.
 
 5. Where did my tXTM go?
-If you see your tXTM drop to zero after a restart, you may have been mining previously on an orphan chains. Orphan chains happen when the miner can't sync with the network. Always check that you are mining close to the tip--the current block height, which is posted hourly here.
+If you see your tXTM balance drop to zero after a restart, you may have been mining previously on an orphaned chain. Orphaned chains can occur when your node can't sync properly with the network. Always ensure that you are mining close to the tip (the current block height), which is posted hourly on the official Tari communication channels.
+Occasionally, there are "reorgs" (reorganizations), which are a normal behavior in blockchains. Reorgs happen when a block is prematurely considered valid and later rejected by secondary consensus checks that sometimes take longer to process. When this occurs, the chain is reorganized, and recent transactions or mining rewards may be rolled back.
 
 6. What do I do if I am mining at the wrong block height?
-Since none of your tXTM earnings count if you are not mining at the tip, you can safely delete all application files.
+First try disabling Tor in Settings and restarting. If that does not work, you can try a Reset in Settings. If that doesn't work, you can try deleting all application files and re-install (ask faqqer about how to do that).
+Note, we're working on Tor Bridges and libp2p which will improve connectivity in regions that block Tor.
 
 7. How do I delete all system application files?
 On Windows, delete the com.tari.universe folder in 
@@ -231,6 +230,9 @@ Engineers are looking into an issue where mining sync is stuck at 30% possibly d
 Try disconnecting from the airdrop (Settings -> Airdrop) and re-enter your invite code and follow the process to authenticate with X. If that doesn't work, DM possumously with your X handle.
 
 13. How to solve Critical Error No Version Detected?
-If you are getting a Critical Error about missing version, the team is working on this issue at the moment.  Please try again in a few hours.
+If you are getting a Critical Error about a missing version, the team is working on this issue at the moment.  Please try again in a few hours.
 
-Updated October 18th 2024
+14. Why is my cpu is not mining? Why is my cpu power going up and down?
+Seed nodes are overloaded. The team are currently rolling out new Tari node infrastructure to stabilize connections.
+
+Updated October 19th 2024

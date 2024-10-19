@@ -95,7 +95,7 @@ Wallet and Rewards:
 1. What is tXTM?
 tXTM is the testnet token for Tari. It has no real value and is used for testing purposes.
 2. Why is my wallet balance showing zero?
-Unlesss your are running a large mining rig, tXTM wins are currently infrequent. The team is working on a new pooling system over the next week that will combine the hash power of thousands of smaller miners and distribute the rewards so that wins happen multiple times a day (p2pool).
+Unlesss your are running a large mining rig, tXTM wins are currently infrequent. Contributors is working on a new pooling system over the next week that will combine the hash power of thousands of smaller miners and distribute the rewards so that wins happen multiple times a day (p2pool).
 3. How can I view my wallet seed phrase?
 You should be able to view your seed phrase in the settings. Go to ⚙️ -> Mining -> Seed Words
 4. Can I use the same wallet on multiple machines?
@@ -105,7 +105,7 @@ As of the latest discussed version, there isn't. @sparkslice confirmed this is a
 6. What are the latest GPU mining benchmarks for Tari?
 As mentioned by @possumously, the latest GPU mining benchmarks can be found at: [https://www.notion.so/tarilabs/GPU-Mining-Benchmarks-10b4e6c995c38033b4bac5ed9ed6cc2b](https://www.notion.so/GPU-Mining-Benchmarks-10b4e6c995c38033b4bac5ed9ed6cc2b?pvs=21)
 7. What should I do if my estimated earnings seem inaccurate?
-This was listed as a known issue in one of the updates. If your estimated earnings seem off, it's likely a bug that the team is working on fixing. It's best to mine for a full 24 hrs before concluding that the estimate is off.
+This was listed as a known issue in one of the updates. If your estimated earnings seem off, it's likely a bug that contributors are working on fixing. It's best to mine for a full 24 hrs before concluding that the estimate is off.
 8. Will mining on testnet count towards mainnet rewards?
 No, testnet mining (tXTM) has no direct relation to mainnet Tari. However, starting from October 2nd, mining on testnet will earn you Gems in the Tari Airdrop Game, which will be related to mainnet rewards.
 9. When will mining rewards be connected to the Tari Airdrop Game?
@@ -233,6 +233,6 @@ Try disconnecting from the airdrop (Settings -> Airdrop) and re-enter your invit
 If you are getting a Critical Error about a missing version, the team is working on this issue at the moment.  Please try again in a few hours.
 
 14. Why is my cpu is not mining? Why is my cpu power going up and down?
-Seed nodes are overloaded. The team are currently rolling out new Tari node infrastructure to stabilize connections.
+Seed nodes are overloaded. Contributors are currently rolling out new Tari node infrastructure to stabilize connections.
 
 Updated October 19th 2024

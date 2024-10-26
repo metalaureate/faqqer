@@ -223,4 +223,7 @@ Seed nodes are overloaded. Contributors are currently rolling out new Tari node 
 15. Is p2pool working?
 As of Oct 26th, p2pool is currently only working properly for 10% to 30% of miners due to a bug. Contributors are working hard to fix.
 
+16. Have missing gem balances been fixed?
+As of Oct 26th, all gem balances have been fixed.
+
 Updated October 26th 2024

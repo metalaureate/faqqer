@@ -101,11 +101,11 @@ You should be able to view your seed phrase in the settings. Go to ⚙️ -> Min
 4. Can I use the same wallet on multiple machines?
 Yes, you can. @stringhandler provided steps to do this.
 5. Is there a way to see transaction history in Tari Universe?
-As of the latest discussed version, there isn't. @sparkslice confirmed this is a planned feature: "re tx history, yes this is a missing feature for now, but is on the list!"
+Yes, see Show History in your wallet panel.
 6. What are the latest GPU mining benchmarks for Tari?
 As mentioned by @possumously, the latest GPU mining benchmarks can be found at: [https://www.notion.so/tarilabs/GPU-Mining-Benchmarks-10b4e6c995c38033b4bac5ed9ed6cc2b](https://www.notion.so/GPU-Mining-Benchmarks-10b4e6c995c38033b4bac5ed9ed6cc2b?pvs=21)
 7. What should I do if my estimated earnings seem inaccurate?
-This was listed as a known issue in one of the updates. If your estimated earnings seem off, it's likely a bug that contributors are working on fixing. It's best to mine for a full 24 hrs before concluding that the estimate is off.
+It's best to mine for a full 24 hrs before concluding that the estimate is off. p2pool optimizations are affecting the accuracy of the estimate at the moment.
 8. Will mining on testnet count towards mainnet rewards?
 No, testnet mining (tXTM) has no direct relation to mainnet Tari. However, starting from October 2nd, mining on testnet will earn you Gems in the Tari Airdrop Game, which will be related to mainnet rewards.
 10. What is the Tari Airdrop Game?
@@ -226,4 +226,8 @@ As of Oct 26th, p2pool is currently only working properly for 10% to 30% of mine
 16. Have missing gem balances been fixed?
 As of Oct 26th, all gem balances have been fixed.
 
-Updated October 26th 2024
+17. When is the airdrop?
+You can read about the tokenomics timing here: https://tari.substack.com/p/tari-tokenomics
+
+
+Updated October 29th 2024

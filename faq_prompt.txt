@@ -88,7 +88,7 @@ This indicates your current block height. The Tari chain mines 720 blocks a day,
 17. What do the red exploding blocks mean?
 The red block explosion indicates you didn't win a block. Keep mining--it can take some time to win tXTM.
 18. How do GPU and CPU mining compare in Tari?
-Tari uses two different algorithms: 50% of blocks are mined with CPU, 50% with GPU. Hash rates for CPU and GPU are not directly comparable due to the different algorithms.
+Tari uses two different algorithms 50/50: 50% of blocks are mined with CPU, 50% with GPU. Hash rates for CPU and GPU are not directly comparable due to the different algorithms.
 
 Wallet and Rewards:
 
@@ -99,19 +99,19 @@ Unlesss your are running a large mining rig, tXTM wins are currently infrequent.
 3. How can I view my wallet seed phrase?
 You should be able to view your seed phrase in the settings. Go to ⚙️ -> Mining -> Seed Words
 4. Can I use the same wallet on multiple machines?
-Yes, you can. @stringhandler provided steps to do this.
+Yes, you can. You can export and import your seed words in Settings.
 5. Is there a way to see transaction history in Tari Universe?
 Yes, see Show History in your wallet panel.
 6. What are the latest GPU mining benchmarks for Tari?
 As mentioned by @possumously, the latest GPU mining benchmarks can be found at: [https://www.notion.so/tarilabs/GPU-Mining-Benchmarks-10b4e6c995c38033b4bac5ed9ed6cc2b](https://www.notion.so/GPU-Mining-Benchmarks-10b4e6c995c38033b4bac5ed9ed6cc2b?pvs=21)
 7. What should I do if my estimated earnings seem inaccurate?
-It's best to mine for a full 24 hrs before concluding that the estimate is off. p2pool optimizations are affecting the accuracy of the estimate at the moment.
+It's best to mine for a full 24 hrs before concluding that the estimate is off. p2pool optimizations are affecting the accuracy of the estimate at the moment. The calculation is simply Current Network Hash Rate ÷ Your Current Hash Rate × Block Reward.
 8. Will mining on testnet count towards mainnet rewards?
 No, testnet mining (tXTM) has no direct relation to mainnet Tari. However, starting from October 2nd, mining on testnet will earn you Gems in the Tari Airdrop Game, which will be related to mainnet rewards.
 10. What is the Tari Airdrop Game?
 The Tari Airdrop Game is a way to earn Gems by mining and inviting friends. These Gems will be related to mainnet rewards in the future.
 11. What is the Tari Aurora wallet?
-Tari Aurora is the mobile wallet app for Tari. It allows you to view your Tari balance and transactions but does not support mining. Users can import their mining wallet to the Tari Aurora mobile wallet to check balances.
+Tari Aurora is the mobile wallet app for Tari. It allows you to view your Tari balance and transactions but does not support mining. Users can import their mining wallet to the Tari mobile wallet to check balances.
 12. What is the Tari Store?
 The Tari Store is briefly mentioned as a place where users can get exclusive collectibles using their tXTM. However, no further details are provided in this conversation.
 13. How much tXTM do I win?
@@ -149,32 +149,22 @@ Not currently, but it's been suggested as a feature.
 10. What are Squads in Tari Universe?
 Squads is an upcoming feature to make pool mining more fun.
 11. How can I invite others to join Tari Universe?
-Early testers were given VIP codes to invite others. As @GhastlyPack explained: "Today when we launch Tari Universe, anyone with access will get **5 VIP CODES**! These codes can each get 1 person guaranteed into the next batch"
+Ask anyone here for a referral link.
 12. What is the Spirit Shell miner?
 The Spirit Shell is a high-performance mining rig.
 13. I get system error VCRUNTIME was not found.
 Your Windows is missing the Visual C++ Distributable. See https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist
-We'll be including it in future releases. It's usually part of Windows.
 14. Why does my antivirus detect Tari Universe as malware?
-Some antivirus programs may flag cryptocurrency miners by default. This is a common issue with mining software and doesn't indicate any actual malware. You can safely add Tari Universe to your antivirus exceptions.
-15. What should I do if the application is stuck on "Waiting" or keeps reloading?
-Try closing the application completely (including from the task manager) and restarting it. If the issue persists, try uninstalling and reinstalling the application. If you still encounter problems, submit a bug report with your logs.
+Some antivirus programs may flag cryptocurrency miners by default, because malware likes to try to mine cryptocurrency on your system without your permission. This is a common issue with mining software and doesn't indicate any actual malware. You can safely add Tari Universe to your antivirus exceptions.
 16. What should I do if I get an error trying to download?
-Try turning off any VPNs you have running. Tari Universe has been experiencing issues with downloading from some countries and we are working on setting up its own mirrors to solve the problem.
-17. What should I do if I'm having network connection issues?
-Many users are experiencing issues connecting to the Tari network at the moment. This is a known problem that the developers are actively working on. A fix is expected to be released soon. If you're not connected to the Tari network, your mining may not be effective and rewards may not be saved.
-18. How can I tell if I'm connected to the Tari network?
-Go to Settings -> Experimental. If it shows "Not connected to the Tari Network," set the client to ECO mode until an update is provided. If you are connected, no action is needed.
-19. What is the current block height?
-If your block height is very low (e.g., under 100), you may be mining on an incorrect chain.
+Try temporarily turning off any VPNs, firewalls, and anti-virus you have running. 
+
 20. Is there TOR support?
-TOR support is now built-in for Mac and Linux and Windows. It can be turned off by finding the com.universe.tari app_config.json `use_tor` setting on your file system and will be added to Settings soon. And support for TOR bridges is coming soon.
+TOR support is now built-in for Mac and Linux and Windows. You can update your TOR config in Settings.
 21. What can I do if I think I am missing gems?
-Go to Settings -> Send Logs and include your Telegram handle and a description of what gems you think are missing. Tag admin @possumously in Telegram to investigate. We will credit any missing gems for tXTM recorded on the nextnet chain to the best of our ability.
+Report missing gems to Admins.
 
 Other
-1. So default mining is shared p2p pool or is individual solo mining possible?
-p2pool toggle is only disabled when you are mining. If you stop mining, you can turn it on or off. But remember to relaunch the app after doing so.
 
 2. How can I check I have the right block height?
 Visit https://explore-nextnet.tari.com/ Note: this site is cached for a few minutes.
@@ -183,7 +173,7 @@ Visit https://explore-nextnet.tari.com/ Note: this site is cached for a few minu
 Sometimes the miner can lose its can connection with the mining network but will continue to mine blocks locally before sync'ing and correcting itself. This problem should go away as the network grows.
 
 4. Why don't my gems increase when I win tXTM
-We are investigating this update isssue. Rest assured that all on-chain tXTM earnings that were connected to the airdrop will be credited gems.
+Gems should be awarded if your tXTM win is a pool win (shared, not a solo block of 13K tXTM), and you are not on orphan chain (your block height is in sync with the chain).
 
 5. Where did my tXTM go?
 If you see your tXTM balance drop to zero after a restart, you may have been mining previously on an orphaned chain. Orphaned chains can occur when your node can't sync properly with the network. Always ensure that you are mining close to the tip (the current block height), which is posted hourly on the official Tari communication channels.
@@ -215,13 +205,13 @@ Engineers are looking into an issue where mining sync is stuck at 30% possibly d
 Try disconnecting from the airdrop (Settings -> Airdrop) and re-enter your invite code and follow the process to authenticate with X. If that doesn't work, DM possumously with your X handle.
 
 13. How to solve Critical Error No Version Detected?
-If you are getting a Critical Error about a missing version, the team is working on this issue at the moment.  Please try again in a few hours.
+If you are getting a Critical Error about a missing version, please try again in a few hours. CDNs may have have propagated the new version yet.
 
 14. Why is my cpu is not mining? Why is my cpu power going up and down?
-Seed nodes are overloaded. Contributors are currently rolling out new Tari node infrastructure to stabilize connections.
+Seed nodes might be overloaded. Contributors are currently rolling out new Tari node infrastructure to stabilize connections.
 
 15. Is p2pool working?
-As of Oct 26th, p2pool is currently only working properly for 10% to 30% of miners due to a bug. Contributors are working hard to fix.
+As of November 24th, p2pool is currently paying out about 50% of miners per day. Contributors are working on making it pay out to 90% of miners at least twice a day.
 
 16. Have missing gem balances been fixed?
 As of Oct 26th, all gem balances have been fixed.
@@ -229,5 +219,10 @@ As of Oct 26th, all gem balances have been fixed.
 17. When is the airdrop?
 You can read about the tokenomics timing here: https://tari.substack.com/p/tari-tokenomics
 
+18. Why are nextnet explorer outputs sometimes a negative number?
+Check the actual number of outputs in the block details. For some arcane blockchain reason, the Explorer subtracts the number of inputs from the outputs when reporting total outputs.
 
-Updated October 29th 2024
+19. What can I do with my tXTM?
+You can use it to buy swag on the TTL Store (just pay for shipping in fiat). https://store.tarilabs.com/
+
+Updated November 24th 2024

@@ -214,7 +214,7 @@ Seed nodes might be overloaded. Contributors are currently rolling out new Tari 
 As of November 24th, p2pool is currently paying out about 50% of miners per day. Contributors are working on making it pay out to 90% of miners at least twice a day.
 
 16. Have missing gem balances been fixed?
-As of Oct 26th, all gem balances have been fixed.
+As of Nov 24th, all gem balances have been fixed.
 
 17. When is the airdrop?
 You can read about the tokenomics timing here: https://tari.substack.com/p/tari-tokenomics

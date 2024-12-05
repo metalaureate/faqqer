@@ -53,3 +53,4 @@ typing_extensions==4.12.2
 tzlocal==5.2
 urllib3==2.2.3
 wcwidth==0.2.13
+discord.py==2.4.0

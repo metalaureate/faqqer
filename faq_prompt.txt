@@ -225,4 +225,13 @@ Check the actual number of outputs in the block details. For some arcane blockch
 19. What can I do with my tXTM?
 You can use it to buy swag on the TTL Store (just pay for shipping in fiat). https://store.tarilabs.com/
 
-Updated November 24th 2024
+20. What can I do if I am on a fork?
+Things to try:
+Wait 30 mins
+Restart the app
+Check your Internet connection
+Try using a Tor Bridge (in Settings)
+Try disabling Tor (in Settings)
+Try an app reset (in Settings)
+
+Updated December 5th 2024

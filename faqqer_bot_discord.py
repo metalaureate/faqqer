@@ -106,16 +106,12 @@ async def faqqer(interaction: discord.Interaction, question: str):
 async def on_ready():
     logging.info(f"Bot ready! Application ID: {bot.application_id}")
     try:
-        guild = discord.Object(id=GUILD_ID)
-        await bot.tree.sync(guild=guild)  # Sync commands to the specific guild
-        logging.info(f"Commands synced for guild ID {GUILD_ID}.")
-        
-        # Log all commands that were registered
-        for command in bot.tree.get_commands():
-            logging.info(f"Registered command: {command.name}")
+        commands = await bot.tree.sync(guild=discord.Object(id=GUILD_ID))
+        logging.info(f"Synced {len(commands)} commands: {[cmd.name for cmd in commands]}")
+    except discord.errors.Forbidden:
+        logging.error("Missing permissions to sync commands")
     except Exception as e:
         logging.error(f"Error syncing commands: {e}")
-
 
 # Run the bot
 if __name__ == '__main__':

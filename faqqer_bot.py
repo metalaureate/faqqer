@@ -132,7 +132,7 @@ async def handler(event):
 loop = asyncio.get_event_loop()
 
 # Schedule the block height job
-schedule_block_height_job(client , loop)
+# schedule_block_height_job(client , loop)
 # Start the Telegram bot
 logging.info("Bot is running...")
 client.run_until_disconnected()

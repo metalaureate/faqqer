@@ -7,7 +7,7 @@ from openai import OpenAI, OpenAIError
 import openai
 from dotenv import load_dotenv
 import json
-from block_height_job import schedule_block_height_job  # Import the block height job
+from blockchain_job import schedule_block_height_job, schedule_hash_power_job  # Import the block height job
 import asyncio
 from telethon.tl.types import Channel
 
@@ -27,7 +27,6 @@ logging.basicConfig(
 bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
 api_id = os.getenv('TELEGRAM_API_ID')  # From Telegram Developer Portal
 api_hash = os.getenv('TELEGRAM_API_HASH')  # From Telegram Developer Portal
-CHANNEL_USERNAME = os.getenv('TELEGRAM_CHANNEL_USERNAME')  # The channel you want to archive
 
 # Initialize the Telegram bot client
 client = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
@@ -122,6 +121,14 @@ async def handler(event):
     # Extract the user's question from the message
     user_message = event.message.text[len('/ask '):]
     
+    # Check if it's a request for hash rates information
+    if user_message.lower().strip() == "hash rates" or user_message.lower().strip() == "hashrates" or user_message.lower().strip() == "hash rate":
+        logging.info("Hash rates request received. Triggering hash power job.")
+        # Directly call the post_hash_power function to get an immediate update
+        from blockchain_job import post_hash_power
+        await post_hash_power(client)
+        return
+    
     # Search the FAQ for a relevant answer
     answer = find_faq_answer(user_message)
 
@@ -132,7 +139,8 @@ async def handler(event):
 loop = asyncio.get_event_loop()
 
 # Schedule the block height job
-# schedule_block_height_job(client , loop)
+#schedule_block_height_job(client , loop)
+schedule_hash_power_job(client, loop)
 # Start the Telegram bot
 logging.info("Bot is running...")
 client.run_until_disconnected()

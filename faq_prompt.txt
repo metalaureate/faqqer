@@ -1,237 +1,265 @@
-Tari Universe FAQ
+# Tari FAQ
 
-General Information:
+## General
 
-1. What is Tari Universe?
-Tari Universe is a desktop mining application for the Tari cryptocurrency. It is designed to be easy to use, allowing anyone to mine Tari with minimal setup. 
-2. What are the key features of Tari Universe?
-Key features include:
-- Instant mining: Start mining testnet immediately with zero setup required
-- Visual experience: Stunning visualizations of your network contribution
-- Flexible resource usage: Choose between Ludicrous mode (dedicated) or Eco mode (background) for CPU/GPU utilization
-- Auto-updates
-- Multi-language support
-- P2pool mining (pool mining)
-1. What operating systems does Tari Universe support?
-Tari Universe supports Windows, macOS, and Linux. Linux support is available but may require manual building from source. Pre-built binaries for Linux are expected to be released soon.
-2. What is the Order of Soon?
-The Order of Soon is the name given to the early access group of Tari Universe testers. As @sparkslice mentioned: "ya'll are cohort numero uno.. the true OGs!"
-3. How does Tari Universe compare to other cryptocurrency miners in terms of ease of use?
-Multiple users praised Tari Universe for its simplicity. It's designed to be the easiest crypto app ever created, with no need for manual configuration.
-4. What's the difference between Tari Universe and Tari Suite?
-Tari Suite is an older version. Tari Universe is the new, user-friendly mining application that's being developed and tested.
-5. What is the Tari Launchpad?
-Tari Launchpad is an older tool that will be retired. @stringhandler stated: "launchpad will be retired"
-6. What is the Minotari Suite?
-Minotari Suite is one of the subcomponents of Tari Universe and exists as its own set of tools.
+### What is Tari?
+Tari is a decentralized, privacy-first, highly scalable and open-source blockchain protocol that aims to be infinitely scalable and provide high throughput. Tari aims to be accessible to everyone regardless of their hardware or finances.
 
-Installation and System Requirements:
+### What is Tari Universe?
+Tari Universe is a desktop application for mining Tari on Mac or PC. It works by harnessing your computer's computational power to solve blocks on the Tari network. In doing so, you're helping to secure the Tari network while earning Tari token (XTM) rewards. Tari Universe simplfies the setup of Tari while providing a beautiful interface for interacting with Tari.
 
-1. How do I install Tari Universe?
-For Windows and macOS, you can download the installer using your VIP codes. For Linux, you may need to build from source or use the AppImage. A Linux version is coming soon.
-2. What are the system requirements for Tari Universe?
-Exact system requirements are broad. The application can run on a wide range of hardware. For CPU mining, at least 2.5GB of free RAM is recommended. @stringhandler noted: "Your computer only has 8gb of ram. CPU mining requires at least 2.5gb free."
-3. What should Linux users do if they encounter installation issues?
-Follow these steps: 
-    ```
-    a. Add the repository to the sources list
-    echo "deb http://ca.archive.ubuntu.com/ubuntu jammy main" | sudo tee -a /etc/apt/sources.list
-    b. Update package lists
-    sudo apt update
-    c. Install the package
-    sudo apt install libwebkit2gtk-4.0-37
-    d. Comment out the added line in the sources list
-    sudo sed -i '/^deb http:\/\/ca\.archive\.ubuntu\.com\/ubuntu jammy main/s/^/# /' /etc/apt/sources.list
-    e. Update package lists
-    sudo apt update
-    ```
-    
-4. How can I build Tari Universe from source?
-@stringhandler provided basic instructions: "Basically get Tauri CLI tools installed and then run 'cargo tauri dev' to debug or 'cargo tauri build' to build"
-5. Can I run Tari Universe on multiple devices?
-Yes, you can run Tari Universe on multiple devices. There's no limit to how many devices you can mine on.
+### How is Tari Universe different from other apps?
+Tari Universe focuses on key areas that simplify the mining process and make it accessible to a much wider audience.  
+- One-click setup and installation
+- A clean interface that clearly communicates information and settings.
+- Automatic updates
+- Built-in wallet
 
-Mining:
+### What are Tari Universe's minimum and recommended requirements?
+| Component     | **Minimum Desktop Spec**                             | **Recommended Desktop Spec**                                  |
+|---------------|-------------------------------------------------------|----------------------------------------------------------------|
+| **CPU**       | 4-core (Intel i5, Ryzen 5)                            | 6–8 core (Intel i7, Ryzen 7/9)                                 |
+| **GPU**       | NVIDIA GTX 1660 or AMD RX 580 (4GB VRAM min)          | RTX 3060 / RX 6800 or better (8GB+ VRAM)                      |
+| **RAM**       | 16 GB                                                 | 32 GB                           |
+| **Storage**   | At least 100 GB free space, SSD                       | 250 GB or more free NVMe space SSD                                |
+| **OS**        | Windows 10/11 or macOS 12+                            | Windows 11 or macOS 13+                                      |
 
-1. How do I start mining with Tari Universe?
-Simply open the application and it should start mining automatically. There's no need for manual configuration.
-2. What is the difference between Eco mode and Ludicrous mode?
-Eco mode is designed for background mining with lower resource usage, while Ludicrous mode is for dedicated mining with higher resource usage.
-3. Can I mine with both CPU and GPU?
-Yes, Tari Universe supports both CPU and GPU mining. You can choose to use one or both in the settings.
-4. What is p2pool mining?
-P2pool (peer-to-peer pool) is a decentralized mining pool. It allows miners to combine their hashpower and share rewards more frequently.
-5. How do I enable p2pool mining?
-As of the latest updates, p2pool mining should be enabled by default. However, it's still being optimized and may not be fully functional yet.
-6. How often should I expect to receive mining rewards?
-This depends on your hardware and the current network hashrate. Rewards are given when you successfully mine a block, not on a fixed schedule. The frequency can vary greatly depending on your hardware and luck.
-7. How can I optimize my mining performance?
-For CPU mining on Windows, running Tari Universe as administrator can provide a boost. Also, ensure you have enough free RAM (at least 2.5GB for CPU mining). In general, closing any other applications running will help.
-8. Is there a way to customize mining intensity beyond Eco and Ludicrous modes?
-Currently, there isn't, but a "custom mode" allowing more granular control over mining settings is planned for a future update.
-9. Is there a limit to how many devices I can mine on?
-No, there doesn't appear to be a limit. @MrMooning confirmed: "Yes you can mine on as many devices as you'd like"
-10. How does Tari Universe handle multiple GPUs?
-Tari Universe can use multiple GPUs, but some users are reporting issues with GPU selection, especially for those with multiple GPUs.
-11. How does Tari's mining algorithm work?
-Tari uses a hybrid Proof of Work system. @sparkslice explained: "Tari uses a hybrid Proof of Work system so it makes use of both! 50% of blocks are mined using RandomX and 50% of blocks are mined using SHA3"
-12. How often are new blocks mined in the Tari network?
-720 per day. Each block takes a few minutes to mine before moving on the next block.
-13. Is there a way to mine Monero (XMR) concurrently with Tari?
-@sparkslice mentioned: "we will add XMR support in before mainnet so you can mine XMR concurrent to Tari"
-14. Can I mine Tari on mobile devices?
-No, Tari Universe is currently only for desktop operating systems.
-15. Is there a way to run Tari Universe without a GUI?
-While Tari Universe is designed with a GUI, some users asked about running it on servers without X installed. This doesn't seem to be officially supported, but building from source might allow for this.
-16. What do the numbers up the side of the screen mean?
-This indicates your current block height. The Tari chain mines 720 blocks a day, each taking an average of about 2 minutes to mine.
-17. What do the red exploding blocks mean?
-The red block explosion indicates you didn't win a block. Keep mining--it can take some time to win tXTM.
-18. How do GPU and CPU mining compare in Tari?
-Tari uses two different algorithms 50/50: 50% of blocks are mined with CPU, 50% with GPU. Hash rates for CPU and GPU are not directly comparable due to the different algorithms.
+### What are the official channels, websites, and social network profiles for Tari?
+- Official Website: [www.tari.com](www.tari.com)
+- Twitter: [https://twitter.com/tari/](https://twitter.com/tari/)
+- Discord: [https://discord.gg/tari](https://discord.gg/tari)
+- Telegram: [https://t.me/tariproject](https://t.me/tariproject)
 
-Wallet and Rewards:
+### What are the official wallets for Minotari
+Users have the three options available:
 
-1. What is tXTM?
-tXTM is the testnet token for Tari. It has no real value and is used for testing purposes.
-2. Why is my wallet balance showing zero?
-Unlesss your are running a large mining rig, tXTM wins are currently infrequent. Contributors is working on a new pooling system over the next week that will combine the hash power of thousands of smaller miners and distribute the rewards so that wins happen multiple times a day (p2pool).
-3. How can I view my wallet seed phrase?
-You should be able to view your seed phrase in the settings. Go to ⚙️ -> Mining -> Seed Words
-4. Can I use the same wallet on multiple machines?
-Yes, you can. You can export and import your seed words in Settings.
-5. Is there a way to see transaction history in Tari Universe?
-Yes, see Show History in your wallet panel.
-6. What are the latest GPU mining benchmarks for Tari?
-As mentioned by @possumously, the latest GPU mining benchmarks can be found at: [https://www.notion.so/tarilabs/GPU-Mining-Benchmarks-10b4e6c995c38033b4bac5ed9ed6cc2b](https://www.notion.so/GPU-Mining-Benchmarks-10b4e6c995c38033b4bac5ed9ed6cc2b?pvs=21)
-7. What should I do if my estimated earnings seem inaccurate?
-It's best to mine for a full 24 hrs before concluding that the estimate is off. p2pool optimizations are affecting the accuracy of the estimate at the moment. The calculation is simply Current Network Hash Rate ÷ Your Current Hash Rate × Block Reward.
-8. Will mining on testnet count towards mainnet rewards?
-No, testnet mining (tXTM) has no direct relation to mainnet Tari. However, starting from October 2nd, mining on testnet will earn you Gems in the Tari Airdrop Game, which will be related to mainnet rewards.
-10. What is the Tari Airdrop Game?
-The Tari Airdrop Game is a way to earn Gems by mining and inviting friends. These Gems will be related to mainnet rewards in the future.
-11. What is the Tari Aurora wallet?
-Tari Aurora is the mobile wallet app for Tari. It allows you to view your Tari balance and transactions but does not support mining. Users can import their mining wallet to the Tari mobile wallet to check balances.
-12. What is the Tari Store?
-The Tari Store is briefly mentioned as a place where users can get exclusive collectibles using their tXTM. However, no further details are provided in this conversation.
-13. How much tXTM do I win?
-You are in a pool with other miners and if you win, your tXTM is proportional to the hash power you contributed to mining that block.
-14. Why is my balance fluctuating?
-Some users reported their balance going up and down. This might be due to network resets or other temporary issues. If you notice significant discrepancies, please report them to the team.
-15. How do Gems relate to tXTM?
-1 tXTM = 25 gems with a cap of 50,000 gems per block that you can win. Gems are the important metric for the airdrop, not tXTM.
+- [The Minotari Console Wallet](https://tari.com/downloads/) - Part of the Tari suite of applications. Provides a console-based wallet for transactions and interactions with the blockchain
+- [Tari Universe Mobile](https://aurora.tari.com) - A mobile application for Android and iOS.
+- [Tari Universe](https://airdrop.tari.com) - a desktop application that includes the entire Tari suite, including a Minotari wallet built directly into the application.
 
-Technical Issues and Updates:
+### What is the coin name, and what are its abbreviation and symbol? 
+MinoTari. The abbreviation and symbol is XTM.
 
-1. What should I do if Tari Universe crashes or won't open?
-Try these steps:
-    1. Restart the application
-    2. Check for updates
-    3. Reinstall the application
-    4. If on Windows, try running as administrator
-    5. Send logs to the development team using the in-app feature
-2. How can I report bugs or issues?
-You can use the "Send Logs to Tari Labs" feature in the settings. This will automatically send your logs along with a bug report.
-3. How does Tari Universe handle antivirus warnings?
-Tari Universe is designed to avoid triggering antivirus warnings. If it does, it is safe to allow them. Many antivirus programs flag mining software as potentially malicious. This is normal and users may need to add exceptions for Tari Universe.
-4. What should I do if the mining animation disappears?
-This can happen if system resources are low. Restarting the application or freeing up system resources might help.
-5. How does Tari Universe handle updates?
-Tari Universe has an auto-update feature.
-6. How often are updates released for Tari Universe?
-During the beta testing phase, updates were being released frequently, sometimes daily.
-7. When will mainnet launch?
-An exact date hasn't been announced. @sparkslice mentioned: "Mainnet is .. soon .. but not that soon.." The goal is for mainnet to launch at some point this year (2024).
-8. Is there a dark mode?
-Not yet, but it's on the list of planned features.
-9. Is there a way to change where the blockchain data is stored?
-Not currently, but it's been suggested as a feature.
-10. What are Squads in Tari Universe?
-Squads is an upcoming feature to make pool mining more fun.
-11. How can I invite others to join Tari Universe?
-Ask anyone here for a referral link.
-12. What is the Spirit Shell miner?
-The Spirit Shell is a high-performance mining rig.
-13. I get system error VCRUNTIME was not found.
-Your Windows is missing the Visual C++ Distributable. See https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist
-14. Why does my antivirus detect Tari Universe as malware?
-Some antivirus programs may flag cryptocurrency miners by default, because malware likes to try to mine cryptocurrency on your system without your permission. This is a common issue with mining software and doesn't indicate any actual malware. You can safely add Tari Universe to your antivirus exceptions.
-16. What should I do if I get an error trying to download?
-Try temporarily turning off any VPNs, firewalls, and anti-virus you have running. 
+### Is Tari open-source?
+Yes.
 
-20. Is there TOR support?
-TOR support is now built-in for Mac and Linux and Windows. You can update your TOR config in Settings.
-21. What can I do if I think I am missing gems?
-Report missing gems to Admins.
+### What is the official Github repository for the Tari Project?
+Tari Project's repos can be found in [https://github.com/tari-project/](https://github.com/tari-project/). The main project is [https://github.com/tari-project/tari/](https://github.com/tari-project/)
 
-Other
+### Where can I find installation instructions for Tari?
++ Normal users can utilise the binaries at [https://www.tari.com/downloads]. Developers should refer to the instructions in the main Tari repo at [https://github.com/tari-project/tari/].  
 
-2. How can I check I have the right block height?
-Visit https://explore-nextnet.tari.com/ Note: this site is cached for a few minutes.
 
-3. Where did my tXTM go? I earned tXTM and then my balance went down.
-Sometimes the miner can lose its can connection with the mining network but will continue to mine blocks locally before sync'ing and correcting itself. This problem should go away as the network grows.
+### Explain the general architecture of the Tari solution? What components make up Tari?
+Tari consists of several components. While it is not necessary to run all of these as a casual user, all are required if you wish to run a full base node with mining capabilities. The components are:
 
-4. Why don't my gems increase when I win tXTM
-Gems should be awarded if your tXTM win is a pool win (shared, not a solo block of 13K tXTM), and you are not on orphan chain (your block height is in sync with the chain).
+- Minotari Base Node (`minotari_node`): Validates and propagates Tari coin transactions and blocks on the base layer. Forms the backbone of the Tari blockchain, maintaining consensus about the longest valid proof-of-work blockchain
+- Minotari Console Wallet (`minotari_console_wallet`):  Manages user funds, creates transactions, and maintains private keys. Allows users to send, receive, and manage their Tari coins. The wallet also provides a means to interact with the gRPC Wallet API. A mobile wallet is also available via [Aurora](https://aurora.tari.com)
+- Minotari Miner (`minotari_miner`): Enables merge mining with Monero. Connects XMRig (Monero mining software) to the Tari network to allow simultaneous mining of both Minotari and Monero. This will be dependent on XMRig and the `minotari_merge_mining_proxy`.
+- Tari Universe: A desktop-based client that handles the installation and configuration of Tari in a simple installation. Recommended for the average user.
 
-5. Where did my tXTM go?
-If you see your tXTM balance drop to zero after a restart, you may have been mining previously on an orphaned chain. Orphaned chains can occur when your node can't sync properly with the network. Always ensure that you are mining close to the tip (the current block height), which is posted hourly on the official Tari communication channels.
-Occasionally, there are "reorgs" (reorganizations), which are a normal behavior in blockchains. Reorgs happen when a block is prematurely considered valid and later rejected by secondary consensus checks that sometimes take longer to process. When this occurs, the chain is reorganized, and recent transactions or mining rewards may be rolled back.
+Additional, dependent components that aren't specific to Tari are:
 
-6. What do I do if I am mining at the wrong block height?
-A Reset in Settings usually works (don't reset your wallet). If that doesn't work, you can try deleting all application files and re-install (ask faqqer about how to do that).
+- XMRig: Third-party Monero mining software. Used in conjunction with the `minotari_merge_mining_proxy` to mine both Monero and Tari.
+- Tor: Provides network privacy and NAT traversal. Enables secure, anonymous communication between Tari nodes.
 
-7. How do I delete all system application files?
-On Windows, delete the com.tari.universe folder in 
-Windows
-- C:\users\<name>\AppData\Local\com.tari.universe
-- C:\Users\<username>\AppData\Roaming\com.tari.universe\
-Mac 
-- Library/Application Support/com.tari.universe/
-- Library/caches/com.tari.universe
-- Library/logs/com.tari.universe
+### Are there any Tari blockchain explorers?
+The mainnet explorer will be [https://explore.tari.com](https://explore.tari.com).
 
-9. How do I get the Tari Aurora wallet?
-You learn about and download the Aurora wallet at https://aurora.tari.com/, for iOS and Android.
+Please note that only Testnet explorer is currently live: https://explore-nextnet.tari.com/
 
-10. How long does it take to sync? I am stuck at 43%.
-Sync'ing or the first time takes between 6 and 12 minutes at the moment. This is necessary to download the current status of the blockchain because the integrity of each new block is dependent on all previous blocks.
+## Tokenomics
+### Is there any documentation available describing the tokenomics of Tari?
+Users can refer to the following: [https://tari.substack.com/p/tari-tokenomics](https://tari.substack.com/p/tari-tokenomics)
 
-11. Why am I stuck at 30%?
-Engineers are looking into an issue where mining sync is stuck at 30% possibly due to anti-virus trapping xmrig.
+### What is the tail emission of Tari?
+Tari has a tail emission of 1% per year after initial supply.
 
-12. Why didn't I get my gem rewards for installing and invite referral codes?
-Try disconnecting from the airdrop (Settings -> Airdrop) and re-enter your invite code and follow the process to authenticate with X. If that doesn't work, DM possumously with your X handle.
+### Does Tari have a token allocation plan?
+The total initial supply of Tari (XTM) is 21 billion tokens, with the following allocation:
+**Initial Supply Distribution (21 billion XTM)**
+- 70% to Miners (14.7 billion XTM): The majority of tokens will be distributed through mining, with rewards split 50/50 between merge mining (RandomX algorithm) and standalone mining (SHA3x algorithm).
+- 30% Pre-mine (6.3 billion XTM): This portion is further divided into:
+    - 5% Community (1.05 billion XTM): For incentive programs to encourage and reward community engagement
+    - 9% Protocol Infrastructure and Grants (1.89 billion XTM): To support development of tooling necessary for operating the Tari network
+    - 4% Contributors (0.84 billion XTM): For people who contributed to the development of the Tari network
+    - 12% Participants (2.52 billion XTM): For early supporters who helped make Tari a reality
 
-13. How to solve Critical Error No Version Detected?
-If you are getting a Critical Error about a missing version, please try again in a few hours. CDNs may have have propagated the new version yet.
+**Unlock Schedule**
+- Community Tokens: Unlock monthly for 12 months, beginning 6 months after mainnet launch
+- Protocol Infrastructure and Grants: 40% (756 million tokens) available at launch for protocol liquidity, with the remainder unlocking monthly for 4 years, beginning 6 months after launch
+- Contributor Tokens: Unlock monthly for 5 years, beginning 12 months after mainnet launch
+- Participant Tokens: Unlock monthly for 2 years, beginning 12 months after mainnet launch
 
-14. Why is my cpu is not mining? Why is my cpu power going up and down?
-Seed nodes might be overloaded. Contributors are currently rolling out new Tari node infrastructure to stabilize connections.
+**Long-term Supply**
+After the initial distribution, there will be a tail emission of 1% per year to ensure miners continue to receive compensation for securing the network.
 
-15. Is p2pool working?
-As of November 24th, p2pool is currently paying out about 50% of miners per day. Contributors are working on making it pay out to 90% of miners at least twice a day.
+## Installation and Operational Requirements
+### What are the current networks for Tari?
+- **MainNet** (`mainnet`)- The primary network for live transactions.
+- **StageNet** (`stagenet`) - A stable testing network closely resembling MainNet.
+- **NextNet** (`nextnet`) - A pre-production network for testing features before release.
+- **TestNet** (`testnet`)- A general testing network with frequent resets and experimental features.
+- **LocalNet** (`localnet`) - A local testing environment for development purposes.
+- **Esmeralda** (`esmeralda`)- A stable test network used for testing and mobile wallets.
 
-16. Have missing gem balances been fixed?
-As of Nov 24th, all gem balances have been fixed.
+To specify which network to use when running `minotari_node`, you can set the `TARI_NETWORK` environment variable or use the `--network` command-line argument. If no network is specified, `minotari_node` will use the `testnet` by default unless overridden in the configuration file (`config.toml`) or environment variable. Ensure your configuration file (`~/.tari/config.toml` or equivalent) contains relevant settings for the selected network, such as peer seeds and port numbers.
 
-17. When is the airdrop?
-You can read about the tokenomics timing here: https://tari.substack.com/p/tari-tokenomics
+### What are the size requirements for the Tari chain?
+On average, block size is between 1.3 and 1.5mb. This will result in the chain's average growth of around 1gb per day. Note that the maximum allowed size for a block is 4mb.
 
-18. Why are nextnet explorer outputs sometimes a negative number?
-Check the actual number of outputs in the block details. For some arcane blockchain reason, the Explorer subtracts the number of inputs from the outputs when reporting total outputs.
+### Does Tari require any rent or reservations?
+No.
 
-19. What can I do with my tXTM?
-You can use it to buy swag on the TTL Store (just pay for shipping in fiat). https://store.tarilabs.com/
+### Is there a whitelisting process for nodes for synchronization?
+No.
 
-20. What can I do if I am on a fork or orphan chain or not synchronized?
-Things to try:
-Wait 30 mins
-Restart the app
-Check your Internet connection
-Try using a Tor Bridge (in Settings)
-Try disabling Tor (in Settings)
-Try an app reset (in Settings)
+### Is there a public nodes list?
+There are also bootstrap nodes for the network available via TXT DNS at: [seeds.tari.com](seeds.tari.com)
 
-Updated December 5th 2024
+The Tari protocol addresses for the bootstrap nodes are:
+
+- ""94a4b29148621479b1c1dffb1a2f5680dcf2c0cfb901152e245d6ec299821f61::/ip4/91.134.83.67/tcp/18189""
+- ""7c8e6530294e8bb7ff45b0f39e8bf8ea4e461b3df15a2df1ba3fa3a9bcc9ef71::/ip4/15.235.224.202/tcp/18189""
+- ""54e491e0d88633170a98898f5d89ccc6b4f7ec22252afc23fe645d5bab453734::/ip4/198.244.203.249/tcp/18189""
+- ""54e491e0d88633170a98898f5d89ccc6b4f7ec22252afc23fe645d5bab453734::/onion3/b5zgqd6emm6p2zmj7gdniysbxvmtvltrwshsyfxjoq26xqfjoicge5id:18141""
+- ""94a4b29148621479b1c1dffb1a2f5680dcf2c0cfb901152e245d6ec299821f61::/onion3/x4cc7t4z5bhzz2qoj5qkfje6jnisz5gvzixeygvzwgi6sg3rhpo5rlqd:18141"" 
+
+## Technical Characteristics of Tari
+### What documentation is currently available for Tari?
+- For exchanges, the best starting location is going through the exchange guide here: https://www.tari.com/lessons/09_adding_tari_to_your_exchange
+- The node and wallet require grpc to interact with the API. The proto files include documentation: 
+    - Node: https://github.com/tari-project/tari/blob/development/applications/minotari_app_grpc/proto/base_node.proto
+    - Wallet: https://github.com/tari-project/tari/blob/development/applications/minotari_app_grpc/proto/wallet.proto
+- There are some examples and more detailed explaination of the api here: https://github.com/tari-project/tari/blob/development/docs/src/API_GRPC_Explanation.md
+- In addition, you can refer to the following doc for more information regarding integration with the base node via RPC: https://docs.google.com/document/d/11G2P0yEZkyJIg3WtVpBbACeqpWYgDDqQmlrUKv4HEjk/edit?tab=t.0#heading=h.ap7pxb7d730l
+- The RFC Documents cover some fundamental principles around Tari, and can be located here: https://rfc.tari.com/
+- Additional minor documentation can be found in: https://github.com/tari-project/tari/blob/development/docs/src/
+
+### What kind of blockchain is Tari?
+Tari is a proof-of-work, merge-mined blockchain focused on privacy and digital asset support.
+
+### What consensus model does Tari use?
+Tari uses a Proof-of-Work (PoW) model for consensus and security, and is merge-mined with Monero. Tari uses two algorithms for this purpose:
+- RandomX: This is the same CPU-optimized algorithm used by Monero. It is merge-mined with Monero, meaning miners can mine both networks at once using the same work.
+- Sha3x: A custom algorithm based on SHA-3 (specifically SHA3-256), optimized for GPU mining. It's designed to provide algorithmic diversity and broaden miner participation.
+
+The primary aim is to increase the cost of 51% attacks, ensuring mining decentralization and resilience against hardware centralization.
+
+### Is Tari cross-chain?
+No. Swaps must be performed manually at this time.
+
+### Is Tari account-based?
+No. Tari uses the UTXO model, similar to Bitcoin. As such, there is no specific account tied to a user's transactions on Minotari. The closest comparison is the private keys associated with the wallet, which are used to sign transactions and validate existing UTXOs for things like calculating balance.
+
+### How often is a block mined / what is the interval per block / what is the block production rate?
+Blocks are mined every 120 seconds.
+
+### What is the precision of Minotari?
+Minotari can be traded at 0.000001 XTM. Fractional Minotari is referred to as Microtari (μT).
+
+### What coins is Tari similar to?
+Bitcoin, Grin, Beam, Litecoin
+
+### Does Tari have "super nodes"?
+Assuming that "super nodes" in this context are high-performance, specialized nodes that play a critical role in validation, governance, or network infrastructure, then **no**. All base nodes have an equal role in ensuring the security of the network.
+
+### What is the transaction expiration policy in the transaction pool? Is there a timeout duration after which unconfirmed transactions are removed?
+Completed transactions are never removed. Pending transactions have a timeout of three (3) days; if they have not been completed within that period, the wallet will remove that transaction and mark it as canceled.
+
+### How does Tari prevent forks?
+Tari, like most blockchains, cannot definitively prevent forks, but has a number of mechanisms to minimise the chance of forks and to deal with fork occurence:
+
+- **Proof-of-work**: A PoW model ensures blocks are valid through computational effort expended to validate the block.
+- **Strongest Chain**: Tari will focus on the strongest chain (strongest being the chain with the most computational effort used to mine blocks due to higher difficulty)
+- **Merge-mining with Monero**: Miners are incentivized to maintain a single, consistent chain to ensure rewards from both chains.
+
+A list of the current strongest checkpoints are published on https://checkpoints.tari.com
+
+### Does Tari provide dividends or interest for running a node?
+No.
+
+### Do transactions support multiple signatures?
+Yes.
+
+### Does Tari have fees? If so, what is the fee mechanism?
+There is a fee. The fee for a transaction in Tari is calculated based on the transaction's weight and the specified fee-per-gram value. The relevant formula is implemented in the `Fee::calculate` method located in the `base_layer/core/src/transactions/fee.rs` file. Here's a summary of how it works:
+
+1. Transaction Weight: The weight is determined by the number of kernels, inputs, outputs, and the size of features and scripts in bytes. This is computed using the TransactionWeight class.
+2. Fee Calculation: The formula for the fee is: fee = weight * fee_per_gram
+
+where `weight` is the total calculated weight of the transaction, and `fee_per_gram` is the fee per gram specified for the transaction.
+
+For more details, you can explore the `Fee::calculate` implementation in the https://github.com/tari-project/tari/blob/693cd7ab56deddcd089cfbc4b4128af8e94e9786/base_layer/core/src/transactions/fee.rs.
+
+### Does each block in the Tari blockchain include a coinbase transaction, and if so, how is the block reward distributed?
+Yes, each block in the Tari blockchain includes a coinbase transaction as part of the consensus rules. The coinbase transaction is created to distribute the block reward, which consists of:
+
+- **Block Subsidy**: Newly minted Tari as defined by the emission schedule.
+- **Transaction Fees**: Fees collected from all transactions included in the block.
+
+The entire block reward (block subsidy + transaction fees) is assigned to the miner who successfully mines the block. The coinbase transaction includes an output specifying the miner's wallet address to receive the reward. The reward structure is implemented programmatically during block construction, ensuring compliance with the consensus rules
+
+### Does Tari support offline signing/transactions?
+Yes, Tari transactions can be signed offline.
+
+### How is the Tari blockchain secured?
+Tari relies on the Nakamoto Consensus and dual mining algorithms, with approximately 50% of block rewards derived from merged-mining monero via RandomX and the other 50% from Sha3x mining.
+
+### What is the block reward emission schedule in Tari?
+The Tari emission schedule is designed to distribute new Tari through block rewards using an exponentially decaying model, followed by a tail emission phase. Initially, block rewards start at a high value and decay gradually over time based on a decay factor. For example, the starting block reward is approximately 12.92 Minotari (12,923,971 µT), and it decreases over time as the decay factor is applied. This approach ensures a predictable reduction in rewards, similar to Monero's emission model, without abrupt halving events.
+
+Once the decaying rewards reach a minimum threshold, Tari introduces a tail emission phase. In this phase, miners receive a constant minimum reward per block. For instance, the tail emission reward is set to approximately 0.764 Minotari (764,000 µT) per block. This ensures ongoing miner incentives and long-term network security, preventing the total supply from becoming completely fixed. Combined with a pre-defined epoch length, the emission schedule balances early incentives with sustainable rewards over time.
+
+The emission schedule also incorporates inflation during the tail emission phase. The inflation rate is recalculated at periodic intervals (epochs) based on the current circulating supply and is designed to remain minimal. This ensures that while the total supply continues to increase, the rate of new issuance slows significantly, maintaining economic stability within the Tari ecosystem.
+
+### What is Tari's finality model?
+While a transaction is never technically finalized in Tari, given the UTXO model, as time progresses and more blocks are mined it becomes statistically unlikely that a transaction can be reversed. We normally recommend at least 6 blocks to ensure transaction finality, which would be considered 99% finalized given the computational power required to rewrite the blockchain at that point.
+
+### What is the transaction throughput of the Tari network?
+Tari is capable of approximately 8.3 transactions per second.
+
+### How does Tari prevent double-spending?
+Tari prevents double spending through several mechanisms rooted in Mimblewimble's cryptographic principles and its enhancements with TariScript.
+
+- **Range Proof and Commitments**:Every transaction output is represented as a cryptographic commitment, which conceals the value and the keys using Pedersen commitments. Each commitment ensures that only the private key owner can spend the output. In addition, a range proof ensures that the transaction value is positive, preventing invalid and negative values.
+- **Transaction Kernel**: Every transaction in Tari includes a kernel that records the public excess value and a signature. The kernel ensures that inputs and outputs balance without revealing transaction amounts, and it prevents tampering by validating the signature.
+- **Replay Prevention**: Every transaction includes the block height at the time of transaction, and is tied to the transaction. To replay the transaction, an attacker would require the private cryptographic key used to sign the transaction. Private keys are 128-bit, resulting in 2¹²⁸ possible combinations and would require, according to current mathematics and processing power, billions of years on the world's fastest computers to guess.
+
+## Development
+### Does Tari have a public facing API interface?
+Yes. There are two access points depending on your requirements:
+
+- Mainnet: [https://grpc.mainnet.tari.com](https://grpc.mainnet.tari.com)
+- Testing: [https://grpc.nextnet.tari.com](https://grpc.nextnet.tari.com)
+
+### What documentation is available for developers?
+
+If you are interested in contributing to the Tari project, please review our community guidelines here: https://github.com/tari-project/tari/edit/development/Contributing.md
+
+You can also review the following documents:
+- The RFC Documents cover some fundamental principles around Tari, and can be located here: https://rfc.tari.com/
+- Additional minor documentation can be found in: https://github.com/tari-project/tari/blob/development/docs/src/
+- The node and wallet require grpc to interact with the API. The proto files include documentation: 
+    - Node: https://github.com/tari-project/tari/blob/development/applications/minotari_app_grpc/proto/base_node.proto
+    - Wallet: https://github.com/tari-project/tari/blob/development/applications/minotari_app_grpc/proto/wallet.proto
+- There are some examples and more detailed explaination of the api here: https://github.com/tari-project/tari/blob/development/docs/src/API_GRPC_Explanation.md
+
+You can also review the Wallet FFI here: 
+
+### What are the rules governing the construction of addresses in Tari?
+You can read more [here](https://rfc.tari.com/RFC-0155_TariAddress), but we have summarized below:
+
+The address is a base58-encoded and adheres to the following bytes/rules:
+- 0 - Network: Determines which network the address belongs to.
+- 1 - Features: Indicates whether the feature set for this address is for a one-sided address or an interactive address. Valid values for these are 1 and 2 respectively.
+- 2 to 33 - Public view key
+- 34 to 65 - Public Spend Key
+- 66 - Checksum using the DammSumm algorithm
+
+### Does Tari support memo functions like EOS?
+Yes. The memo function in this case is the Payment ID, and is encrypted with each output.
+
+## Exchanges
+### How many block confirmations are required to ensure safe transactions/credit?
+For exchanges, it is recommended that a minimum of 6+ block confirmations is used to ensure safety.

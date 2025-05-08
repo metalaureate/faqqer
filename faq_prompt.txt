@@ -263,3 +263,7 @@ Yes. The memo function in this case is the Payment ID, and is encrypted with eac
 ## Exchanges
 ### How many block confirmations are required to ensure safe transactions/credit?
 For exchanges, it is recommended that a minimum of 6+ block confirmations is used to ensure safety.
+
+# Other FAQs
+## Blockhain Hash Rates
+Visit the block explorer at https://explore.tari.com/

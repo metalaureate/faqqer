@@ -7,6 +7,7 @@ from openai import OpenAI, OpenAIError
 import openai
 from dotenv import load_dotenv
 import json
+import requests
 from blockchain_job import schedule_block_height_job, schedule_hash_power_job  # Import the block height job
 import asyncio
 from telethon.tl.types import Channel
@@ -34,9 +35,33 @@ client = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
 # Load the FAQ from the uploaded text file
 faq_file_path = 'faq_prompt.txt'
 
-# Read the FAQ content
+# Function to fetch FAQ content from GitHub
+def fetch_github_faq():
+    github_url = "https://raw.githubusercontent.com/tari-project/tari/refs/heads/development/docs/src/Tari_FAQ.md"
+    try:
+        response = requests.get(github_url)
+        if response.status_code == 200:
+            logging.info("Successfully fetched FAQ from GitHub")
+            return response.text
+        else:
+            logging.error(f"Failed to fetch FAQ from GitHub: Status code {response.status_code}")
+            return None
+    except Exception as e:
+        logging.error(f"Error fetching FAQ from GitHub: {e}")
+        return None
+
+# Read the local FAQ content
 with open(faq_file_path, 'r', encoding='utf-8') as faq_file:
-    faq_text = faq_file.read()
+    local_faq_text = faq_file.read()
+
+# Fetch and combine with GitHub content
+github_faq_text = fetch_github_faq()
+if github_faq_text:
+    faq_text = github_faq_text + "\n\n" + local_faq_text
+    logging.info("Combined FAQ content from GitHub and local file")
+else:
+    faq_text = local_faq_text
+    logging.warning("Using only local FAQ content as GitHub fetch failed")
 
 with open("avoidance_" + faq_file_path, 'r', encoding='utf-8') as faq_file:
     faq_avoidance_text = faq_file.read()

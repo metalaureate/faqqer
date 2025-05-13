@@ -120,6 +120,8 @@ def find_faq_answer(question):
     prompt = """
     Search the FAQ for the answer.
     Avoid mentioning banned topics.
+    If you can't find the answer, use your knowledge of cryptocurrency and blockchain to provide a relevant answer.
+    If you don't know the answer, say that the question will be forwarded to support staff for answering.
      
     Question:  %s
     Answer in JSON format: {'answer': '<answer>'}

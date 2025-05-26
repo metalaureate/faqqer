@@ -34,16 +34,17 @@ def get_latest_info():
     if response.status_code == 200:
         data = response.json()
         block_height=int(data['tipInfo']['metadata']['best_block_height'])
-        currentShaHashRate=int(data['currentShaHashRate'])
-        currentMoneroHashRate=int(data['currentMoneroHashRate'])
-        return  block_height, currentShaHashRate, currentMoneroHashRate
+        currentShaHashRate=int(str(data['currentSha3xHashRate']).replace(',', ''))
+        currentMoneroHashRate=int(str(data['currentMoneroRandomxHashRate']).replace(',', ''))
+        currentTariRXHashRate=int(str(data['currentTariRandomxHashRate']).replace(',', ''))
+        return  block_height, currentShaHashRate, currentMoneroHashRate,currentTariRXHashRate
     else:
         raise Exception(f"Failed to fetch data: {response.status_code}")
 
 async def post_block_height(client):
     try:
         # Fetch the block height stats
-        block_height, x,y = get_latest_info()
+        block_height, x,y,z = get_latest_info()
 
         # List of sample questions
         questions = [
@@ -93,18 +94,20 @@ def schedule_block_height_job(client, loop):
 async def post_hash_power(client):
     try:
         # Fetch block height and hash rates
-        block_height, current_sha_hash_rate, current_rx_hash_rate = get_latest_info()
+        block_height, current_sha_hash_rate, current_rxm_hash_rate , current_rxt_hash_rate= get_latest_info()
         
         # Format the hash rates with appropriate units
         formatted_sha_hash_rate = format_hash_rate(current_sha_hash_rate)
-        formatted_rx_hash_rate = format_hash_rate(current_rx_hash_rate)
+        formatted_rxm_hash_rate = format_hash_rate(current_rxm_hash_rate)
+        formatted_rxt_hash_rate = format_hash_rate(current_rxt_hash_rate)
         
         # Create the hash power stats message
         hash_power_stats = (
             f"📊 Current Tari Network Stats 📊\n"
             f"Block Height: {block_height:,}\n"
-            f"SHA3 Hash Rate: {formatted_sha_hash_rate}\n"
-            f"RandomX Hash Rate: {formatted_rx_hash_rate}\n\n"
+            f"RandomX (Tari) Hash Rate: {formatted_rxt_hash_rate}\n"
+            f"RandomX (Merged-Mined XMR) Hash Rate: {formatted_rxm_hash_rate}\n"
+            f"SHA3x Hash Rate: {formatted_sha_hash_rate}\n\n"
             f"Want to learn more? Try '/faq mining' to get information about mining Tari."
         )
         
@@ -138,5 +141,17 @@ def schedule_hash_power_job(client, loop):
 
     logging.info("Scheduler started for hash power job")
 
+
+if __name__ == "__main__":
+    # test post hash power function
+    # call and prin the result
+    block_height, current_sha_hash_rate, current_rxm_hash_rate , current_rxt_hash_rate= get_latest_info()
+    formatted_sha_hash_rate = format_hash_rate(current_sha_hash_rate)
+    formatted_rxm_hash_rate = format_hash_rate(current_rxm_hash_rate)
+    formatted_rxt_hash_rate = format_hash_rate(current_rxt_hash_rate)
+    print(f"Block Height: {block_height:,}")
+    print(f"RandomX (Tari) Hash Rate: {formatted_rxt_hash_rate}")
+    print(f"RandomX (Merged-Mined XMR) Hash Rate: {formatted_rxm_hash_rate}")
+    print(f"SHA3x Hash Rate: {formatted_sha_hash_rate}")
 
 

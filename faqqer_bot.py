@@ -277,7 +277,7 @@ async def main():
     
     # Schedule other jobs if needed
     #schedule_block_height_job(client, asyncio.get_event_loop())
-    #schedule_hash_power_job(client, asyncio.get_event_loop())
+    schedule_hash_power_job(client, asyncio.get_event_loop())
     
     # Start the Telegram bot
     logging.info("Bot is running with hourly FAQ refresh...")

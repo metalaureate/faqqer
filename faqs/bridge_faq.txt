@@ -1,0 +1,103 @@
+# Tari Universe | Bridge x User Guide & FAQs
+
+<aside>
+💡 Tari is the L1 protocol powered by you - proof of work, beautiful apps anyone can use, and an ingenious native app platform to put all of its power in your hands. 
+
+Learn more about Tari [here](https://www.tari.com/).
+
+</aside>
+
+### What is the Tari Bridge?
+
+The Tari Bridge allows you to wrap your XTM from the Tari network into wXTM (Wrapped XTM) on Ethereum. It’s a one-way bridge currently available **only inside the Tari Universe desktop app**.
+
+---
+
+### Is the Tari Bridge audited?
+
+Yes — the Tari Bridge smart contracts have been **audited by [Coinspect](https://www.coinspect.com/)**, a leading blockchain security firm.
+
+You can review the full **audit report here**:
+
+👉 [Coinspect Audit – Tari wXTM Bridge (Fix Review, v250528)](https://www.coinspect.com/doc/Coinspect%20-%20Smart%20Contract%20Audit%20-%20Tari%20-%20wXTM%20Bridge%20-%20Fix%20Review%20-%20v250528.pdf)
+
+Security is a top priority for us. The Tari Bridge has been designed with robust protections and has undergone external review to help ensure safe use.
+
+---
+
+### What will I receive?
+
+You’ll receive **wXTM**, an ERC-20 version of your XTM, directly into the Ethereum wallet you connect during the bridging process.
+
+---
+
+### What wallets can I use to send my XTM?
+
+You can only bridge from your native **Tari Universe wallet**.
+
+This wallet is created automatically when you use the Tari Universe desktop app, and it’s where you receive your mining rewards. If you have XTM on any other wallet, you must send it to your Tari Universe desktop wallet by:
+
+- Download and install Tari Universe
+- Hit the receive button to get your newly created wallet’s address
+- Securely send your XTM to this wallet
+- Bridge XTM to wXTM using the Bridge feature
+
+---
+
+### Where will my wXTM go?
+
+You’ll be prompted to **connect your Ethereum wallet** before bridging.
+
+Once the bridge is complete, your wXTM will be delivered to that wallet address. Please **never share your wallet’s private seed phrase** — **no Tari contributors will ever ask for it.**
+
+---
+
+### What’s the minimum amount I can bridge?
+
+You need to bridge at least **1,000 XTM** to use the Tari Bridge.
+
+---
+
+### How much are the fees?
+
+A flat **0.5% fee** applies to every bridge transaction.
+
+This covers all costs, including Ethereum gas fees.
+
+---
+
+### How long does bridging take?
+
+- For **1,000 – 100,000 XTM**, bridging usually takes between a **few minutes and 12 hours**, depending on network traffic.
+- **Transaction Cap:** Transactions are initially capped at 100,000 XTM for security purposes. Transactions exceeding this amount will fail. There is no limit to the number of transactions you can do.  This cap will increase and eventually be removed as the feature matures.
+
+---
+
+### How do I track the status of my bridge?
+
+- If the status doesn’t update right away inside the Tari Universe app, you can **check Etherscan**.
+- Go to [https://etherscan.io](https://etherscan.io/) and **search for your destination Ethereum wallet address** — the one you connected for receiving wXTM.
+- The transaction will show there once it’s complete, even if the Tari UI hasn't yet updated.
+
+---
+
+### Etherscan shows the bridge is complete, but I don’t see my wXTM in MetaMask?
+
+Don’t worry — you probably just need to **add the wXTM token manually** to your wallet.
+
+To do this:
+
+1. Open your wallet (e.g. MetaMask)
+2. Click “Import Token” or “Add Custom Token”
+3. Paste the official **wXTM contract address**:
+    
+    `0xfD36fA88bb3feA8D1264fc89d70723b6a2B56958` ← *(update with real address)*
+    
+
+Once added, your wXTM balance should show up.
+
+
+Contracts Addresses:
+wXTM: 0xfD36fA88bb3feA8D1264fc89d70723b6a2B56958
+
+

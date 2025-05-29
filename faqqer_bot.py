@@ -29,42 +29,122 @@ bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
 api_id = os.getenv('TELEGRAM_API_ID')  # From Telegram Developer Portal
 api_hash = os.getenv('TELEGRAM_API_HASH')  # From Telegram Developer Portal
 
-# Initialize the Telegram bot client
-client = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
+# Initialize the Telegram bot client (don't start it yet)
+client = TelegramClient('bot', api_id, api_hash)
 
 # Load the FAQ from the uploaded text file
-faq_file_path = 'faq_prompt.txt'
+faq_file_path = os.path.join('faqs', 'faq_prompt.txt')
 
-# Function to fetch FAQ content from GitHub
-def fetch_github_faq():
-    github_url = "https://raw.githubusercontent.com/tari-project/tari/refs/heads/development/docs/src/Tari_FAQ.md"
-    try:
-        response = requests.get(github_url)
-        if response.status_code == 200:
-            logging.info("Successfully fetched FAQ from GitHub")
-            return response.text
-        else:
-            logging.error(f"Failed to fetch FAQ from GitHub: Status code {response.status_code}")
-            return None
-    except Exception as e:
-        logging.error(f"Error fetching FAQ from GitHub: {e}")
+# Function to fetch FAQ content from multiple remote sources
+def fetch_remote_faq_content():
+    import os
+    import glob
+    
+    # Path to the FAQs folder
+    faqs_folder = os.path.join(os.path.dirname(__file__), 'faqs')
+    
+    combined_content = ""
+    successful_fetches = 0
+    total_sources = 0
+    
+    if not os.path.exists(faqs_folder):
+        logging.error(f"FAQs folder not found: {faqs_folder}")
+        return None
+    
+    # Process .url files (remote URLs)
+    url_files = glob.glob(os.path.join(faqs_folder, '*.url'))
+    for url_file in url_files:
+        total_sources += 1
+        try:
+            with open(url_file, 'r', encoding='utf-8') as f:
+                url = f.read().strip()
+                
+            logging.info(f"Fetching from URL file {os.path.basename(url_file)}: {url}")
+            response = requests.get(url)
+            
+            if response.status_code == 200:
+                # Check if the content is HTML (indicating web page rather than raw content)
+                content_type = response.headers.get('content-type', '').lower()
+                is_html = 'text/html' in content_type or response.text.strip().startswith('<!doctype html') or response.text.strip().startswith('<html')
+                
+                if is_html:
+                    logging.warning(f"Skipping {url} - returns HTML web page instead of raw content")
+                    continue
+                    
+                logging.info(f"Successfully fetched FAQ from {url}")
+                combined_content += f"\n\n=== Content from {os.path.basename(url_file)} ({url}) ===\n\n"
+                combined_content += response.text
+                successful_fetches += 1
+            else:
+                logging.error(f"Failed to fetch FAQ from {url}: Status code {response.status_code}")
+        except Exception as e:
+            logging.error(f"Error processing URL file {url_file}: {e}")
+    
+    # Process .txt files (local text content)
+    txt_files = glob.glob(os.path.join(faqs_folder, '*.txt'))
+    for txt_file in txt_files:
+        total_sources += 1
+        try:
+            with open(txt_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+                
+            logging.info(f"Successfully loaded local FAQ file: {os.path.basename(txt_file)}")
+            combined_content += f"\n\n=== Content from {os.path.basename(txt_file)} ===\n\n"
+            combined_content += content
+            successful_fetches += 1
+        except Exception as e:
+            logging.error(f"Error reading local FAQ file {txt_file}: {e}")
+    
+    if successful_fetches > 0:
+        logging.info(f"Successfully loaded content from {successful_fetches} out of {total_sources} FAQ sources")
+        return combined_content
+    else:
+        logging.error("Failed to load content from any FAQ sources")
         return None
 
-# Read the local FAQ content
-with open(faq_file_path, 'r', encoding='utf-8') as faq_file:
-    local_faq_text = faq_file.read()
+# Global variables for FAQ content that will be refreshed periodically
+faq_text = ""
+local_faq_text = ""
+faq_avoidance_text = ""
 
-# Fetch and combine with GitHub content
-github_faq_text = fetch_github_faq()
-if github_faq_text:
-    faq_text = github_faq_text + "\n\n" + local_faq_text
-    logging.info("Combined FAQ content from GitHub and local file")
-else:
-    faq_text = local_faq_text
-    logging.warning("Using only local FAQ content as GitHub fetch failed")
+# Function to refresh FAQ content
+def refresh_faq_content():
+    global faq_text, local_faq_text, faq_avoidance_text
+    
+    try:
+        # Read the local FAQ content
+        with open(faq_file_path, 'r', encoding='utf-8') as faq_file:
+            local_faq_text = faq_file.read()
+        
+        # Read the avoidance FAQ content
+        avoidance_file_path = 'avoidance_faq_prompt.txt'
+        with open(avoidance_file_path, 'r', encoding='utf-8') as faq_file:
+            faq_avoidance_text = faq_file.read()
+        
+        # Fetch and combine with remote content
+        remote_faq_text = fetch_remote_faq_content()
+        if remote_faq_text:
+            faq_text = remote_faq_text + "\n\n" + local_faq_text
+            logging.info("FAQ content refreshed: Combined content from remote sources and local file")
+        else:
+            faq_text = local_faq_text
+            logging.warning("FAQ content refreshed: Using only local FAQ content as remote fetch failed")
+            
+    except Exception as e:
+        logging.error(f"Error refreshing FAQ content: {e}")
 
-with open("avoidance_" + faq_file_path, 'r', encoding='utf-8') as faq_file:
-    faq_avoidance_text = faq_file.read()
+# Async function to periodically refresh FAQ content
+async def periodic_faq_refresh():
+    while True:
+        try:
+            await asyncio.sleep(3600)  # Wait 1 hour (3600 seconds)
+            logging.info("Starting periodic FAQ content refresh...")
+            refresh_faq_content()
+        except Exception as e:
+            logging.error(f"Error in periodic FAQ refresh: {e}")
+
+# Initialize FAQ content on startup
+refresh_faq_content()
 
 
 async def list_channels(client):
@@ -162,12 +242,47 @@ async def handler(event):
     # Respond to the user with the answer
     await event.reply(f"{answer}")
 
-# Get the current event loop
-loop = asyncio.get_event_loop()
+# Manual FAQ refresh command handler
+@client.on(events.NewMessage(pattern=r'/refresh_faq'))
+async def refresh_handler(event):
+    try:
+        logging.info("Manual FAQ refresh requested")
+        await event.reply("🔄 Refreshing FAQ content...")
+        refresh_faq_content()
+        await event.reply("✅ FAQ content has been refreshed successfully!")
+    except Exception as e:
+        logging.error(f"Error in manual FAQ refresh: {e}")
+        await event.reply("❌ Failed to refresh FAQ content. Please try again later.")
 
-# Schedule the block height job
-#schedule_block_height_job(client , loop)
-#schedule_hash_power_job(client, loop)
-# Start the Telegram bot
-logging.info("Bot is running...")
-client.run_until_disconnected()
+# Main execution function
+async def main():
+    # Start the Telegram client
+    await client.start(bot_token=bot_token)
+    logging.info("Telegram client started successfully")
+    
+    # Print the FAQ content for debugging
+    print("\n" + "="*80)
+    print("CURRENT FAQ CONTENT:")
+    print("="*80)
+    print(f"FAQ Text Length: {len(faq_text)} characters")
+    print(f"Local FAQ Length: {len(local_faq_text)} characters")
+    print(f"Avoidance FAQ Length: {len(faq_avoidance_text)} characters")
+    print("\nFirst 500 characters of FAQ content:")
+    print("-" * 50)
+    print(faq_text[:500] + "..." if len(faq_text) > 500 else faq_text)
+    print("="*80 + "\n")
+    
+    # Start the periodic FAQ refresh task
+    asyncio.create_task(periodic_faq_refresh())
+    
+    # Schedule other jobs if needed
+    #schedule_block_height_job(client, asyncio.get_event_loop())
+    #schedule_hash_power_job(client, asyncio.get_event_loop())
+    
+    # Start the Telegram bot
+    logging.info("Bot is running with hourly FAQ refresh...")
+    await client.run_until_disconnected()
+
+# Run the main function
+if __name__ == "__main__":
+    asyncio.run(main())

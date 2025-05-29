@@ -33,11 +33,11 @@ def get_latest_info():
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()
-        block_height=int(data['tipInfo']['metadata']['best_block_height'])
-        currentShaHashRate=int(str(data['currentSha3xHashRate']).replace(',', ''))
-        currentMoneroHashRate=int(str(data['currentMoneroRandomxHashRate']).replace(',', ''))
-        currentTariRXHashRate=int(str(data['currentTariRandomxHashRate']).replace(',', ''))
-        return  block_height, currentShaHashRate, currentMoneroHashRate,currentTariRXHashRate
+        block_height = int(data['tipInfo']['metadata']['best_block_height'])
+        currentShaHashRate = int(str(data['currentSha3xHashRate']).replace(',', ''))
+        currentMoneroHashRate = int(str(data['currentMoneroRandomxHashRate']).replace(',', ''))
+        currentTariRXHashRate = int(str(data['currentTariRandomxHashRate']).replace(',', ''))
+        return block_height, currentShaHashRate, currentMoneroHashRate, currentTariRXHashRate
     else:
         raise Exception(f"Failed to fetch data: {response.status_code}")
 

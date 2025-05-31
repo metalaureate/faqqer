@@ -2,6 +2,7 @@ import os
 import re
 import traceback
 import logging
+from datetime import datetime
 from telethon import TelegramClient, events
 from openai import OpenAI, OpenAIError
 import openai
@@ -12,6 +13,10 @@ from blockchain_job import schedule_block_height_job, schedule_hash_power_job  #
 from customer_analysis_job import schedule_customer_analysis_job, manual_analysis_trigger  # Import customer analysis job
 import asyncio
 from telethon.tl.types import Channel
+
+# FAQQer Bot Version
+FAQQER_VERSION = "1.2.0"
+BUILD_DATE = "2025-05-31"
 
 # Load environment variables from the .env file
 load_dotenv()
@@ -277,14 +282,53 @@ async def analyze_support_handler(event):
         logging.error(f"Error in manual customer analysis: {e}")
         await event.reply("❌ Failed to run customer service analysis. Please try again later.")
 
+# Version command handler
+@client.on(events.NewMessage(pattern=r'/version'))
+async def version_handler(event):
+    try:
+        logging.info("Version command requested")
+        
+        # Get current timestamp for runtime info
+        current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC")
+        
+        version_info = f"""
+🤖 **FAQQer Bot Version Information**
+
+**Version:** {FAQQER_VERSION}
+**Build Date:** {BUILD_DATE}
+**Runtime:** {current_time}
+
+**Features:**
+• FAQ answering with OpenAI GPT-4o
+• Hash rate monitoring
+• Periodic FAQ content refresh
+• Customer service analysis
+• Multi-source FAQ loading (local + remote)
+
+**Commands:**
+• `/faq <question>` - Ask a question
+• `/version` - Show version info
+• `/refresh_faq` - Refresh FAQ content
+• `/analyze_support [hours]` - Run customer analysis
+"""
+        
+        await event.reply(version_info)
+        
+    except Exception as e:
+        logging.error(f"Error in version command: {e}")
+        await event.reply("❌ Failed to retrieve version information.")
+
 # Main execution function
 async def main():
     # Start the Telegram client
     await client.start(bot_token=bot_token)
-    logging.info("Telegram client started successfully")
+    logging.info(f"FAQQer Bot v{FAQQER_VERSION} (Build: {BUILD_DATE}) - Telegram client started successfully")
     
-    # Print the FAQ content for debugging
+    # Print version and FAQ content for debugging
     print("\n" + "="*80)
+    print(f"FAQQER BOT v{FAQQER_VERSION}")
+    print(f"Build Date: {BUILD_DATE}")
+    print("="*80)
     print("CURRENT FAQ CONTENT:")
     print("="*80)
     print(f"FAQ Text Length: {len(faq_text)} characters")
@@ -304,7 +348,7 @@ async def main():
     #schedule_customer_analysis_job(client, asyncio.get_event_loop())  # Customer service analysis every 3 hours
     
     # Start the Telegram bot
-    logging.info("Bot is running with hourly FAQ refresh and 3-hourly customer analysis...")
+    logging.info(f"FAQQer Bot v{FAQQER_VERSION} is running with hourly FAQ refresh and hash power monitoring...")
     await client.run_until_disconnected()
 
 # Run the main function

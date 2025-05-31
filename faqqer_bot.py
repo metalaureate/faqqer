@@ -15,7 +15,7 @@ import asyncio
 from telethon.tl.types import Channel
 
 # FAQQer Bot Version
-FAQQER_VERSION = "1.2.0"
+FAQQER_VERSION = "1.2.2"
 BUILD_DATE = "2025-05-31"
 
 # Load environment variables from the .env file
@@ -291,6 +291,10 @@ async def version_handler(event):
         # Get current timestamp for runtime info
         current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC")
         
+        # Check if customer analysis is available
+        phone_number = os.getenv('TELEGRAM_PHONE_NUMBER')
+        analysis_status = "✅ Available" if phone_number else "⚠️ Requires TELEGRAM_PHONE_NUMBER"
+        
         version_info = f"""
 🤖 **FAQQer Bot Version Information**
 
@@ -302,7 +306,7 @@ async def version_handler(event):
 • FAQ answering with OpenAI GPT-4o
 • Hash rate monitoring
 • Periodic FAQ content refresh
-• Customer service analysis
+• Customer service analysis: {analysis_status}
 • Multi-source FAQ loading (local + remote)
 
 **Commands:**

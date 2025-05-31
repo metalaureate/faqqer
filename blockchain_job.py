@@ -140,9 +140,9 @@ def schedule_hash_power_job(client, loop):
     # Initialize the scheduler
     scheduler = BackgroundScheduler()
 
-    # Add the job to post hash power every hour
+    # Add the job to post hash power every 3 hours
     scheduler.add_job(lambda: loop.create_task(post_hash_power(client)),
-                      CronTrigger.from_crontab('0 * * * *'))
+                      CronTrigger.from_crontab('0 */3 * * *'))
 
     # Start the scheduler
     scheduler.start()

@@ -288,6 +288,29 @@ async def run_customer_service_analysis(telegram_client, target_group_id=None, h
     analysis_hours = hours if hours is not None else ANALYSIS_HOURS
     
     try:
+        # Check if phone number is available for user authentication
+        import os
+        phone_number = os.getenv('TELEGRAM_PHONE_NUMBER')
+        if not phone_number:
+            logging.warning("TELEGRAM_PHONE_NUMBER not configured - customer analysis requires user account access")
+            no_auth_msg = f"""
+🔍 **Customer Service Analysis - {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}**
+
+⚠️ **Analysis Unavailable**
+Customer service analysis requires a Telegram user account to read channel history.
+Bot accounts cannot access historical messages from channels.
+
+**To enable this feature:**
+• Configure TELEGRAM_PHONE_NUMBER environment variable
+• Ensure the user account has access to the analyzed channels
+
+**Current Configuration:**
+• Analysis would cover: {', '.join(ANALYSIS_CHANNELS)}
+• Time period: Last {analysis_hours} hours
+"""
+            await send_message_to_group(telegram_client, no_auth_msg, target_group_id)
+            return
+        
         logging.info(f"Starting customer service analysis for last {analysis_hours} hours...")
         
         # Use the archiver to get recent messages

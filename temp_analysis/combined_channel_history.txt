@@ -1,37 +1,8 @@
 Combined Chat History for channels: tariproject, OrderOfSoon
 Time period: Last 3 hours
-Generated on: 2025-05-31 14:19:48 UTC
+Generated on: 2025-05-31 14:56:29 UTC
 ======================================================================
 
-Channel: tariproject | User: None | Date: 2025-05-31 11:23:00
-Message: На винде запустил один комп с тари, синхронизация прошла майнит, на второй поставил программу и скопировал туда адрес и секретные слова, но синхронизация не проходит, что делаю не так? 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-05-31 11:23:11
-Message: can I bridge with the console wallet? 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-05-31 11:29:48
-Message: well yea, knowing that part, but what I rather meant is the communication protocol between miner soft and pool / node :) (Replying to: Unknown message)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-05-31 11:38:58
-Message: Universe says in progress (Replying to: Unknown message)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-05-31 11:42:09
-Message: The person 13 posts above yours hit block 17331 (Replying to: Unknown message)
---------------------------------------------------
-Channel: OrderOfSoon | User: Infokeeper | Date: 2025-05-31 11:43:54
-Message: Hello!
-Is there any option in the program to set the path for it's data?
-I have created a link and it works, but it would be nice to set this path in the app it self. I run out of space and I had to search for the app path... 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-05-31 11:43:58
-Message: Can I use my node address in xmrig? 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-05-31 11:44:46
-Message: Will it work and will my balance update 🧐 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-05-31 11:53:04
-Message: Project have a faucet?? 
---------------------------------------------------
 Channel: tariproject | User: None | Date: 2025-05-31 11:58:52
 Message: Hatchling pool says no blocks 60 mins already, but in block explorer there are blocks. What's going on? 
 --------------------------------------------------
@@ -279,4 +250,35 @@ Message: ? It won a block like 20 mins ago or sooner? Payouts are a little delay
 --------------------------------------------------
 Channel: tariproject | User: None | Date: 2025-05-31 14:12:40
 Message: Can anyone help me with a stuck bridge TX? 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 14:19:54
+Message: Same 
+--------------------------------------------------
+Channel: tariproject | User: efaykue_bot | Date: 2025-05-31 14:28:31
+Message: Please provide a specific question or topic you would like information on. You can use the format '/faq <type your question inline>'. For example, '/faq What is Tari Universe?'. 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 14:31:17
+Message: /faq where can I find base-node-gprc-address  linux PC I'm using! 
+--------------------------------------------------
+Channel: tariproject | User: efaykue_bot | Date: 2025-05-31 14:31:21
+Message: The base node gRPC address can typically be found in the configuration file of the Tari software on your Linux PC. This file is usually named `config.toml` and is located in the Tari directory, often under `~/.tari/`. You can open this file with a text editor to find and modify the gRPC address settings. If you need further assistance, please refer to the installation instructions at https://github.com/tari-project/tari/ or contact support staff. (Replying to: /faq where can I find base-node-gprc-address  linux PC I'm using!)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 14:31:23
+Message: Hey guys I have 2 questions.
+
+1) why are there 2 tari groups on my telegram, is one fake?
+
+2) I dont have a gpu in my machine. Is cpu only worthwhile or am I wasting my time? 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 14:33:45
+Message: Guys is there a guode on how to bridge to wxtm 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 14:46:35
+Message: GPUs are several orders of magnitude more powerful at hashing than CPUs, but I'm also unsure if the Tari award rate is strictly based on hash rate
+
+for example, one of my nodes is doing 2.6k h/s on CPU while the GPU is doing 538**m** h/s or ~207,000x faster (Replying to: Hey guys I have 2 questions.
+
+1) why are there 2 tari groups on my telegram, is one fake?
+
+2) I dont have a gpu in my machine. Is cpu only worthwhile or am I wasting my time?)
 --------------------------------------------------

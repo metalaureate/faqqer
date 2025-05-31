@@ -5,9 +5,17 @@ from telethon.tl.types import PeerChat, PeerChannel
 from apscheduler.triggers.cron import CronTrigger
 import requests
 import random
+
 # Initialize logging
 logging.basicConfig(level=logging.INFO)
-group_ids = [-2165121610, -1002281038272,-1188782007]
+
+# Group IDs for posting announcements (blockchain stats, customer analysis, etc.)
+group_ids = [-2165121610, -1002281038272, -1188782007]
+
+# Customer Analysis Configuration
+ANALYSIS_CHANNELS = ["tariproject", "OrderOfSoon"]  # Channels to analyze for customer issues
+ANALYSIS_HOURS = 3  # Hours back to analyze
+CUSTOMER_SERVICE_GROUP_ID = -1002281038272  # Where to post customer analysis results
 
 # Helper function to format hash rate with appropriate units
 def format_hash_rate(hash_rate):

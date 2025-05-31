@@ -1,0 +1,282 @@
+Combined Chat History for channels: tariproject, OrderOfSoon
+Time period: Last 3 hours
+Generated on: 2025-05-31 14:19:48 UTC
+======================================================================
+
+Channel: tariproject | User: None | Date: 2025-05-31 11:23:00
+Message: На винде запустил один комп с тари, синхронизация прошла майнит, на второй поставил программу и скопировал туда адрес и секретные слова, но синхронизация не проходит, что делаю не так? 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 11:23:11
+Message: can I bridge with the console wallet? 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 11:29:48
+Message: well yea, knowing that part, but what I rather meant is the communication protocol between miner soft and pool / node :) (Replying to: Unknown message)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 11:38:58
+Message: Universe says in progress (Replying to: Unknown message)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 11:42:09
+Message: The person 13 posts above yours hit block 17331 (Replying to: Unknown message)
+--------------------------------------------------
+Channel: OrderOfSoon | User: Infokeeper | Date: 2025-05-31 11:43:54
+Message: Hello!
+Is there any option in the program to set the path for it's data?
+I have created a link and it works, but it would be nice to set this path in the app it self. I run out of space and I had to search for the app path... 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 11:43:58
+Message: Can I use my node address in xmrig? 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 11:44:46
+Message: Will it work and will my balance update 🧐 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 11:53:04
+Message: Project have a faucet?? 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 11:58:52
+Message: Hatchling pool says no blocks 60 mins already, but in block explorer there are blocks. What's going on? 
+--------------------------------------------------
+Channel: OrderOfSoon | User: efaykue_bot | Date: 2025-05-31 12:00:15
+Message: 📊 Current Tari Network Stats 📊
+Block Height: 18,528
+RandomX (Tari) Hash Rate: 1.93 GH/s
+RandomX (Merged-Mined XMR) Hash Rate: 2.50 GH/s
+SHA3x Hash Rate: 133 TH/s
+
+Want to learn more? Try '/faq mining' to get information about mining Tari. 
+--------------------------------------------------
+Channel: tariproject | User: efaykue_bot | Date: 2025-05-31 12:00:16
+Message: 📊 Current Tari Network Stats 📊
+Block Height: 18,528
+RandomX (Tari) Hash Rate: 1.93 GH/s
+RandomX (Merged-Mined XMR) Hash Rate: 2.50 GH/s
+SHA3x Hash Rate: 133 TH/s
+
+Want to learn more? Try '/faq mining' to get information about mining Tari. 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 12:11:12
+Message: [ Wallet Phase ] Setup failed with error: Failed to download tapplet: bridge. Error: No version selected for tapplet: "bridge" 
+--------------------------------------------------
+Channel: OrderOfSoon | User: Nurulxo | Date: 2025-05-31 12:12:30
+Message: Assalamu Alaikum 
+--------------------------------------------------
+Channel: OrderOfSoon | User: None | Date: 2025-05-31 12:13:27
+Message: Hi 
+--------------------------------------------------
+Channel: OrderOfSoon | User: efaykue_bot | Date: 2025-05-31 12:14:24
+Message: The question seems to be missing or unclear. Please use the format '/faq <type your question inline>'. For example, '/faq What is Tari Universe?' 
+--------------------------------------------------
+Channel: OrderOfSoon | User: efaykue_bot | Date: 2025-05-31 12:15:10
+Message: The question seems to be missing or unclear. Please use the format '/faq <type your question inline>'. For example, '/faq What is Tari Universe?' 
+--------------------------------------------------
+Channel: OrderOfSoon | User: Infokeeper | Date: 2025-05-31 12:15:35
+Message: '/faq change application data path 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 12:21:46
+Message: Some one is mining those blocks and other than a small Luckypool hashrate, what other pools are on the Tari RandomX network? (Replying to: Hatchling pool says no blocks 60 mins already, but in block explorer there are blocks. What's going on?)
+--------------------------------------------------
+Channel: OrderOfSoon | User: kasamuta_shyrosu | Date: 2025-05-31 12:21:49
+Message: Anyone knows why its showing 0 xtm? 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 12:23:07
+Message: tpool 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 12:29:17
+Message: This pool has 5 MH...and they are mining all the blocks? Hatchling is down even though thay report 1.8 GH? (Replying to: tpool)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 12:31:43
+Message: They say they's merge mining with XMR. (Replying to: tpool)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 12:32:00
+Message: buy monero 
+--------------------------------------------------
+Channel: OrderOfSoon | User: blambin | Date: 2025-05-31 12:35:10
+Message: need time to sync block 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 12:35:15
+Message: Media message 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 12:36:00
+Message: no price chat 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 12:36:46
+Message: that's a terrible chart 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 12:37:19
+Message: where is the link to the scam signal group? 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 12:37:56
+Message: they say to 10x long btc lol (Replying to: that's a terrible chart)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 12:40:12
+Message: who mines on iphone wallet, please tell me how to synchronize wallet to the required block. payments are not coming. 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 12:43:15
+Message: On one of my vast.ai ubuntu instances the TU screen goes blank after a few hours. As far as l can tell from 'top' and 'nvidia-smi' th various tari processes are all running and mining is still happening. This is the second time this has happened today and I am reluctant to restart it as that can be a very, very lengthy process with the present state of the software. Has anyone else seen this? 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 12:43:20
+Message: Where'se our dear @Mooning or @Naveen? (Replying to: Some one is mining those blocks and other than a small Luckypool hashrate, what other pools are on the Tari RandomX network?)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 12:43:39
+Message: I transferred from xtm to wxtm but after almost 48 hours I still haven't seen it on my wallet (Replying to: Unknown message)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 12:44:31
+Message: wallet metamask 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 12:46:15
+Message: If you send me the transaction id, we’ll have a look at it (Replying to: I transferred from xtm to wxtm but after almost 48 hours I still haven't seen it on my wallet)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 12:50:47
+Message: If there is a problem with Hatchling pool and we're mining on air, we expect to get proper announcement 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 12:51:18
+Message: there is no id in the notice board (Replying to: If you send me the transaction id, we’ll have a look at it)
+--------------------------------------------------
+Channel: tariproject | User: efaykue_bot | Date: 2025-05-31 12:54:23
+Message: The format for interacting with me is '/faq <type your question inline>'. For example, you can ask '/faq What is Tari Universe?'. Please provide your question in this format so I can assist you better. 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 12:54:53
+Message: /faq mining 
+--------------------------------------------------
+Channel: tariproject | User: efaykue_bot | Date: 2025-05-31 12:54:57
+Message: Tari Universe is a desktop application for mining Tari on Mac or PC. It simplifies the mining process with one-click setup and installation, a clean interface, automatic updates, and a built-in wallet. Tari supports merge mining with Monero using the Minotari Miner, allowing simultaneous mining of both Minotari and Monero. The Hatchling pool is a low-fee, centralized pool available to the Tari community, designed to improve the win frequency for small miners. For more detailed instructions on mining, you can use xmrig via command line or HiveOS as outlined in the FAQ. (Replying to: /faq mining)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 12:56:21
+Message: The the bridge failed, and your fund is still in your wallet (Replying to: there is no id in the notice board)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 12:58:27
+Message: all pinned messages has gone? 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 12:58:45
+Message: No? (Replying to: all pinned messages has gone?)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 12:59:51
+Message: Why don't we get answers on Tari pool? 
+--------------------------------------------------
+Channel: tariproject | User: efaykue_bot | Date: 2025-05-31 13:00:12
+Message: 📊 Current Tari Network Stats 📊
+Block Height: 18,549
+RandomX (Tari) Hash Rate: 1.93 GH/s
+RandomX (Merged-Mined XMR) Hash Rate: 2.50 GH/s
+SHA3x Hash Rate: 133 TH/s
+
+Want to learn more? Try '/faq mining' to get information about mining Tari. 
+--------------------------------------------------
+Channel: OrderOfSoon | User: efaykue_bot | Date: 2025-05-31 13:00:12
+Message: 📊 Current Tari Network Stats 📊
+Block Height: 18,549
+RandomX (Tari) Hash Rate: 1.93 GH/s
+RandomX (Merged-Mined XMR) Hash Rate: 2.50 GH/s
+SHA3x Hash Rate: 133 TH/s
+
+Want to learn more? Try '/faq mining' to get information about mining Tari. 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 13:23:06
+Message: how long are new nodes taking to fully sync now? 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 13:27:56
+Message: Is there a problem with the bridge? There hasn’t been any activity for the past hour. (Replying to: The the bridge failed, and your fund is still in your wallet)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 13:29:44
+Message: Media message 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 13:31:03
+Message: This is not fair to us miners on Hatchling pool not to get answers about the missing blocks that are being mined and whether to continue mining.
+
+Pls give us answers now. Pool down (so who's getting all the blocks?)?
+or mining and hashes count remains and we will be rewarded once things clear up, and our hashrate is being recorded 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 13:34:10
+Message: If you go in settings -> pool mining you can see your share count (Replying to: This is not fair to us miners on Hatchling pool not to get answers about the missing blocks that are being mined and whether to continue mining.
+
+Pls give us answers now. Pool down (so who's getting all the blocks?)?
+or mining and hashes count remains and we will be rewarded once things clear up, and our hashrate is being recorded)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 13:34:35
+Message: Pool is working fine but payouts may be delayed. We’re working on improving payout time frames 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 13:36:04
+Message: - CONNECTION 
+ * pool address     hatchlings.rxpool.net:3333 (141.94.99.110) 
+ * algorithm        rx/0 
+ * difficulty       493277 
+ * ping time        58ms 
+ * connection time  113596s 
+ - CONNECTION 
+ * pool address     hatchlings.rxpool.net:3333 (141.94.99.110) 
+ * algorithm        rx/0 
+ * difficulty       493277 
+ * ping time        58ms 
+ * connection time  113598s 
+ - CONNECTION 
+ * pool address     hatchlings.rxpool.net:3333 (141.94.99.110) 
+ * algorithm        rx/0 
+ * difficulty       493277 
+ * ping time        58ms 
+ * connection time  113599s (Replying to: This is not fair to us miners on Hatchling pool not to get answers about the missing blocks that are being mined and whether to continue mining.
+
+Pls give us answers now. Pool down (so who's getting all the blocks?)?
+or mining and hashes count remains and we will be rewarded once things clear up, and our hashrate is being recorded)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 13:36:35
+Message: Pool Is up but last block was hours ago, don't know really what happened in the mean time 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 13:36:58
+Message: I'm referring to the Hatchling pool. now all this just came, blocks with gigantic effort. look at the blocks info that came out now (Replying to: If you go in settings -> pool mining you can see your share count)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 13:37:46
+Message: It Is hatchlings pool, can you read? 🤓 (Replying to: I'm referring to the Hatchling pool. now all this just came, blocks with gigantic effort. look at the blocks info that came out now)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 13:38:13
+Message: Will investigate! (Replying to: Pool Is up but last block was hours ago, don't know really what happened in the mean time)
+--------------------------------------------------
+Channel: tariproject | User: efaykue_bot | Date: 2025-05-31 13:40:11
+Message: Please provide a specific question using the format '/faq <type your question inline>'. For example, '/faq What is Tari Universe?' 
+--------------------------------------------------
+Channel: tariproject | User: efaykue_bot | Date: 2025-05-31 13:40:11
+Message: The format for interacting with me is '/faq <type your question inline>'. For example, you can ask: /faq What is Tari Universe? If you have a specific question, please use this format so I can assist you better. 
+--------------------------------------------------
+Channel: tariproject | User: efaykue_bot | Date: 2025-05-31 13:40:53
+Message: Please provide a specific question by using the format '/faq <type your question inline>'. For example, '/faq What is Tari Universe?'. 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 13:40:53
+Message: Take some reading lessons on pool stats bro. Look at the relevant dashboards to see the anomaly (Replying to: It Is hatchlings pool, can you read? 🤓)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 13:55:56
+Message: What's the quick fix for this again? Or do I just wait? 
+--------------------------------------------------
+Channel: tariproject | User: efaykue_bot | Date: 2025-05-31 13:56:15
+Message: The format for interacting with me is '/faq <type your question inline>'. For example, you can ask: /faq What is Tari Universe? If you have a specific question, please use this format so I can assist you better. 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 13:56:31
+Message: Pool is winning. Payouts are just a little delayed 💜🐢 (Replying to: Take some reading lessons on pool stats bro. Look at the relevant dashboards to see the anomaly)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 13:58:42
+Message: this is exactely what I was refering to. no blocks info at this page for almost 2 hours, it just came now as a burst. this is anomaly dear, it's not possible this effort data (Replying to: Pool is winning. Payouts are just a little delayed 💜🐢)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 13:58:53
+Message: Is there a problem with the bridge? There hasn’t been any activity for the past hour. (Replying to: Pool is winning. Payouts are just a little delayed 💜🐢)
+--------------------------------------------------
+Channel: OrderOfSoon | User: efaykue_bot | Date: 2025-05-31 14:00:12
+Message: 📊 Current Tari Network Stats 📊
+Block Height: 18,577
+RandomX (Tari) Hash Rate: 1.93 GH/s
+RandomX (Merged-Mined XMR) Hash Rate: 2.50 GH/s
+SHA3x Hash Rate: 133 TH/s
+
+Want to learn more? Try '/faq mining' to get information about mining Tari. 
+--------------------------------------------------
+Channel: tariproject | User: efaykue_bot | Date: 2025-05-31 14:00:13
+Message: 📊 Current Tari Network Stats 📊
+Block Height: 18,577
+RandomX (Tari) Hash Rate: 1.93 GH/s
+RandomX (Merged-Mined XMR) Hash Rate: 2.50 GH/s
+SHA3x Hash Rate: 133 TH/s
+
+Want to learn more? Try '/faq mining' to get information about mining Tari. 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 14:01:42
+Message: ? It won a block like 20 mins ago or sooner? Payouts are a little delayed but it’s working 💜🐢 (Replying to: this is exactely what I was refering to. no blocks info at this page for almost 2 hours, it just came now as a burst. this is anomaly dear, it's not possible this effort data)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-05-31 14:12:40
+Message: Can anyone help me with a stuck bridge TX? 
+--------------------------------------------------

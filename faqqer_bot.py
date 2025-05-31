@@ -9,6 +9,7 @@ from dotenv import load_dotenv
 import json
 import requests
 from blockchain_job import schedule_block_height_job, schedule_hash_power_job  # Import the block height job
+from customer_analysis_job import schedule_customer_analysis_job, manual_analysis_trigger  # Import customer analysis job
 import asyncio
 from telethon.tl.types import Channel
 
@@ -254,6 +255,28 @@ async def refresh_handler(event):
         logging.error(f"Error in manual FAQ refresh: {e}")
         await event.reply("❌ Failed to refresh FAQ content. Please try again later.")
 
+# Manual customer analysis command handler
+@client.on(events.NewMessage(pattern=r'/analyze_support(?:\s+(\d+))?'))
+async def analyze_support_handler(event):
+    try:
+        logging.info("Manual customer service analysis requested")
+        
+        # Extract hours argument (default to 3 if not provided)
+        match = event.pattern_match
+        hours = int(match.group(1)) if match.group(1) else 3
+        
+        await event.reply(f"🔍 Starting customer service analysis for the last {hours} hours...")
+        
+        # Get the chat ID where the command was issued
+        chat_id = event.chat_id
+        logging.info(f"Posting analysis results to originating chat: {chat_id}")
+        
+        await manual_analysis_trigger(client, target_group_id=chat_id, hours=hours)
+        # The analysis function will post results directly to the originating channel
+    except Exception as e:
+        logging.error(f"Error in manual customer analysis: {e}")
+        await event.reply("❌ Failed to run customer service analysis. Please try again later.")
+
 # Main execution function
 async def main():
     # Start the Telegram client
@@ -275,12 +298,13 @@ async def main():
     # Start the periodic FAQ refresh task
     asyncio.create_task(periodic_faq_refresh())
     
-    # Schedule other jobs if needed
+    # Schedule jobs
     #schedule_block_height_job(client, asyncio.get_event_loop())
     schedule_hash_power_job(client, asyncio.get_event_loop())
+    #schedule_customer_analysis_job(client, asyncio.get_event_loop())  # Customer service analysis every 3 hours
     
     # Start the Telegram bot
-    logging.info("Bot is running with hourly FAQ refresh...")
+    logging.info("Bot is running with hourly FAQ refresh and 3-hourly customer analysis...")
     await client.run_until_disconnected()
 
 # Run the main function

@@ -13,13 +13,14 @@ load_dotenv()
 bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
 api_id = os.getenv('TELEGRAM_API_ID')     # From Telegram Developer Portal
 api_hash = os.getenv('TELEGRAM_API_HASH') # From Telegram Developer Portal
-CHANNEL_USERNAME = "OrderOfSoon"          # tariproject OrderOfSoon Your target channel/group username
+CHANNEL_USERNAME = "tariproject"          # tariproject OrderOfSoon Your target channel/group username
 phone_number = os.getenv('TELEGRAM_PHONE_NUMBER')  # Your own Telegram phone number
-days_history = 2  # Number of days of history to fetch
+days_history = 3  # Number of days of history to fetch
 # Files/folders for output
 output_html_file = 'archive/channel_history.html'
 output_text_file = 'archive/channel_history.txt'
 media_folder = 'media_files'  # Folder to save media
+
 
 # Ensure media folder exists
 if not os.path.exists(media_folder):

@@ -1,0 +1,60 @@
+Introducing the “Hatchling” pool
+
+After mainnet launch, a group of Tari community members came together to brainstorm ideas focused on one goal: improving the win frequency and overall success of small miners using Tari Universe. Equally important, of course, is maximum decentralization (hence the native p2pool implementation contributors have spent years working on). Our reality is that p2pool is a work in progress, and while it's working a LOT better (please keep using and WINNING with it!), there is more work to do to improve access for larger miners. Contributors and this group of Tari-aligned community members recognize that in the meantime, miners will use the most convenient infrastructure.
+
+This group of Tari community members devised a great interim solution: the Hatchling pool: a low-fee (1%), centralized pool available to everyone in the Tari community and run by a deeply Tari-aligned group of folks. This pool will be natively baked into the forthcoming release of Tari Universe to improve the win frequency for all miners. At the same time, contributors continue to work behind the scenes on improving access for larger miners to p2pool. As access to p2pool improves, hashrate will undoubtedly shift to it, given that it's free, and everyone in the community deeply values decentralization.
+
+The Hatchling pool is open to everyone in the community. This means that high-powered miners can also use this pool (and are encouraged to do so!)  
+🐢 How to mine the new Tari Native Algorithm (RandomX) with the Hatchling Pool:
+
+Using xmrig command line
+After block 15,000, use xmrig via command line:
+`./xmrig.exe --donate-level 1 -o hatchlings.rxpool.net:3333 -u [YOUR WALLET ADDRESS] -k`
+
+What these command line options do:
+
+donate-level: sets the donation level to the xmrig developer to 1% of your hashrate
+o: uses the new Hatchling Pool (see below)
+u: your Tari address, NOT your Monero address!
+k: enables keep-alive, to make sure you don’t lose your connection to the pool
+
+And voila, you’ll be mining on Tari-native RandomX using the Hatchling pool in no time. 
+
+Using HiveOS
+
+
+Copy the flight sheet JSON below.
+Go to Hive OS-farm (page that shows all workers).
+Click on the Flight Sheets tab.
+Click on Import from Clipboard.
+Create a flight sheet and ADD YOUR WALLET.
+Run the flight sheet on your workers
+
+```
+{
+    "name": "Tari RandomX pool",
+    "isFavorite": false,
+    "items": [
+        {
+            "coin": "tari",
+            "pool_ssl": false,
+            "wal_id": 10822236,
+            "dpool_ssl": false,
+            "miner": "xmrig-new",
+            "miner_alt": "xmrig",
+            "miner_config": {
+                "cpu": "1",
+                "url": "hatchlings.rxpool.net:5555",
+                "algo": "rx/0",
+                "fork": "xmrig",
+                "pass": "x",
+                "template": "%WAL%.%WORKER_NAME%",
+                "hugepages": "1248",
+                "cpu_config": "\"cpu\": {\n  \"huge-pages\": true,\n  \"hw-aes\": null,\n  \"priority\": null,\n  \"memory-pool\": false,\n  \"asm\": true\n}",
+                "user_config": "\"donate-level\": 1"
+            },
+            "pool_geo": []
+        }
+    ]
+}
+```

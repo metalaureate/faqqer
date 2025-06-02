@@ -261,22 +261,39 @@ async def refresh_handler(event):
         await event.reply("❌ Failed to refresh FAQ content. Please try again later.")
 
 # Manual customer analysis command handler
-@client.on(events.NewMessage(pattern=r'/analyze_support(?:\s+(\d+))?'))
+@client.on(events.NewMessage(pattern=r'/analyze_support(?:\s+(.*))?'))
 async def analyze_support_handler(event):
     try:
         logging.info("Manual customer service analysis requested")
         
-        # Extract hours argument (default to 3 if not provided)
-        match = event.pattern_match
-        hours = int(match.group(1)) if match.group(1) else 3
+        # Parse the arguments from the command
+        hours = 3  # default
+        custom_question = None
         
-        await event.reply(f"🔍 Starting customer service analysis for the last {hours} hours...")
+        if event.pattern_match.group(1):
+            args = event.pattern_match.group(1).strip()
+            parts = args.split(' ', 1)  # Split into maximum 2 parts
+            
+            # Check if first part is a number (hours)
+            if parts[0].isdigit():
+                hours = int(parts[0])
+                if len(parts) > 1:
+                    custom_question = parts[1].strip()
+            else:
+                # No hours specified, treat the entire argument as a question
+                custom_question = args
+        
+        if custom_question:
+            await event.reply(f"🔍 Starting custom analysis for the last {hours} hours...\n📝 Focus: {custom_question}")
+            logging.info(f"Custom analysis question: {custom_question}")
+        else:
+            await event.reply(f"🔍 Starting customer service analysis for the last {hours} hours...")
         
         # Get the chat ID where the command was issued
         chat_id = event.chat_id
         logging.info(f"Posting analysis results to originating chat: {chat_id}")
         
-        await manual_analysis_trigger(client, target_group_id=chat_id, hours=hours)
+        await manual_analysis_trigger(client, target_group_id=chat_id, hours=hours, custom_question=custom_question)
         # The analysis function will post results directly to the originating channel
     except Exception as e:
         logging.error(f"Error in manual customer analysis: {e}")
@@ -313,7 +330,13 @@ async def version_handler(event):
 • `/faq <question>` - Ask a question
 • `/version` - Show version info
 • `/refresh_faq` - Refresh FAQ content
-• `/analyze_support [hours]` - Run customer analysis
+• `/analyze_support [hours] [question]` - Run customer analysis
+
+**Examples:**
+• `/analyze_support` - Default 3-hour analysis
+• `/analyze_support 6` - 6-hour analysis
+• `/analyze_support wallet issues` - Focus on wallet issues (3 hours)
+• `/analyze_support 12 mining problems` - 12-hour analysis focused on mining
 """
         
         await event.reply(version_info)

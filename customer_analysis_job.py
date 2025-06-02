@@ -25,7 +25,7 @@ ANALYSIS_MODEL = "gpt-4o"
 ANALYSIS_TEMPERATURE = 0.3
 ANALYSIS_TIMEOUT = 120
 MAX_MESSAGE_LENGTH = 4000
-MAX_EXAMPLE_LENGTH = 80
+MAX_EXAMPLE_LENGTH = 200  # Increased from 80 to 200 for longer quotes
 MAX_TOKENS_PER_REQUEST = 25000  # Leave room for response tokens (30k limit - 5k buffer)
 CHARS_PER_TOKEN_ESTIMATE = 4    # Rough estimate: 1 token ≈ 4 characters
 
@@ -78,9 +78,14 @@ Look for these specific categories and any new ones you identify:
 For each category found, provide:
 - The issue category name
 - Total number of unique people mentioning it
-- A representative example of the issue (actual message text if possible, translated to English)
+- A detailed representative example of the issue (actual message text if possible, translated to English - include more context and detail, not just brief quotes)
 
-IMPORTANT: Respond ONLY with valid JSON format. Do not include any text before or after the JSON. Do not wrap in code blocks or markdown.
+IMPORTANT: 
+- Return the TOP 10 most frequent customer service issues found in the messages
+- If fewer than 10 different issues exist, return all issues found
+- Prioritize issues by frequency (number of people mentioning them)
+- Provide longer, more detailed examples that show the full context of the customer's problem
+- Respond ONLY with valid JSON format. Do not include any text before or after the JSON. Do not wrap in code blocks or markdown.
 
 Respond in JSON format with this exact structure:
 {
@@ -136,14 +141,78 @@ def truncate_chat_content(chat_content, max_tokens=MAX_TOKENS_PER_REQUEST):
     
     return final_content
 
-def query_openai_analysis(chat_content):
-    """Query OpenAI for customer service analysis"""
+def query_openai_analysis(chat_content, custom_question=None):
+    """Query OpenAI for customer service analysis
+    
+    Args:
+        chat_content: The chat messages to analyze
+        custom_question: Optional custom question that becomes the dominant analysis prompt
+    """
     try:
         # Truncate content if it's too large
         truncated_content = truncate_chat_content(chat_content)
         
         client = OpenAI()
-        full_prompt = ANALYSIS_PROMPT + "\n\n" + truncated_content
+        
+        # Use custom question if provided, otherwise use default analysis prompt
+        if custom_question:
+            # Create a custom prompt that focuses ONLY on the specific question
+            analysis_prompt = f"""
+You are a customer service analyst for a cryptocurrency/blockchain project. Your task is to analyze chat messages EXCLUSIVELY for issues related to this specific topic:
+
+**EXCLUSIVE FOCUS: {custom_question}**
+
+CRITICAL INSTRUCTIONS:
+- IGNORE all other customer service issues that are not directly related to "{custom_question}"
+- ONLY identify and categorize messages that relate to the specified topic
+- If no messages relate to the topic, return an empty categories array
+- Translate any non-English text to English before analysis
+- Present all results in English only
+
+ANALYSIS SCOPE:
+- Search for messages that mention, discuss, or report problems related to "{custom_question}"
+- Look for variations, synonyms, and related terms
+- Include both direct mentions and indirect references to the topic
+- Focus on actual problems, issues, complaints, or questions about "{custom_question}"
+
+For ONLY the issues related to "{custom_question}", provide:
+- A specific category name that relates to the focused topic
+- Total number of unique people mentioning issues related to this topic
+- A detailed representative example from the actual messages (translated to English if needed - include more context and detail, not just brief quotes)
+
+IMPORTANT:
+- Return the TOP 10 most frequent issues related to "{custom_question}" found in the messages
+- If fewer than 10 different related issues exist, return all related issues found
+- Prioritize issues by frequency (number of people mentioning them)
+- Provide longer, more detailed examples that show the full context of the customer's problem
+- DO NOT include general customer service issues unless they directly relate to "{custom_question}"
+
+IMPORTANT: Respond ONLY with valid JSON format. Do not include any text before or after the JSON. Do not wrap in code blocks or markdown.
+
+Respond in JSON format with this exact structure:
+{{
+  "analysis_summary": "Summary of issues found specifically related to '{custom_question}' - if none found, state that clearly",
+  "total_issues_found": number,
+  "categories": [
+    {{
+      "category": "Specific issue category related to {custom_question}",
+      "count": number_of_people,
+      "representative_example": "Example message in English"
+    }}
+  ]
+}}
+
+If no issues related to "{custom_question}" are found, respond with:
+{{
+  "analysis_summary": "No issues related to '{custom_question}' were found in the analyzed messages",
+  "total_issues_found": 0,
+  "categories": []
+}}
+"""
+            full_prompt = analysis_prompt + "\n\n" + truncated_content
+            logging.info(f"Using custom analysis question (exclusive focus): {custom_question}")
+        else:
+            full_prompt = ANALYSIS_PROMPT + "\n\n" + truncated_content
         
         # Estimate total tokens for logging
         estimated_tokens = len(full_prompt) // CHARS_PER_TOKEN_ESTIMATE
@@ -200,7 +269,7 @@ async def send_message_to_group(telegram_client, message, target_group_id=None):
         logging.error(f"Error posting analysis to group ID {group_id}: {e}")
         return False
 
-def format_telegram_table(analysis_data, analysis_hours):
+def format_telegram_table(analysis_data, analysis_hours, custom_question=None):
     """Format analysis results for Telegram (using clean text instead of tables)"""
     try:
         # First try to parse as direct JSON
@@ -224,23 +293,39 @@ def format_telegram_table(analysis_data, analysis_hours):
         
         # Check if no significant issues found
         if not data.get('categories') or len(data['categories']) == 0:
+            title = "Customer Service Analysis"
+            no_issues_message = f"No major customer service issues detected in the last {analysis_hours} hours."
+            
+            if custom_question:
+                title = f"Custom Analysis: {custom_question}"
+                no_issues_message = f"No issues related to '{custom_question}' were found in the last {analysis_hours} hours."
+            
             return f"""
-🔍 **Customer Service Analysis - {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}**
+🔍 **{title} - {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}**
 
 📊 **Summary:** {data.get('analysis_summary', 'No significant customer service issues found in the analyzed period.')}
 
-✅ No major customer service issues detected in the last {analysis_hours} hours.
+✅ {no_issues_message}
 """
         
         # Build the clean formatted message
+        title = "Customer Service Analysis"
+        focus_line = ""
+        issues_header = "**Issue Breakdown:**"
+        
+        if custom_question:
+            title = f"Custom Analysis: {custom_question}"
+            focus_line = f"\n🎯 **Exclusive Focus:** Only showing issues related to '{custom_question}'"
+            issues_header = f"**Issues Related to '{custom_question}':**"
+        
         message = f"""
-🔍 **Customer Service Analysis - {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}**
+🔍 **{title} - {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}**{focus_line}
 
 📊 **Summary:** {data.get('analysis_summary', 'Analysis completed')}
 
 📈 **Total Issues Found:** {data.get('total_issues_found', len(data['categories']))}
 
-**Issue Breakdown:**
+{issues_header}
 """
         
         for i, category in enumerate(data['categories'], 1):
@@ -277,13 +362,14 @@ def format_telegram_table(analysis_data, analysis_hours):
 ❌ Error formatting analysis results: {str(e)}
 """
 
-async def run_customer_service_analysis(telegram_client, target_group_id=None, hours=None):
+async def run_customer_service_analysis(telegram_client, target_group_id=None, hours=None, custom_question=None):
     """Run the customer service analysis and post results
     
     Args:
         telegram_client: The Telegram client instance
         target_group_id: Optional specific group ID to post to. If None, uses CUSTOMER_SERVICE_GROUP_ID
         hours: Optional hours to analyze. If None, uses ANALYSIS_HOURS
+        custom_question: Optional custom question that becomes the dominant analysis prompt
     """
     analysis_hours = hours if hours is not None else ANALYSIS_HOURS
     
@@ -343,7 +429,7 @@ Bot accounts cannot access historical messages from channels.
             return
         
         # Analyze with OpenAI
-        analysis_result = query_openai_analysis(chat_content)
+        analysis_result = query_openai_analysis(chat_content, custom_question)
         if not analysis_result:
             logging.error("Failed to get analysis from OpenAI")
             error_msg = f"""
@@ -355,7 +441,7 @@ Bot accounts cannot access historical messages from channels.
             return
         
         # Format and send the results
-        formatted_message = format_telegram_table(analysis_result, analysis_hours)
+        formatted_message = format_telegram_table(analysis_result, analysis_hours, custom_question)
         
         # Split message if it's too long (Telegram limit ~4096 characters)
         if len(formatted_message) > MAX_MESSAGE_LENGTH:
@@ -402,15 +488,16 @@ def schedule_customer_analysis_job(telegram_client, loop):
     logging.info("Customer service analysis scheduler started (every 3 hours)")
 
 # Manual trigger function for bot commands
-async def manual_analysis_trigger(telegram_client, target_group_id=None, hours=None):
+async def manual_analysis_trigger(telegram_client, target_group_id=None, hours=None, custom_question=None):
     """Manually trigger analysis for bot commands
     
     Args:
         telegram_client: The Telegram client instance  
         target_group_id: Optional specific group ID to post to. If None, uses CUSTOMER_SERVICE_GROUP_ID
         hours: Optional hours to analyze. If None, uses ANALYSIS_HOURS
+        custom_question: Optional custom question that becomes the dominant analysis prompt
     """
-    await run_customer_service_analysis(telegram_client, target_group_id, hours)
+    await run_customer_service_analysis(telegram_client, target_group_id, hours, custom_question)
 
 if __name__ == "__main__":
     # Test the analysis

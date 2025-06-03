@@ -371,7 +371,8 @@ async def main():
     
     # Schedule jobs
     #schedule_block_height_job(client, asyncio.get_event_loop())
-    schedule_hash_power_job(client, asyncio.get_event_loop())
+    #schedule_hash_power_job(client, asyncio.get_event_loop())
+    
     #schedule_customer_analysis_job(client, asyncio.get_event_loop())  # Customer service analysis every 3 hours
     
     # Start the Telegram bot

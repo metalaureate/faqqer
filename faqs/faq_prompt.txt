@@ -1,3 +1,9 @@
 # Other FAQs
-## Blockhain Hash Rates
+
+Q. How do I look up Blockhain Hash Rates?
 Visit the block explorer at https://explore.tari.com/
+
+Q. What if my transaction seems stuck?
+If a transaction is stuck in the pending state, click the “Refresh wallet history” button in Settings.
+It clears wallet local data and scans from the tip 0.
+

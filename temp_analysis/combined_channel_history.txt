@@ -1,768 +1,1078 @@
 Combined Chat History for channels: tariproject, OrderOfSoon
 Time period: Last 24 hours
-Generated on: 2025-06-14 13:51:25 UTC
+Generated on: 2025-06-16 18:33:13 UTC
 ======================================================================
 
-Channel: OrderOfSoon | User: naowae | Date: 2025-06-13 14:00:49
-Message: hey is there another way to earn gems besides friend invites? 
+Channel: tariproject | User: None | Date: 2025-06-15 19:09:28
+Message: Long time no chat here. Everything's running well  lol it's Already 840 messages pending since the last I chat here. I'm waiting for the listing mexc. Hope it will come out soon. 
 --------------------------------------------------
-Channel: OrderOfSoon | User: sparkslice | Date: 2025-06-13 14:01:45
-Message: nope (Replying to: hey is there another way to earn gems besides friend invites?)
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-15 19:44:15
+Message: The question seems to be missing or unclear. Please use the format '/faq <type your question inline>'. For example, '/faq What is Tari Universe?' 
 --------------------------------------------------
-Channel: OrderOfSoon | User: sparkslice | Date: 2025-06-13 14:01:48
-Message: only invites now 
+Channel: tariproject | User: None | Date: 2025-06-15 20:44:04
+Message: Anyone in here know what the whole break coins option is on the mobile wallet? 
 --------------------------------------------------
-Channel: OrderOfSoon | User: naowae | Date: 2025-06-13 14:02:24
-Message: ok thanks 
+Channel: tariproject | User: FreakMc | Date: 2025-06-15 20:54:59
+Message: /faq tari Network stats 
 --------------------------------------------------
-Channel: OrderOfSoon | User: naowae | Date: 2025-06-13 14:04:38
-Message: does this mean million hashes? 
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-15 20:55:01
+Message: For network statistics, you can visit the block explorer at https://explore.tari.com/ to view detailed information about the Tari network, including hash rates and other relevant metrics. (Replying to: /faq tari Network stats)
 --------------------------------------------------
-Channel: OrderOfSoon | User: Jinks74d | Date: 2025-06-13 14:09:57
-Message: Where di my XTM go after the update?  I was over 20 and now everything is gone? 
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-15 21:00:22
+Message: 📊 Current Tari Network Stats 📊
+Block Height: 29,418
+RandomX (Tari) Hash Rate: 1.48 GH/s
+RandomX (Merged-Mined XMR) Hash Rate: 3.67 GH/s
+SHA3x Hash Rate: 102 TH/s
+
+Want to learn more? Try '/faq mining' to get information about mining Tari. 
 --------------------------------------------------
-Channel: OrderOfSoon | User: MrMooning | Date: 2025-06-13 14:12:38
-Message: Make sure you are fully synced :) (Replying to: Where di my XTM go after the update?  I was over 20 and now everything is gone?)
+Channel: OrderOfSoon | User: efaykue_bot | Date: 2025-06-15 21:00:22
+Message: 📊 Current Tari Network Stats 📊
+Block Height: 29,418
+RandomX (Tari) Hash Rate: 1.48 GH/s
+RandomX (Merged-Mined XMR) Hash Rate: 3.67 GH/s
+SHA3x Hash Rate: 102 TH/s
+
+Want to learn more? Try '/faq mining' to get information about mining Tari. 
 --------------------------------------------------
-Channel: OrderOfSoon | User: Jinks74d | Date: 2025-06-13 14:13:25
-Message: Everything is synced.  And I did a comp restart 
+Channel: tariproject | User: None | Date: 2025-06-15 21:11:58
+Message: If you want to use GPU just use lolMiner (Replying to: Unknown message)
 --------------------------------------------------
-Channel: OrderOfSoon | User: possumously | Date: 2025-06-13 14:24:15
-Message: 🚀 **TARI UNIVERSE MOBILE** (Android v1.1.4 & iOS v1.1.0) The Shell Within 
-
-🚢 **Now live on the Google Play and iOS App Stores**
-
-Hey everyone,
-
-Tari contributors are excited to share the latest releases of **Tari Universe Mobile** (v1.1.4 for Android and v1.1.0 for iOS). These releases are collectively known as "The Shell Within." The Shell Within release of Tari Universe Mobile includes improved contact book behavior and a highly requested feature for both platforms.
-
-✨ **What's New: Android**
-- ☎️ **Save Exchange Addresses**: Over the last few weeks, one of our most requested features from the Tari community has been the ability to store exchange deposit addresses. Tari fam: we did it! You can now safely store exchange deposit addresses in your contact book 🥳
-
-✨ **What's New: iOS**
-- ☎️ **Save Exchange Addresses**: Just like on Android, you can now safely store exchange deposit addresses. We've also refactored the overall contact book management for smoother performance.
-
-🐞 **Known Issues (Fixes Coming Soon)**
-- iOS: The light mode toggle is currently non-functional. The app remains in dark mode regardless of your selection. You may also notice a few other visual inconsistencies. We're actively working to stabilize the iOS app and reduce overall crash rates.
-
-📥 **Download the latest version of Tari Universe Mobile**
-🔗 [tari.com/downloads](https://tari.com/downloads)
-🔗 [Android GitHub Release](https://github.com/tari-project/tari-universe/releases)
-
-Thank you to everyone who's shared feedback on the mobile apps. Together, we'll make Tari the most useful, beautiful, and easiest-to-use protocol in the world. 💜🐢 
+Channel: OrderOfSoon | User: wasilevs | Date: 2025-06-15 21:18:24
+Message: Плохо, кошелек обнуляется ! 
+- 🤷‍♂️ 
+На этот кошелек, алмазы привязанны. Аирдроп! 
+- как??? 
 --------------------------------------------------
-Channel: OrderOfSoon | User: possumously | Date: 2025-06-13 14:24:21
-Message: Media message (Replying to: 🚀 **TARI UNIVERSE MOBILE** (Android v1.1.4 & iOS v1.1.0) The Shell Within 
-
-🚢 **Now live on the Google Play and iOS App Stores**
-
-Hey everyone,
-
-Tari contributors are excited to share the latest releases of **Tari Universe Mobile** (v1.1.4 for Android and v1.1.0 for iOS). These releases are collectively known as "The Shell Within." The Shell Within release of Tari Universe Mobile includes improved contact book behavior and a highly requested feature for both platforms.
-
-✨ **What's New: Android**
-- ☎️ **Save Exchange Addresses**: Over the last few weeks, one of our most requested features from the Tari community has been the ability to store exchange deposit addresses. Tari fam: we did it! You can now safely store exchange deposit addresses in your contact book 🥳
-
-✨ **What's New: iOS**
-- ☎️ **Save Exchange Addresses**: Just like on Android, you can now safely store exchange deposit addresses. We've also refactored the overall contact book management for smoother performance.
-
-🐞 **Known Issues (Fixes Coming Soon)**
-- iOS: The light mode toggle is currently non-functional. The app remains in dark mode regardless of your selection. You may also notice a few other visual inconsistencies. We're actively working to stabilize the iOS app and reduce overall crash rates.
-
-📥 **Download the latest version of Tari Universe Mobile**
-🔗 [tari.com/downloads](https://tari.com/downloads)
-🔗 [Android GitHub Release](https://github.com/tari-project/tari-universe/releases)
-
-Thank you to everyone who's shared feedback on the mobile apps. Together, we'll make Tari the most useful, beautiful, and easiest-to-use protocol in the world. 💜🐢)
+Channel: tariproject | User: None | Date: 2025-06-15 21:18:39
+Message: Why are my mesages deleted ? 
 --------------------------------------------------
-Channel: tariproject | User: possumously | Date: 2025-06-13 14:24:27
-Message: 🚀 **TARI UNIVERSE MOBILE** (Android v1.1.4 & iOS v1.1.0) The Shell Within 
-
-🚢 **Now live on the Google Play and iOS App Stores**
-
-Hey everyone,
-
-Tari contributors are excited to share the latest releases of **Tari Universe Mobile** (v1.1.4 for Android and v1.1.0 for iOS). These releases are collectively known as "The Shell Within." The Shell Within release of Tari Universe Mobile includes improved contact book behavior and a highly requested feature for both platforms.
-
-✨ **What's New: Android**
-- ☎️ **Save Exchange Addresses**: Over the last few weeks, one of our most requested features from the Tari community has been the ability to store exchange deposit addresses. Tari fam: we did it! You can now safely store exchange deposit addresses in your contact book 🥳
-
-✨ **What's New: iOS**
-- ☎️ **Save Exchange Addresses**: Just like on Android, you can now safely store exchange deposit addresses. We've also refactored the overall contact book management for smoother performance.
-
-🐞 **Known Issues (Fixes Coming Soon)**
-- iOS: The light mode toggle is currently non-functional. The app remains in dark mode regardless of your selection. You may also notice a few other visual inconsistencies. We're actively working to stabilize the iOS app and reduce overall crash rates.
-
-📥 **Download the latest version of Tari Universe Mobile**
-🔗 [tari.com/downloads](https://tari.com/downloads)
-🔗 [Android GitHub Release](https://github.com/tari-project/tari-universe/releases)
-
-Thank you to everyone who's shared feedback on the mobile apps. Together, we'll make Tari the most useful, beautiful, and easiest-to-use protocol in the world. 💜🐢 
+Channel: tariproject | User: dno5iq | Date: 2025-06-15 21:18:48
+Message: crappy antispam bot (Replying to: Why are my mesages deleted ?)
 --------------------------------------------------
-Channel: tariproject | User: possumously | Date: 2025-06-13 14:24:30
-Message: Media message (Replying to: 🚀 **TARI UNIVERSE MOBILE** (Android v1.1.4 & iOS v1.1.0) The Shell Within 
-
-🚢 **Now live on the Google Play and iOS App Stores**
-
-Hey everyone,
-
-Tari contributors are excited to share the latest releases of **Tari Universe Mobile** (v1.1.4 for Android and v1.1.0 for iOS). These releases are collectively known as "The Shell Within." The Shell Within release of Tari Universe Mobile includes improved contact book behavior and a highly requested feature for both platforms.
-
-✨ **What's New: Android**
-- ☎️ **Save Exchange Addresses**: Over the last few weeks, one of our most requested features from the Tari community has been the ability to store exchange deposit addresses. Tari fam: we did it! You can now safely store exchange deposit addresses in your contact book 🥳
-
-✨ **What's New: iOS**
-- ☎️ **Save Exchange Addresses**: Just like on Android, you can now safely store exchange deposit addresses. We've also refactored the overall contact book management for smoother performance.
-
-🐞 **Known Issues (Fixes Coming Soon)**
-- iOS: The light mode toggle is currently non-functional. The app remains in dark mode regardless of your selection. You may also notice a few other visual inconsistencies. We're actively working to stabilize the iOS app and reduce overall crash rates.
-
-📥 **Download the latest version of Tari Universe Mobile**
-🔗 [tari.com/downloads](https://tari.com/downloads)
-🔗 [Android GitHub Release](https://github.com/tari-project/tari-universe/releases)
-
-Thank you to everyone who's shared feedback on the mobile apps. Together, we'll make Tari the most useful, beautiful, and easiest-to-use protocol in the world. 💜🐢)
+Channel: tariproject | User: None | Date: 2025-06-15 21:19:32
+Message: Alright ... So in short how is tari connected to monero and is there any official cli miner ? 
 --------------------------------------------------
-Channel: OrderOfSoon | User: nikola4888 | Date: 2025-06-13 14:38:50
-Message: low key listings going to be fun i think (Replying to: Unknown message)
+Channel: OrderOfSoon | User: wasilevs | Date: 2025-06-15 21:19:43
+Message: 🛸 (Replying to: Unknown message)
 --------------------------------------------------
-Channel: OrderOfSoon | User: chabcja | Date: 2025-06-13 15:40:50
-Message: The beautiful night has come, and the busy day has come to an end. Dear, how are you doing today? My profit today is great. 
+Channel: tariproject | User: None | Date: 2025-06-15 21:20:02
+Message: Their linux appimage is pretty bad ngl 
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 15:51:21
+Channel: tariproject | User: The_Golden_Sparrow | Date: 2025-06-15 21:20:32
+Message: /faq how is tari connected to monero? 
+--------------------------------------------------
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-15 21:20:35
+Message: Tari is connected to Monero through merge mining. This means that miners can mine both Tari and Monero simultaneously using the same work. Tari uses the same CPU-optimized algorithm as Monero, known as RandomX, for this purpose. This connection allows for increased security and decentralization by leveraging the existing Monero mining infrastructure. (Replying to: /faq how is tari connected to monero?)
+--------------------------------------------------
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-15 21:20:43
+Message: Please provide a specific question using the format '/faq <type your question inline>'. For example, '/faq What is Tari Universe?'. 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-15 21:21:24
+Message: Why does CoinEx have no details on the TariGraph 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-15 21:21:35
+Message: /faq How is tari connected to monero 
+--------------------------------------------------
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-15 21:21:38
+Message: Tari is connected to Monero through a process called merge mining. This means that miners can mine both Tari and Monero simultaneously using the same computational work. Tari uses a Proof-of-Work model for consensus and security, and it is specifically designed to be merge-mined with Monero using the RandomX algorithm, which is CPU-optimized and used by Monero. This connection allows miners to secure both networks while maximizing their mining efficiency. (Replying to: /faq How is tari connected to monero)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-15 21:22:05
 Message: Media message 
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 15:52:19
-Message: Why can't it sync? 
+Channel: tariproject | User: None | Date: 2025-06-15 21:22:32
+Message: /faq is there CLI miner ? 
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 16:02:03
-Message: @possumously fyi (Replying to: Why can't it sync?)
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-15 21:22:34
+Message: Yes, there is a CLI miner for Tari. The Minotari Miner (`minotari_miner`) is used for mining Tari and enables merge mining with Monero. It connects XMRig (Monero mining software) to the Tari network to allow simultaneous mining of both Minotari and Monero. (Replying to: /faq is there CLI miner ?)
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 16:02:51
-Message: ？？？ 
+Channel: tariproject | User: None | Date: 2025-06-15 21:23:14
+Message: /faq how to mine with minotari_miner? 
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 16:10:09
-Message: Это когда-нибудь починят??? С VPN не работает.. 
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-15 21:23:17
+Message: To mine with Minotari Miner, you need to enable merge mining with Monero using the XMRig software. First, ensure you have the Minotari Miner and XMRig installed. Then, configure XMRig to connect to the Tari network using the minotari_merge_mining_proxy. This setup allows you to mine both Minotari and Monero simultaneously. For specific configuration details, refer to the documentation provided by the Tari project or consult their community resources for assistance. (Replying to: /faq how to mine with minotari_miner?)
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 16:15:38
-Message: Есть тут Русские ? 
+Channel: tariproject | User: None | Date: 2025-06-15 21:23:47
+Message: /faq does mining monero together with tari rewards same amount of monero as mining only monero ? 
 --------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-13 16:20:08
-Message: Wait we can mine in phone ? 
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-15 21:23:50
+Message: When you mine Monero together with Tari using merge mining, you are essentially performing the same amount of work as you would when mining only Monero. The difference is that you are able to submit the same proof of work to both the Monero and Tari networks, potentially earning rewards from both. However, the amount of Monero you earn should remain the same as if you were mining Monero alone, assuming the same mining conditions and network difficulty. (Replying to: /faq does mining monero together with tari rewards same amount of monero as mining only monero ?)
 --------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-13 16:20:29
-Message: Nah nevermind 
+Channel: tariproject | User: None | Date: 2025-06-15 21:24:26
+Message: Poggers 
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 16:21:09
-Message: Народ ? 
+Channel: tariproject | User: None | Date: 2025-06-15 21:26:52
+Message: /faq when mining in merge is monero mined in p2pool or can i choose any other pool 
 --------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-13 16:22:09
-Message: Isn't it mega ? Since I got K for kilo when I limit my igpu (Replying to: does this mean million hashes?)
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-15 21:26:55
+Message: When merge mining with Tari and Monero, you can choose any Monero mining pool that supports merge mining. P2Pool is one option, but you are not restricted to it. You can select any pool that aligns with your preferences and supports the merge mining process. (Replying to: /faq when mining in merge is monero mined in p2pool or can i choose any other pool)
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 16:26:56
-Message: Русское комьюнити >> tarirussia в поиске) (Replying to: Есть тут Русские ?)
+Channel: tariproject | User: None | Date: 2025-06-15 21:27:36
+Message: /faq how to mine tari to already existing tari wallet and monero on moneroocean 
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 17:03:44
-Message: С 26 мая,скаченный релиз на андроиде,прекрасно работает,естественно через впн. (Replying to: Это когда-нибудь починят??? С VPN не работает..)
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-15 21:27:39
+Message: To mine Tari to an existing Tari wallet and Monero on MoneroOcean, you can use the merge mining feature of Tari. First, ensure you have the Tari Universe desktop application installed, which includes a built-in wallet for receiving mining rewards. For Monero, you can use XMRig to connect to the MoneroOcean pool. Configure XMRig to merge mine by connecting it to both the Tari network and MoneroOcean. Use the Tari wallet address for Tari mining and your Monero wallet address for Monero mining. If you need detailed setup instructions, please refer to the official Tari and MoneroOcean documentation. (Replying to: /faq how to mine tari to already existing tari wallet and monero on moneroocean)
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 17:06:43
-Message: У меня iOS 
+Channel: tariproject | User: None | Date: 2025-06-15 21:33:11
+Message: /faq when mining both monero and tari trough cli ... Will tari arrive directly to my tari wallet or is there some in progress function build in like in tafi universe 
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 17:06:48
-Message: Bro what u cant say the word e n  g l i s h is crazy 
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-15 21:33:14
+Message: When mining both Monero and Tari through the command line interface (CLI), the Tari rewards should arrive directly to your Tari wallet. If you are using a setup like Tari Universe, it simplifies the process by integrating the mining and wallet functions, but the core functionality of receiving mined Tari directly into your wallet remains the same. If there are specific features or functions in progress, it would be best to refer to the latest updates from the Tari project or consult with support staff for detailed information. (Replying to: /faq when mining both monero and tari trough cli ... Will tari arrive directly to my tari wallet or is there some in progress function build in like in tafi universe)
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 17:07:27
-Message: If its censored like this thats scary 
+Channel: tariproject | User: None | Date: 2025-06-15 21:34:12
+Message: /faq why does then tari mined on universe app go trough in progress rewards until it reach 2 
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 17:07:57
-Message: English 
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-15 21:34:14
+Message: In the Tari Universe app, mined rewards go through an 'in progress' status until they reach a certain threshold, such as 2 XTM, to ensure efficient processing and minimize transaction fees. This threshold allows for batch processing of smaller amounts, reducing the frequency of transactions on the network. If you have further questions or need more details, please contact support staff for assistance. (Replying to: /faq why does then tari mined on universe app go trough in progress rewards until it reach 2)
 --------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-13 17:13:08
-Message: What igpu or GPU you use to get 60x faster than my igpu (Replying to: does this mean million hashes?)
+Channel: OrderOfSoon | User: None | Date: 2025-06-15 21:53:36
+Message: Now I m on a pause 
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 17:13:37
-Message: Dear administrators, why have there been no payments from the Jagtech pool for more than a day? As I understand it, I'm not the only one with this problem. 
+Channel: OrderOfSoon | User: None | Date: 2025-06-15 21:54:13
+Message: Because someone dumbers cut it out ethernet cable 
 --------------------------------------------------
-Channel: OrderOfSoon | User: UpTechify | Date: 2025-06-13 17:19:39
-Message: Yeah 145 Mh/s is pretty impressive. 
-I'm guessing AT LEAST 2 high end GPUs. 
-Im averaging 3.5 Mh/s with integrated Radeon Vega 8 graphics. 
+Channel: tariproject | User: CryptoTrack_Topstories | Date: 2025-06-15 21:58:48
+Message: Deep whales socials available for marketing 
 --------------------------------------------------
-Channel: OrderOfSoon | User: dehbeh2 | Date: 2025-06-13 17:20:43
-Message: It isn't impressive at all but very low. A single 4090 can do about 1.5gh/s. (Replying to: Yeah 145 Mh/s is pretty impressive. 
-I'm guessing AT LEAST 2 high end GPUs. 
-Im averaging 3.5 Mh/s with integrated Radeon Vega 8 graphics.)
+Channel: tariproject | User: None | Date: 2025-06-15 22:04:38
+Message: Try just using WiFi (Replying to: Unknown message)
 --------------------------------------------------
-Channel: OrderOfSoon | User: UpTechify | Date: 2025-06-13 17:21:25
-Message: Through Tari? 
+Channel: tariproject | User: The_Golden_Sparrow | Date: 2025-06-15 22:06:41
+Message: Just headsup, there are also mods in here during week in case some questions are not well answered by the bot:) (Replying to: /faq why does then tari mined on universe app go trough in progress rewards until it reach 2)
 --------------------------------------------------
-Channel: OrderOfSoon | User: UpTechify | Date: 2025-06-13 17:24:14
-Message: I haven't checked to see if it changed but I thought that Tari is using GPU for XMR and CPU for XTM. Or some % of it. 
-XMR total world hashrate is something like 4.8 Gh/s 
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-15 22:16:55
+Message: The question seems to be missing or unclear. Please ensure your question is formatted correctly. For example, use '/faq What is Tari Universe?' to ask about Tari Universe. 
 --------------------------------------------------
-Channel: OrderOfSoon | User: UpTechify | Date: 2025-06-13 17:25:15
-Message: Please someone clarify this. I'm know I'm likely operating on faulty information 
+Channel: tariproject | User: None | Date: 2025-06-15 22:24:37
+Message: transaction time is brutal. sent 2k XTM like over an hour ago, still not showing up 
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 18:23:10
-Message: sometimes pool payouts are delayed because there are so many payments to process. Id give it a bit more time (Replying to: Dear administrators, why have there been no payments from the Jagtech pool for more than a day? As I understand it, I'm not the only one with this problem.)
+Channel: tariproject | User: None | Date: 2025-06-15 22:26:25
+Message: To the bridge? (Replying to: transaction time is brutal. sent 2k XTM like over an hour ago, still not showing up)
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 18:25:17
-Message: Would it worked to make them need to be claimed instead? (Replying to: sometimes pool payouts are delayed because there are so many payments to process. Id give it a bit more time)
+Channel: tariproject | User: None | Date: 2025-06-15 22:26:34
+Message: Where did you send it? 
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 18:30:34
-Message: Took ~3 days to catch a block in my pool. The more miners on the chain the more difficult it gets (Replying to: Dear administrators, why have there been no payments from the Jagtech pool for more than a day? As I understand it, I'm not the only one with this problem.)
+Channel: tariproject | User: None | Date: 2025-06-15 22:28:25
+Message: is this Rose admin person yet another scammer DMing me? 
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 18:31:22
-Message: no its better to just improve the pool so pay outs happen very often 🙂 (Replying to: Would it worked to make them need to be claimed instead?)
+Channel: tariproject | User: None | Date: 2025-06-15 22:30:51
+Message: they really are relentless lol 
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 18:31:25
-Message: were working on it 
+Channel: tariproject | User: None | Date: 2025-06-15 22:31:25
+Message: no to another wallet (Replying to: To the bridge?)
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 18:31:31
-Message: its actually not the pool itself, but the wallet system 
+Channel: tariproject | User: None | Date: 2025-06-15 22:41:07
+Message: do i have to wait for the next block? also where can i punch in a tari tx id to see confirmations? why doesn't explore.tari.com allow this? 
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 18:31:35
-Message: pool itself is great 
+Channel: tariproject | User: None | Date: 2025-06-15 22:50:35
+Message: Use your Tari Wallet to check transaction status.. (Replying to: do i have to wait for the next block? also where can i punch in a tari tx id to see confirmations? why doesn't explore.tari.com allow this?)
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 18:32:38
-Message: У меня робит (Replying to: Это когда-нибудь починят??? С VPN не работает..)
+Channel: tariproject | User: None | Date: 2025-06-15 22:59:16
+Message: Coming soon! We have a payment reference feature rolling out this coming week so you can see the status of payments (Replying to: do i have to wait for the next block? also where can i punch in a tari tx id to see confirmations? why doesn't explore.tari.com allow this?)
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 18:38:46
-Message: 3+ exchanges in one week
-Nice! 
+Channel: OrderOfSoon | User: yegrace1 | Date: 2025-06-15 23:43:53
+Message: Gm 
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 18:42:45
-Message: Coinex will be nice addition 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 18:43:25
-Message: Have you tried restarting the app? (Replying to: Why can't it sync?)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 19:04:09
-Message: Better use lolMiner 1.96 for GPU mining in Nvidia and AMD (Replying to: Unknown message)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 19:13:55
-Message: Whats the 3rd exchange? Xt bitconmy (Replying to: 3+ exchanges in one week
-Nice!)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 19:14:12
-Message: Coinex 16th june (Replying to: Whats the 3rd exchange? Xt bitconmy)
---------------------------------------------------
-Channel: OrderOfSoon | User: EMS_PC_Printer | Date: 2025-06-13 20:08:29
-Message: h 
---------------------------------------------------
-Channel: OrderOfSoon | User: EMS_PC_Printer | Date: 2025-06-13 20:08:40
-Message: 🤚🏻 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 20:51:17
-Message: Coinbase exchange. (Replying to: Whats the 3rd exchange? Xt bitconmy)
---------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-13 20:53:09
-Message: I think it does use gpu or 3D processing part in task manager said but external gpu isn't optimized yet so igpu inside CPU is more likely (Replying to: Please someone clarify this. I'm know I'm likely operating on faulty information)
---------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-13 20:53:42
-Message: I feel like Tari is mix of both eth and xmr CPU+GPU 
---------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-13 20:54:02
-Message: Anyway I managed to run the app in windows 8 
---------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-13 20:54:11
-Message: Even though it say windows 10 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 21:06:44
-Message: Dnt fck with coinbase 
---------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-13 21:07:22
-Message: I like that there is same coin name with larger market cap 
---------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-13 21:07:43
-Message: Or is it the same coin with different.... 
---------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-13 21:07:49
-Message: Purpose? 
---------------------------------------------------
-Channel: OrderOfSoon | User: Jarrettmmr | Date: 2025-06-13 21:13:43
-Message: Torum is unrelated to Tari (Replying to: I like that there is same coin name with larger market cap)
---------------------------------------------------
-Channel: OrderOfSoon | User: Jarrettmmr | Date: 2025-06-13 21:14:25
-Message: It also has a much lower market cap 
---------------------------------------------------
-Channel: OrderOfSoon | User: Jarrettmmr | Date: 2025-06-13 21:17:51
-Message: Tari Universe is able to mine with pretty much any modern discrete gpu, as well as integrated graphics 
+Channel: OrderOfSoon | User: efaykue_bot | Date: 2025-06-16 00:00:24
+Message: 📊 Current Tari Network Stats 📊
+Block Height: 29,522
+RandomX (Tari) Hash Rate: 1.40 GH/s
+RandomX (Merged-Mined XMR) Hash Rate: 3.65 GH/s
+SHA3x Hash Rate: 129 TH/s
 
-The CPU mines RandomX, and the GPU mines SHA3x :) (Replying to: I think it does use gpu or 3D processing part in task manager said but external gpu isn't optimized yet so igpu inside CPU is more likely)
+Want to learn more? Try '/faq mining' to get information about mining Tari. 
 --------------------------------------------------
-Channel: OrderOfSoon | User: None | Date: 2025-06-13 21:21:40
-Message: Hai I am new to mining what is the block revard for tari I just started with my lap and I got 140mh for my gpu 
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-16 00:00:25
+Message: 📊 Current Tari Network Stats 📊
+Block Height: 29,522
+RandomX (Tari) Hash Rate: 1.40 GH/s
+RandomX (Merged-Mined XMR) Hash Rate: 3.65 GH/s
+SHA3x Hash Rate: 129 TH/s
+
+Want to learn more? Try '/faq mining' to get information about mining Tari. 
 --------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-13 21:22:14
-Message: Oof another flex 
+Channel: OrderOfSoon | User: nikola4888 | Date: 2025-06-16 01:05:35
+Message: Indeed, dunno if you read my message ser but my laptop is usable now even when i'm using 80% of my hardware to mine, you guys have done a great job! (Replying to: Unknown message)
 --------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-13 21:22:18
+Channel: OrderOfSoon | User: wasilevs | Date: 2025-06-16 01:16:39
+Message: I don't do mining anymore. I come here solely to look at the girls. 
+🤣🤣 
+--------------------------------------------------
+Channel: OrderOfSoon | User: sparkslice | Date: 2025-06-16 01:43:00
+Message: so hyped to hear that!! (Replying to: Indeed, dunno if you read my message ser but my laptop is usable now even when i'm using 80% of my hardware to mine, you guys have done a great job!)
+--------------------------------------------------
+Channel: OrderOfSoon | User: Kate231318 | Date: 2025-06-16 01:51:12
+Message: when tari 
+--------------------------------------------------
+Channel: OrderOfSoon | User: Kate231318 | Date: 2025-06-16 01:59:28
+Message: How to sell XTM ? 
+--------------------------------------------------
+Channel: OrderOfSoon | User: Kate231318 | Date: 2025-06-16 02:02:12
+Message: what 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 02:04:49
+Message: When a better exchange can Tari be launched？ 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 02:18:13
+Message: i'll buy your tari if you're looking to sell (Replying to: When a better exchange can Tari be launched？)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 02:18:52
+Message: sorry to admin if that is not allowed here 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 02:19:14
+Message: No OTC chat in here please 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 02:26:29
+Message: Gtari 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 02:26:40
+Message: Gtari! 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 02:27:00
+Message: I love the spirit 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 02:27:33
+Message: How do I join the wait list 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 02:30:04
+Message: what the heck is Gtari 
+--------------------------------------------------
+Channel: OrderOfSoon | User: nikola4888 | Date: 2025-06-16 02:36:30
+Message: 1) What 
+--------------------------------------------------
+Channel: OrderOfSoon | User: nikola4888 | Date: 2025-06-16 02:36:39
+Message: Da fak 
+--------------------------------------------------
+Channel: OrderOfSoon | User: Joshsamera | Date: 2025-06-16 02:39:18
+Message: whats next i will do, i just mine? 
+--------------------------------------------------
+Channel: OrderOfSoon | User: Joshsamera | Date: 2025-06-16 02:39:29
+Message: is my balanace still far low? 
+--------------------------------------------------
+Channel: OrderOfSoon | User: CRYPTOJ11 | Date: 2025-06-16 02:50:18
+Message: Click start mining and let Tari Universe do the mining :) (Replying to: whats next i will do, i just mine?)
+--------------------------------------------------
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-16 03:00:01
+Message: 📊 Current Tari Network Stats 📊
+Block Height: 29,620
+RandomX (Tari) Hash Rate: 1.45 GH/s
+RandomX (Merged-Mined XMR) Hash Rate: 3.39 GH/s
+SHA3x Hash Rate: 179 TH/s
+
+Want to learn more? Try '/faq mining' to get information about mining Tari. 
+--------------------------------------------------
+Channel: OrderOfSoon | User: efaykue_bot | Date: 2025-06-16 03:00:01
+Message: 📊 Current Tari Network Stats 📊
+Block Height: 29,620
+RandomX (Tari) Hash Rate: 1.45 GH/s
+RandomX (Merged-Mined XMR) Hash Rate: 3.39 GH/s
+SHA3x Hash Rate: 179 TH/s
+
+Want to learn more? Try '/faq mining' to get information about mining Tari. 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 03:49:34
+Message: /faq is @Army069 (Markus Meyer) part of the Tari admin team? 
+--------------------------------------------------
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-16 03:49:36
+Message: The FAQ does not provide specific information about individuals or their roles within the Tari team. For privacy and security reasons, such inquiries should be directed to official Tari communication channels or support staff. (Replying to: /faq is @Army069 (Markus Meyer) part of the Tari admin team?)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 03:53:56
+Message: You can search in the chat to cross reference the @ with the admin tag (Replying to: /faq is @Army069 (Markus Meyer) part of the Tari admin team?)
+--------------------------------------------------
+Channel: OrderOfSoon | User: efaykue_bot | Date: 2025-06-16 05:09:43
+Message: The question seems to be missing or unclear. Please ensure your question is formatted correctly, for example: '/faq What is Tari Universe?'. If you have a specific question, feel free to ask again! 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 05:25:01
+Message: Sir, please are you guys undergoing any node upgrade or maintenance? 
+--------------------------------------------------
+Channel: OrderOfSoon | User: efaykue_bot | Date: 2025-06-16 06:00:18
+Message: 📊 Current Tari Network Stats 📊
+Block Height: 29,692
+RandomX (Tari) Hash Rate: 1.33 GH/s
+RandomX (Merged-Mined XMR) Hash Rate: 3.63 GH/s
+SHA3x Hash Rate: 155 TH/s
+
+Want to learn more? Try '/faq mining' to get information about mining Tari. 
+--------------------------------------------------
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-16 06:00:19
+Message: 📊 Current Tari Network Stats 📊
+Block Height: 29,692
+RandomX (Tari) Hash Rate: 1.33 GH/s
+RandomX (Merged-Mined XMR) Hash Rate: 3.63 GH/s
+SHA3x Hash Rate: 155 TH/s
+
+Want to learn more? Try '/faq mining' to get information about mining Tari. 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 06:09:55
+Message: Gm gm 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 06:15:49
+Message: @MrMooning since all the sales of yats are public, is it possible to get the number of yats sold in each RS group to calculate the total number of shells and hammers possible? 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 06:16:43
+Message: I’ll ask if I can get it :) (Replying to: @MrMooning since all the sales of yats are public, is it possible to get the number of yats sold in each RS group to calculate the total number of shells and hammers possible?)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 06:22:05
+Message: Ive been trying to make enquiries but you guys keep on ignoring me (Replying to: I’ll ask if I can get it :))
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 06:22:25
+Message: Whats your enquiry (Replying to: Ive been trying to make enquiries but you guys keep on ignoring me)
+--------------------------------------------------
+Channel: OrderOfSoon | User: KiakkiaFla | Date: 2025-06-16 06:53:52
+Message: last night I mined and after stopping the mining, I turned off the PC. This morning I open the app (which has the same account as the app on PC) and my balance is still 0.00 
+--------------------------------------------------
+Channel: OrderOfSoon | User: KiakkiaFla | Date: 2025-06-16 06:55:48
+Message: bruh, I have to mine at least 2 XTM 
+--------------------------------------------------
+Channel: OrderOfSoon | User: MrMooning | Date: 2025-06-16 06:56:41
+Message: Yes (Replying to: bruh, I have to mine at least 2 XTM)
+--------------------------------------------------
+Channel: OrderOfSoon | User: MrMooning | Date: 2025-06-16 06:56:50
+Message: You still have the pending reward in TU 
+--------------------------------------------------
+Channel: OrderOfSoon | User: KiakkiaFla | Date: 2025-06-16 06:57:50
+Message: where I can see that it's pending 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 07:08:25
+Message: /faq I still don't understand the real use case of XTM, can anyone explain? 
+--------------------------------------------------
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-16 07:08:30
+Message: XTM is the native cryptocurrency of the Tari blockchain, which is a decentralized, privacy-focused, and scalable blockchain protocol. XTM is used as a medium of exchange within the Tari network, rewarding miners who secure the network through proof-of-work consensus. It can also be wrapped into wXTM for use on the Ethereum network, enabling interoperability with Ethereum-based applications. Additionally, XTM is used in Tari Universe for transactions and interactions within the ecosystem. If you have further questions, please let us know, and we can forward them to support staff for more detailed explanations. (Replying to: /faq I still don't understand the real use case of XTM, can anyone explain?)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 07:09:17
+Message: /faq what's in the tari ecosystem? 
+--------------------------------------------------
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-16 07:09:22
+Message: The Tari ecosystem includes several components: 
+1. **Tari Protocol**: A decentralized, privacy-focused blockchain protocol. 
+2. **Tari Universe**: A desktop application for mining Tari and interacting with the network. 
+3. **Minotari Base Node**: Validates and propagates transactions and blocks. 
+4. **Minotari Console Wallet**: Manages user funds and transactions. 
+5. **Minotari Miner**: Enables merge mining with Monero. 
+6. **Tari Bridge**: Allows wrapping of XTM into wXTM on Ethereum. 
+7. **Hatchling Pool**: A centralized mining pool to improve win frequency for small miners. 
+8. **Community and Development Resources**: Includes official channels, GitHub repositories, and documentation for developers. (Replying to: /faq what's in the tari ecosystem?)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 07:10:11
+Message: /faq What about airdrop gems, can they be exchanged for XTM later? 
+--------------------------------------------------
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-16 07:10:14
+Message: The question about airdrop gems being exchanged for XTM is not covered in the available FAQs. For specific details regarding airdrop gems and their exchangeability, please refer to official Tari resources or contact support staff for assistance. (Replying to: /faq What about airdrop gems, can they be exchanged for XTM later?)
+--------------------------------------------------
+Channel: OrderOfSoon | User: MrMooning | Date: 2025-06-16 07:11:04
+Message: In the desktop app, just below the mining stats, you can see a block called “pending rewards” 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 07:11:14
+Message: Yes. Later (Replying to: /faq What about airdrop gems, can they be exchanged for XTM later?)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 07:12:13
+Message: In November 1/12 of your gems can be exchanged then each month an additional 1/12th is unlocked 
+--------------------------------------------------
+Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-16 07:16:59
+Message: You wanna sell your xtm ? why don't you try swapping usually work (Replying to: How to sell XTM ?)
+--------------------------------------------------
+Channel: OrderOfSoon | User: MrMooning | Date: 2025-06-16 07:17:28
+Message: Its a bot high likely (Replying to: You wanna sell your xtm ? why don't you try swapping usually work)
+--------------------------------------------------
+Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-16 07:17:37
+Message: Huh 
+--------------------------------------------------
+Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-16 07:17:42
 Message: 😔 
 --------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-13 21:22:49
-Message: Block reward is dynamic if I'm not wrong it's still around 14-16 per block (Replying to: Hai I am new to mining what is the block revard for tari I just started with my lap and I got 140mh for my gpu)
+Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-16 07:18:36
+Message: Well anyway since Tari is like a branch of xmr I expect atleast some growth like etc,ltc,bch and other fork of main network with modest growth or fanbase 
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 21:23:24
-Message: Coinbase announced Listing soon (Replying to: Whats the 3rd exchange? Xt bitconmy)
+Channel: tariproject | User: None | Date: 2025-06-16 08:00:39
+Message: In short, a privacy focused ethereum with smart contracts. Its different as it has two layers. One privacy focused baselayer and a second smart contract / app layer called ootle. (Replying to: /faq I still don't understand the real use case of XTM, can anyone explain?)
 --------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-13 21:23:59
-Message: Unless you mine solo I don't really care what the rewards per block is I only care how much I got daily and convert it to USD and monthly earnings and start thinking from there unless it's for holding 
+Channel: tariproject | User: None | Date: 2025-06-16 08:17:11
+Message: Trying to work out rewards to cost ratio 
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 21:26:10
-Message: ? what are you talking about 🙂 (Replying to: Coinbase announced Listing soon)
+Channel: tariproject | User: None | Date: 2025-06-16 08:17:26
+Message: No price talk here please 
 --------------------------------------------------
-Channel: OrderOfSoon | User: Jarrettmmr | Date: 2025-06-13 21:27:09
-Message: ~13613 XTM right now, if the pool you’re in mines it it gets split with everyone else in the pool (Replying to: Hai I am new to mining what is the block revard for tari I just started with my lap and I got 140mh for my gpu)
+Channel: OrderOfSoon | User: The_Golden_Sparrow | Date: 2025-06-16 08:45:13
+Message: Damn 10 mio puffed since last week. Why does the project lose trust? This is just the beginning....and community/team delivers every weem 
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 21:27:13
-Message: Coinbase 🥳 (Replying to: ? what are you talking about 🙂)
+Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-16 08:48:14
+Message: Which project ? 
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 21:31:21
-Message: CoinEx 🙂 
+Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-16 08:48:16
+Message: This ? 
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 21:31:26
-Message: (who are awesome btw) 
+Channel: tariproject | User: None | Date: 2025-06-16 08:49:57
+Message: Tari has fallen to such an extent that there is no profit left. If it continues like this, I won't be able to continue digging 
 --------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-13 21:32:11
-Message: Maybe that explain why I get so little 
+Channel: tariproject | User: None | Date: 2025-06-16 08:50:26
+Message: How can i see the transfer transaction i did. The txid given by the exchange says invalid on the explorer (Replying to: Whats your enquiry)
 --------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-13 21:32:29
-Message: I mean I did expect it since i join pool 
+Channel: tariproject | User: None | Date: 2025-06-16 08:52:38
+Message: If you have issues with cex please contact their support 
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 21:36:55
-Message: Oh yea right one of the OG exchanges with "Coin" 😂 (Replying to: CoinEx 🙂)
+Channel: tariproject | User: None | Date: 2025-06-16 08:52:59
+Message: I made a withdrawal from an exchange to another exchange.  Sending exchange says its been sent out, receiving exchange hasnt credited it saying that network is slow. This is over 26 hours. I can't even track the transaction with the given txid because it brings up invalid when put in the explorer 
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 21:48:22
-Message: How much is your daily TARI income? 
+Channel: tariproject | User: None | Date: 2025-06-16 08:54:14
+Message: Honestly i have. They keep saying you guys are upgrading your node and all. Im just looking for a way to show them my xtm was sent into the address provided but i cant seem to see a way (Replying to: If you have issues with cex please contact their support)
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-13 21:56:23
-Message: Hopefully soon something on Ootle, German electricity is to expensive (Replying to: How much is your daily TARI income?)
+Channel: tariproject | User: None | Date: 2025-06-16 08:54:51
+Message: Id really appreciate any help i can get from you guys. This is over 26 hours now 
 --------------------------------------------------
-Channel: OrderOfSoon | User: TeleSenaaGMonadTAPX | Date: 2025-06-13 22:31:11
-Message: Media message 
+Channel: tariproject | User: None | Date: 2025-06-16 08:56:24
+Message: Ask the sending exchange for the raw transaction output or proof of broadcast..And you can also track the blocks manually.. (Replying to: I made a withdrawal from an exchange to another exchange.  Sending exchange says its been sent out, receiving exchange hasnt credited it saying that network is slow. This is over 26 hours. I can't even track the transaction with the given txid because it brings up invalid when put in the explorer)
 --------------------------------------------------
-Channel: OrderOfSoon | User: TeleSenaaGMonadTAPX | Date: 2025-06-13 22:32:27
-Message: Media message 
+Channel: tariproject | User: None | Date: 2025-06-16 08:58:14
+Message: Let me do that now (Replying to: Ask the sending exchange for the raw transaction output or proof of broadcast..And you can also track the blocks manually..)
 --------------------------------------------------
-Channel: OrderOfSoon | User: TeleSenaaGMonadTAPX | Date: 2025-06-13 22:33:51
-Message: Media message 
+Channel: tariproject | User: None | Date: 2025-06-16 08:59:28
+Message: There is very little that we can do over here. Transaction details are only seen between the sender and the receiver. And if you have done it between 2 exchanges. Then they are the only 2 that can see the details (Replying to: Honestly i have. They keep saying you guys are upgrading your node and all. Im just looking for a way to show them my xtm was sent into the address provided but i cant seem to see a way)
 --------------------------------------------------
-Channel: OrderOfSoon | User: Dragonn2037 | Date: 2025-06-13 22:43:55
-Message: I've been mining in a GPU pool for a good week, and I'm only getting a few drops at a time. I reached 100 XTM last night. And in Tari, I'm using the CPU for about 25 XTM/day. 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 00:10:43
-Message: Will it be difficult to list on T1 exchanges since tari is a privacy coin 
---------------------------------------------------
-Channel: OrderOfSoon | User: naowae | Date: 2025-06-14 00:26:41
-Message: hey what are the requirements to get the referall does your referal have to mine a certain ammount? 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 00:27:11
-Message: yes (Replying to: Will it be difficult to list on T1 exchanges since tari is a privacy coin)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 00:27:45
-Message: tari will most likely go the way of monero as far as exchanges go 
---------------------------------------------------
-Channel: OrderOfSoon | User: Jarrettmmr | Date: 2025-06-14 00:28:49
-Message: Think they need to mine over 6 hours (Replying to: hey what are the requirements to get the referall does your referal have to mine a certain ammount?)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 00:29:01
-Message: We'll see :P 
---------------------------------------------------
-Channel: OrderOfSoon | User: Andikawap | Date: 2025-06-14 00:30:14
-Message: tari 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 00:31:21
-Message: i think the bigger question is whether or not it's worth it to mine with the price so low. merge mining makes a little sense right now, i guess, but with XMR dropping in price as well my guess is the merge mining will go down as well. 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 00:31:56
-Message: people are better off buying now instead of mining 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 00:32:28
-Message: use your rigs for something that's actually going up in value 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 00:40:31
-Message: Tari is a unique animal on a lot of fronts. I think its best to take a wait and see approach. After all, its ~4.5 weeks post mainnet launch 🙂 (Replying to: tari will most likely go the way of monero as far as exchanges go)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 00:40:48
-Message: its definitely early 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 00:43:53
-Message: right, just saying it's a waste of mining power right now, IMO. i mine XMR all year regardless of price, but i'm a dorky enthusiast. my guess would be that with Tari marketing towards everybody, most miners in the pool are not dorky enthusiasts, just lookin to make a buck. 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 00:46:38
-Message: Normal people don't care about mining.
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-16 09:00:14
+Message: 📊 Current Tari Network Stats 📊
+Block Height: 29,784
+RandomX (Tari) Hash Rate: 1.35 GH/s
+RandomX (Merged-Mined XMR) Hash Rate: 3.55 GH/s
+SHA3x Hash Rate: 132 TH/s
 
- The mining will only make full sense when the other layers are implemented which have things that most people are familiar with and enticed to interact with, being able to obtain the primary asset by mining is still great way to convince people to on-board. 
+Want to learn more? Try '/faq mining' to get information about mining Tari. 
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 00:49:14
-Message: your cars suck (Replying to: Normal people don't care about mining.
+Channel: OrderOfSoon | User: efaykue_bot | Date: 2025-06-16 09:00:14
+Message: 📊 Current Tari Network Stats 📊
+Block Height: 29,784
+RandomX (Tari) Hash Rate: 1.35 GH/s
+RandomX (Merged-Mined XMR) Hash Rate: 3.55 GH/s
+SHA3x Hash Rate: 132 TH/s
 
- The mining will only make full sense when the other layers are implemented which have things that most people are familiar with and enticed to interact with, being able to obtain the primary asset by mining is still great way to convince people to on-board.)
+Want to learn more? Try '/faq mining' to get information about mining Tari. 
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 00:50:40
-Message: It'll get a bit better with the Cuckaroo fork :) 
+Channel: tariproject | User: None | Date: 2025-06-16 09:02:01
+Message: So theres no way i can scan the address to see the transactions recieved by the address? (Replying to: There is very little that we can do over here. Transaction details are only seen between the sender and the receiver. And if you have done it between 2 exchanges. Then they are the only 2 that can see the details)
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 00:53:56
-Message: it really comes down to time horizon. Of course many folks are going to look at the immediate term economics of something and thats totally fine. There are many in the community however that take a longer term view
-
-awesome that you mine XMR. I started mining XMR in 2016! (Replying to: right, just saying it's a waste of mining power right now, IMO. i mine XMR all year regardless of price, but i'm a dorky enthusiast. my guess would be that with Tari marketing towards everybody, most miners in the pool are not dorky enthusiasts, just lookin to make a buck.)
+Channel: tariproject | User: None | Date: 2025-06-16 09:02:52
+Message: Sender says theyve sent out the transaction. Reciever is insisting on getting block ID (Replying to: There is very little that we can do over here. Transaction details are only seen between the sender and the receiver. And if you have done it between 2 exchanges. Then they are the only 2 that can see the details)
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 01:05:14
-Message: 1 XTM=1 XTM 😂 
+Channel: OrderOfSoon | User: The_Golden_Sparrow | Date: 2025-06-16 09:03:16
+Message: Yeah (Replying to: This ?)
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 01:05:49
-Message: fax! (Replying to: 1 XTM=1 XTM 😂)
+Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-16 09:03:33
+Message: More block reward for me (Replying to: Yeah)
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 01:06:04
-Message: same. to me it's the most important coin! (Replying to: it really comes down to time horizon. Of course many folks are going to look at the immediate term economics of something and thats totally fine. There are many in the community however that take a longer term view
-
-awesome that you mine XMR. I started mining XMR in 2016!)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 01:06:15
-Message: 1 XTM = 1 XTM = 1 XTR 😝 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 01:18:23
-Message: You one uped me! (Replying to: 1 XTM = 1 XTM = 1 XTR 😝)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 01:19:21
-Message: This person has changed their name to Kelvin, just FYI everyone
-And their @ is now minded333 (Replying to: Unknown message)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 02:04:49
-Message: Yes, this seems like a long term issue that may cause some liquidity restrictions but I guess it's a given, considering the nature of the token. (Replying to: Will it be difficult to list on T1 exchanges since tari is a privacy coin)
---------------------------------------------------
-Channel: OrderOfSoon | User: verrfff | Date: 2025-06-14 02:30:46
-Message: brother this is crypto mining not actual mining ⛏️ (Replying to: Unknown message)
---------------------------------------------------
-Channel: OrderOfSoon | User: cryptoomar | Date: 2025-06-14 02:35:44
-Message: How to mine tari only instead of xtm/xmr merge mine in tari universe? 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 02:39:34
-Message: How to mine tari only instead of xtm/xmr merge mine in tari universe? 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 02:41:29
-Message: Tari Universe mines XTM only by default.  It's not merge mined anymore in the app. (Replying to: How to mine tari only instead of xtm/xmr merge mine in tari universe?)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 03:30:06
-Message: The layer 2 token can be listed if its evm layer 2 it wont be private only the base layer will be (Replying to: Yes, this seems like a long term issue that may cause some liquidity restrictions but I guess it's a given, considering the nature of the token.)
---------------------------------------------------
-Channel: OrderOfSoon | User: fonlin14 | Date: 2025-06-14 03:36:58
-Message: Go to Myanmar (Replying to: Unknown message)
---------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-14 03:43:26
-Message: Bro I've been mining but I didn't get my first withdrawal limit yet 
---------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-14 03:43:30
-Message: 🙊😂 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 04:23:46
-Message: Not withstanding the estimated time of "not more than 12h", how long does it actually takes to bridge xtm to wxtm? 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 04:27:43
-Message: I have found it usually completes within the hour unless the network is congested or it's having issues (Replying to: Not withstanding the estimated time of "not more than 12h", how long does it actually takes to bridge xtm to wxtm?)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 04:28:24
-Message: WalletConnect can be finicky if you leave the sending page while it's in progress, and sometimes hitting the max xtm button has caused it to hang for me 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 04:28:53
-Message: Thank you for the prompt reply 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 04:34:50
-Message: Salam 
---------------------------------------------------
-Channel: OrderOfSoon | User: Viktor42000 | Date: 2025-06-14 04:35:41
-Message: Se puede minar en bitaxe o no espero una respuesta 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 04:42:21
-Message: restarted the pc, delete data files, won't work. 
---------------------------------------------------
-Channel: OrderOfSoon | User: naowae | Date: 2025-06-14 04:43:34
-Message: my rewards aren't getting sent to my wallet its been way over 2 hrs since I hit 2 xtm 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 05:13:12
-Message: 那个是官方 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 05:13:47
-Message: 回个信息 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 05:27:35
-Message: 搜 cntari (Replying to: 回个信息)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 05:52:29
-Message: Let me know if you can't get it to work, I've gotten it more often than not (Replying to: Thank you for the prompt reply)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 06:06:29
-Message: 非官方中文群，Telegram 搜索 `cntari` (Replying to: 回个信息)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 06:45:53
-Message: Здравствуйте. На кошельке до версии 1.2.9 (или 1.2.8, точно не помню) было больше 200 Тари.После автоматической установки следующей версии эти монеты куда то пропали.Они восстановятся или был какой то форк монеты? 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 06:50:58
-Message: Если синхронизируется-то куда они денуться. (Replying to: Здравствуйте. На кошельке до версии 1.2.9 (или 1.2.8, точно не помню) было больше 200 Тари.После автоматической установки следующей версии эти монеты куда то пропали.Они восстановятся или был какой то форк монеты?)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 06:53:35
-Message: хз, куда то делись:) с пула пришло 325 монет, сейчас на кошельке 119. Все транзакции до 11 июня куда то делись:( может, как то рескан кошелька сделать надо? 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 06:56:21
-Message: Сделал Refresh wallet history, еще 40 монет пропали😂 теперь видны только транзакции с 12 июня🙈 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 06:57:29
-Message: Если синхрон сделан до конца,остальное все мутно,мобильным справляюсь 
---------------------------------------------------
-Channel: OrderOfSoon | User: None | Date: 2025-06-14 06:59:12
-Message: **❗️**** Message reported to admins**[**‌**](tg://user?id=1370478598)[**‌**](tg://user?id=5434266369)[**‌**](tg://user?id=1076744255)[**‌**](tg://user?id=1731628557)[**‌**](tg://user?id=588041409)[**‌**](tg://user?id=1933225648)[**‌**](tg://user?id=5488277694)[**‎**](tg://user?id=143517914) (Replying to: Unknown message)
---------------------------------------------------
-Channel: OrderOfSoon | User: None | Date: 2025-06-14 07:17:21
-Message: 🌕 
---------------------------------------------------
-Channel: OrderOfSoon | User: None | Date: 2025-06-14 07:21:55
-Message: Why p2pool is showing like this and height is not same 
---------------------------------------------------
-Channel: OrderOfSoon | User: Sallehazmi | Date: 2025-06-14 07:56:46
-Message: What happen to pending transaction at bridge when timeout (Replying to: Media message)
---------------------------------------------------
-Channel: OrderOfSoon | User: Sallehazmi | Date: 2025-06-14 07:57:59
-Message: I got a notification saying it will bounce back to out Tari wallet but it’s been a few hours now still nothing 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 08:05:13
-Message: Вы проверили, полностью ли синхронизирован узел? (Replying to: Здравствуйте. На кошельке до версии 1.2.9 (или 1.2.8, точно не помню) было больше 200 Тари.После автоматической установки следующей версии эти монеты куда то пропали.Они восстановятся или был какой то форк монеты?)
---------------------------------------------------
-Channel: OrderOfSoon | User: aad342852 | Date: 2025-06-14 08:12:11
-Message: The market won't come to you 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 08:13:56
-Message: Media message 
---------------------------------------------------
-Channel: OrderOfSoon | User: nikola4888 | Date: 2025-06-14 08:28:42
-Message: Wen moon (Replying to: The market won't come to you)
---------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-14 08:29:45
-Message: Yes 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 08:54:50
-Message: 收到🙏 (Replying to: 非官方中文群，Telegram 搜索 `cntari`)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 08:55:02
-Message: welcome (Replying to: 收到🙏)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 08:57:52
-Message: 462495 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 09:07:06
-Message: The days of peer connections are now a distant memory  TU is  pretty much an ornament on my desktop gobbling 800% CPU and mocking me with that f***ing pulsing yellow dot! 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 09:13:48
-Message: I didn't know that (Replying to: The layer 2 token can be listed if its evm layer 2 it wont be private only the base layer will be)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 09:15:09
-Message: this is not correct (Replying to: The layer 2 token can be listed if its evm layer 2 it wont be private only the base layer will be)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 09:15:27
-Message: Where did evm layer 2 come from 🙈 (Replying to: The layer 2 token can be listed if its evm layer 2 it wont be private only the base layer will be)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 09:17:30
-Message: Yes, it's just a bridge to EVM token. 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 09:19:24
-Message: Tari is not an EVM chain by nature
-
-XTM has a wrapped contract into Ethereum powered by LayerZero that enables omni chain assets. (Replying to: The layer 2 token can be listed if its evm layer 2 it wont be private only the base layer will be)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 09:21:57
-Message: But exchanges can use the wrapped token as in listings. That bypasses the anonymity/ surveillance issue (Replying to: Will it be difficult to list on T1 exchanges since tari is a privacy coin)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 09:22:59
-Message: If you want to sell it as you mine, it won’t be that profitable. But if you are interested on the project longevity, I do recommend starting early because of the tail emissions (Replying to: i think the bigger question is whether or not it's worth it to mine with the price so low. merge mining makes a little sense right now, i guess, but with XMR dropping in price as well my guess is the merge mining will go down as well.)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 09:23:48
-Message: What hashrate are FPGAs getting, I’m using a rtx 5080 and getting 1.2GH/s 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 09:24:42
-Message: Confusing thoughts right there, but gladly we have near 15k non normal people onboarded and mining non stop (Replying to: Normal people don't care about mining.
-
- The mining will only make full sense when the other layers are implemented which have things that most people are familiar with and enticed to interact with, being able to obtain the primary asset by mining is still great way to convince people to on-board.)
---------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-14 09:33:14
-Message: My most optimized yet setting to get max hash for CPU and gpu 
---------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-14 09:36:39
-Message: Firstly allocate CPU 3/8 core or half minus 1 core of total core
-GPU the same allocate 3/8 core in the same core as CPU mining personally I would download throttlestop and tune minus 5-15 offset power and turn off turbo (disabled overclock) this keep app running for longer and more stable and lastly when choosing 3 out of 8 core (if you have 16 core or more just do the ratio) choose the lowest temperature when you look at throttlestop app and set all Tari app xmrig glyt etc etc in low priority 
---------------------------------------------------
-Channel: OrderOfSoon | User: MrMooning | Date: 2025-06-14 09:37:06
-Message: Can you send me the raw details please (Replying to: Media message)
---------------------------------------------------
-Channel: OrderOfSoon | User: MrMooning | Date: 2025-06-14 09:37:14
-Message: If you still dont have the funds in your Tari wallet 
---------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-14 09:38:39
-Message: Your GPU should be running at 80-85% efficiency while using 100% power but the only difference is your overall performance is stable not Spike up and down and CPU running at 30-45% load with temperature of 65-70 Celcius with efficiency of 80-95% equivalent of full load 
---------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-14 09:39:15
-Message: If anyone wanna try my setting you can ask for detail for part you don't know 😴 
---------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-14 09:44:16
-Message: Overall setting in visual the GPU and CPU hashrate already max out bro 😂 it just that I have shitty CPU called Intel 
---------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-14 09:49:18
-Message: Temperature here 22 Celsius indoor probably 25 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 11:25:11
-Message: guys which pools do merge mining except Hashvault? the ntwork is 3.6 gh 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 11:26:34
-Message: Supportxmr (Replying to: guys which pools do merge mining except Hashvault? the ntwork is 3.6 gh)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 11:27:42
-Message: both have 2.6 gh. where is the rest coming from? (Replying to: Supportxmr)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 11:28:04
-Message: Moneroocean? 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 11:28:44
-Message: And any other xmr pool 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 11:29:12
-Message: why is it called minotari on coingecko & coinmarketcap 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 11:29:14
-Message: Including xmr p2pool 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 11:29:38
-Message: Thata the name of the L1 token (Replying to: why is it called minotari on coingecko & coinmarketcap)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 11:31:49
-Message: Moneroocean is algo switching, so they move around, p2pool xmr is 200 mh (Replying to: Moneroocean?)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 11:34:31
-Message: Send you link to stats (Replying to: Moneroocean is algo switching, so they move around, p2pool xmr is 200 mh)
---------------------------------------------------
-Channel: OrderOfSoon | User: ukraintsevalexey | Date: 2025-06-14 11:36:02
-Message: Who has how much Tari can mine per day? Is it better to mine or buy? 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 11:45:10
-Message: Bro I know that link....no exact explanation... (Replying to: Send you link to stats)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 12:05:25
-Message: not really how you would expect it to work though
-you only get a full Tari block reward if you find a Monero block yourself
-and no Tari otherwise (Replying to: Including xmr p2pool)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 12:07:19
-Message: question, all things considered, energy costs/rewards, is mining or buying better for you? referring obviously to the price of XTM at the moment of $0.027 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 12:08:08
-Message: I would definitely buy it 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 12:15:27
-Message: buy 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 12:18:20
-Message: Why 16.06 at 6:00 (Replying to: Unknown message)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 12:19:00
-Message: and then I wonder why nobody buys and instead the miners download little by little at such a low price that it doesn't even cover the cost of energy/hardware? 
---------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-14 12:19:57
-Message: Buy (Replying to: Who has how much Tari can mine per day? Is it better to mine or buy?)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 12:20:03
-Message: When you look at inflation chart you understand 
---------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-14 12:20:13
-Message: If small money buy if big money mine 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 12:22:26
-Message: Bots will buy, also founders are early bitcoiners 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 12:23:05
-Message: Please keep your price discussion talks elsewhere (Replying to: Unknown message)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 12:23:12
-Message: 非官方中文群，Telegram 搜索 cntari (Replying to: guys which pools do merge mining except Hashvault? the ntwork is 3.6 gh)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 12:24:20
-Message: The idea is alot of people can easily mine on their normal laptop even if its few xtm a day. Over the months this accumulate without even sweating 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 12:25:54
-Message: I am mining on my 12 yo laptop for example, and getting few xtm a day on eco mode while im doing my day to day work, or while im sleeping 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 12:27:18
-Message: thanks bro, will look into it (Replying to: 非官方中文群，Telegram 搜索 cntari)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 12:27:23
-Message: sure but what's the point if I spend $1 of energy per day to extract to receive $0.06 in token value, only those who have a lot of resources maybe gain. so it's only a loss, you might as well buy (Replying to: The idea is alot of people can easily mine on their normal laptop even if its few xtm a day. Over the months this accumulate without even sweating)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 12:28:48
-Message: not to mention how ethically wrong it is in terms of eco-sustainability, at least if there were profits, one would be more inclined to do it 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 12:28:48
-Message: “Energy” is very variable depending on where you live and what youre doing. Im not wasting more enegy while mining on eco mode when im doing my day work 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 12:29:30
-Message: And if I want to buy anything I need to KYC myself so that I deposit money. With Tari Universe im actually joining the crypto world without even KYCing myself :) 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 12:29:54
-Message: yes but what you receive in rewards will also be reported, that is nothing (Replying to: “Energy” is very variable depending on where you live and what youre doing. Im not wasting more enegy while mining on eco mode when im doing my day work)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 12:30:22
-Message: 2 very irrelevant points 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 12:31:37
-Message: Use lolMiner for mining in background to increase the profit using your GPU, before ASICs come on SHA3X (Replying to: “Energy” is very variable depending on where you live and what youre doing. Im not wasting more enegy while mining on eco mode when im doing my day work)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 12:35:36
-Message: I've navigated the crypto world for almost 10 years with KYC only recent because of circumstance.  You can use blockchain rails to circumvent everything, swapping to USDC or USDT, mining to atomic and swapping for btc. I for one have not seen any promising TVL or news about the coins adoption, dex/next addition etc (Replying to: And if I want to buy anything I need to KYC myself so that I deposit money. With Tari Universe im actually joining the crypto world without even KYCing myself :))
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 12:36:20
-Message: Tari, the coin in question (Replying to: I've navigated the crypto world for almost 10 years with KYC only recent because of circumstance.  You can use blockchain rails to circumvent everything, swapping to USDC or USDT, mining to atomic and swapping for btc. I for one have not seen any promising TVL or news about the coins adoption, dex/next addition etc)
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 12:37:23
-Message: Also flagged as a honeypot on a Couple explorers. Additional features to accept dollars and move tokens off the tari chain and not back on is a massive red flag. 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 12:38:12
-Message: There are a lot of scams in here. When you have any questions, they will contact you privately to steal your assets. The admin does not contact anyone in advance. Be careful. 
---------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-14 12:42:59
-Message: Lol my return is only 1.8 usd monthly 
---------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-14 12:43:03
-Message: 😂 
---------------------------------------------------
-Channel: OrderOfSoon | User: AgustiDart | Date: 2025-06-14 13:15:26
-Message: my questions were not answred yet. Why my xtm decreased or my xtm was despeared? No answer until now 
---------------------------------------------------
-Channel: OrderOfSoon | User: o_omnis | Date: 2025-06-14 13:16:59
-Message: Wallet not fully synced with network (Replying to: my questions were not answred yet. Why my xtm decreased or my xtm was despeared? No answer until now)
---------------------------------------------------
-Channel: OrderOfSoon | User: o_omnis | Date: 2025-06-14 13:17:38
-Message: Write down your seed phrase and reinstall, importing your wallet with your seed phrase, and let it sync again 
---------------------------------------------------
-Channel: OrderOfSoon | User: o_omnis | Date: 2025-06-14 13:19:06
-Message: You should write down your seed phrase anyways as backup if you haven't already 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 13:27:51
-Message: Anyone from UK or US here? 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 13:28:31
-Message: I am Facing this problem again n again 
---------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 13:30:16
-Message: Reset your TU plz (Replying to: I am Facing this problem again n again)
---------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-14 13:34:51
+Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-16 09:03:39
 Message: 😐 
 --------------------------------------------------
-Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-14 13:34:54
-Message: I haven't 
+Channel: tariproject | User: None | Date: 2025-06-16 09:04:40
+Message: Can i send am image here? (Replying to: There is very little that we can do over here. Transaction details are only seen between the sender and the receiver. And if you have done it between 2 exchanges. Then they are the only 2 that can see the details)
 --------------------------------------------------
-Channel: OrderOfSoon | User: AgustiDart | Date: 2025-06-14 13:38:00
-Message: is it seed phrase on the wallet node? Then i reinstall the node? (Replying to: You should write down your seed phrase anyways as backup if you haven't already)
+Channel: tariproject | User: None | Date: 2025-06-16 09:06:20
+Message: You can DM me if its not allowed here (Replying to: Can i send am image here?)
 --------------------------------------------------
-Channel: tariproject | User: None | Date: 2025-06-14 13:45:59
-Message: Reboot,Launch again and wait 5–10 minutes. (Replying to: I am Facing this problem again n again)
+Channel: tariproject | User: None | Date: 2025-06-16 09:06:30
+Message: You will have to ask the exchange for more details (Replying to: Sender says theyve sent out the transaction. Reciever is insisting on getting block ID)
 --------------------------------------------------
-Channel: OrderOfSoon | User: towords | Date: 2025-06-14 13:46:54
-Message: Seed found in the wallet settings 
+Channel: tariproject | User: None | Date: 2025-06-16 09:06:44
+Message: You cant see it by yourself if they dont give you details 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:07:40
+Message: This is the details of the transaction (Replying to: You can DM me if its not allowed here)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:07:55
+Message: No txID is not enough 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:09:56
+Message: Please what else do i need so i can directly request it from them (Replying to: No txID is not enough)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:10:35
+Message: This is what they are saying (Replying to: No txID is not enough)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:10:53
+Message: OMG , market makers are harvesting profits from miners. Please stop placing orders for sale and wait for large exchanges to list for trading. 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:12:09
+Message: Again we cannot do anything about it. You will have to find solution between the 2 exchanges (Replying to: This is what they are saying)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:12:20
+Message: They have all the information needed for the transfer 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:15:10
+Message: So theres no way i can get the exact block by myself. Thats really sad. Thank you for your assistance (Replying to: Again we cannot do anything about it. You will have to find solution between the 2 exchanges)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:16:01
+Message: They sent me this now though 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:16:03
+Message: The first time I tried trading XTM, I transferred to TradeOrge to try 1 XTM first, after the transaction was successful, I transferred the remaining XTM I had. 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:20:28
+Message: I wish i did the same. Im just full of regrets (Replying to: The first time I tried trading XTM, I transferred to TradeOrge to try 1 XTM first, after the transaction was successful, I transferred the remaining XTM I had.)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:21:13
+Message: Not to intrude. But please can i see what transaction details looked like? (Replying to: The first time I tried trading XTM, I transferred to TradeOrge to try 1 XTM first, after the transaction was successful, I transferred the remaining XTM I had.)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:22:44
+Message: Media message 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:23:19
+Message: Media message 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:23:56
+Message: I always transfer 1 XTM, to check the transaction 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:24:30
+Message: sometimes try again and again many times 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:25:01
+Message: Like what the transaction details wrote. Example the transaction ID (Replying to: Media message)
+--------------------------------------------------
+Channel: tariproject | User: OGMansarda | Date: 2025-06-16 09:25:20
+Message: Где пумп але? 
+--------------------------------------------------
+Channel: tariproject | User: patmcpat | Date: 2025-06-16 09:28:11
+Message: qubic guys bragging about mining and selling 50k 
+--------------------------------------------------
+Channel: tariproject | User: llIMaxIll | Date: 2025-06-16 09:28:12
+Message: Media message 
+--------------------------------------------------
+Channel: tariproject | User: xdmsx | Date: 2025-06-16 09:28:34
+Message: Media message (Replying to: Где пумп але?)
+--------------------------------------------------
+Channel: tariproject | User: patmcpat | Date: 2025-06-16 09:29:05
+Message: time to turn off merge mining 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:30:18
+Message: Without merging mining, the Tari dropped to zero in minutes 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:30:46
+Message: i just have TXID of transaction (Replying to: Like what the transaction details wrote. Example the transaction ID)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:31:02
+Message: What are you guys talking 😅 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:31:16
+Message: Without XMR's safety net, the ecosystem that miners cannot withstand would be even more unsustainable 
+--------------------------------------------------
+Channel: tariproject | User: OGMansarda | Date: 2025-06-16 09:31:20
+Message: Заебали лить 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:32:01
+Message: /faq i have TXID, how can i check transaction 
+--------------------------------------------------
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-16 09:32:05
+Message: To check a transaction using a TXID, you can visit the Tari block explorer at https://explore.tari.com/. Enter your transaction ID (TXID) in the search bar to view the transaction details. If you have any issues, please let us know, and we can forward your question to support staff for further assistance. (Replying to: /faq i have TXID, how can i check transaction)
+--------------------------------------------------
+Channel: tariproject | User: xdmsx | Date: 2025-06-16 09:32:07
+Message: Yeah... almost (Replying to: time to turn off merge mining)
+--------------------------------------------------
+Channel: tariproject | User: OGMansarda | Date: 2025-06-16 09:32:08
+Message: Откупайте ебана 
+--------------------------------------------------
+Channel: tariproject | User: xdmsx | Date: 2025-06-16 09:33:08
+Message: Рано. (Replying to: Откупайте ебана)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:33:35
+Message: this just check block height, block heigh just at 29793, so if use TXID for check will be correct 
+--------------------------------------------------
+Channel: tariproject | User: OGMansarda | Date: 2025-06-16 09:33:42
+Message: Нихуя не рано (Replying to: Рано.)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:41:33
+Message: Can i see what it looks like
+-5612812671274771641 this is what i was given as mine (Replying to: i just have TXID of transaction)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:43:13
+Message: Says block not found. Im inputting the txid the exchange gave me. Please ill really need help from support staff (Replying to: To check a transaction using a TXID, you can visit the Tari block explorer at https://explore.tari.com/. Enter your transaction ID (TXID) in the search bar to view the transaction details. If you have any issues, please let us know, and we can forward your question to support staff for further assistance.)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:43:32
+Message: yeah, i have problem too (Replying to: Says block not found. Im inputting the txid the exchange gave me. Please ill really need help from support staff)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:44:11
+Message: Even though the transaction was successful, there is a TXID for that transaction, but checking in explorer tari, it is not found. 
+--------------------------------------------------
+Channel: OrderOfSoon | User: BW2489 | Date: 2025-06-16 09:44:37
+Message: Cause volume, Just have < 1000xtm (Replying to: You wanna sell your xtm ? why don't you try swapping usually work)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:44:48
+Message: 640123617298975595 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:45:20
+Message: Media message 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:47:21
+Message: I guess the block height is the main thing to trace transactions with
+This is so difficult 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 09:58:01
+Message: /faq does a branding pack exist? 
+--------------------------------------------------
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-16 09:58:04
+Message: The FAQ does not mention a branding pack. This question will be forwarded to support staff for answering. (Replying to: /faq does a branding pack exist?)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 10:04:44
+Message: Can you guys confirm a blockchain height for me? (Replying to: What are you guys talking 😅)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 10:05:09
+Message: Nope 
+--------------------------------------------------
+Channel: tariproject | User: Pishisuida | Date: 2025-06-16 10:38:09
+Message: Could you give me wrapped contract of this coin? 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 10:39:49
+Message: 0xfD36fA88bb3feA8D1264fc89d70723b6a2B56958 
+--------------------------------------------------
+Channel: tariproject | User: DanzelB1 | Date: 2025-06-16 10:40:35
+Message: Whales buy in bulk from miners then dump them on market with a bit profit (Replying to: OMG , market makers are harvesting profits from miners. Please stop placing orders for sale and wait for large exchanges to list for trading.)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 10:50:16
+Message: Alright 🥲 (Replying to: Nope)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 10:54:07
+Message: Hey guys, if anyone has bridge transactions that were timed out, and you didnt receive your XTM. Please send me transaction details 
+--------------------------------------------------
+Channel: tariproject | User: moscowbnb | Date: 2025-06-16 10:55:34
+Message: Boss, the balance went out of my wallet and it was processed in the 29801st block, but I'm still waiting even though it's 32 blocks. When I checked on Onchain, people have completed the process 2-3 times for the last 30 minutes, but I'm still waiting. (Replying to: Nope)
+--------------------------------------------------
+Channel: tariproject | User: moscowbnb | Date: 2025-06-16 10:56:11
+Message: {"sourceAddress":"12KxvbCJmYWjdmXaX9uVWsHo4jmQpQrchHSNb3yr7Np7f3Wu7VYdDNbkRKAonM5wxtJ3TCtP5g259UW6nRChpDmzJ53","destinationAddress":"0x313530549F1935BED1fB6fff765a0D9ec081b6Db","status":"PENDING","createdAt":"Jun 16, 12:41","tokenAmount":"33569000000","amountAfterFee":"33401155000","feeAmount":"167845000","paymentId":"63acc69b-13cf-4647-90f7-3784a4fd1b0e","mined_in_block_height":29801} (Replying to: Hey guys, if anyone has bridge transactions that were timed out, and you didnt receive your XTM. Please send me transaction details)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 10:56:53
+Message: This is pending, not timed out :) (Replying to: {"sourceAddress":"12KxvbCJmYWjdmXaX9uVWsHo4jmQpQrchHSNb3yr7Np7f3Wu7VYdDNbkRKAonM5wxtJ3TCtP5g259UW6nRChpDmzJ53","destinationAddress":"0x313530549F1935BED1fB6fff765a0D9ec081b6Db","status":"PENDING","createdAt":"Jun 16, 12:41","tokenAmount":"33569000000","amountAfterFee":"33401155000","feeAmount":"167845000","paymentId":"63acc69b-13cf-4647-90f7-3784a4fd1b0e","mined_in_block_height":29801})
+--------------------------------------------------
+Channel: tariproject | User: moscowbnb | Date: 2025-06-16 10:57:19
+Message: But okay boss it's 32 blocks :) (Replying to: This is pending, not timed out :))
+--------------------------------------------------
+Channel: tariproject | User: moscowbnb | Date: 2025-06-16 10:57:52
+Message: I posted a ss above 
+--------------------------------------------------
+Channel: tariproject | User: moscowbnb | Date: 2025-06-16 10:58:30
+Message: Media message (Replying to: This is pending, not timed out :))
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 10:59:03
+Message: You can send me the raw details of this one plz (Replying to: Media message)
+--------------------------------------------------
+Channel: tariproject | User: moscowbnb | Date: 2025-06-16 10:59:07
+Message: {"sourceAddress":"12KxvbCJmYWjdmXaX9uVWsHo4jmQpQrchHSNb3yr7Np7f3Wu7VYdDNbkRKAonM5wxtJ3TCtP5g259UW6nRChpDmzJ53","destinationAddress":"0x313530549F1935BED1fB6fff765a0D9ec081b6Db","status":"TIMEOUT","createdAt":"Jun 16, 12:41","tokenAmount":"33569000000","amountAfterFee":"33401155000","feeAmount":"167845000","paymentId":"63acc69b-13cf-4647-90f7-3784a4fd1b0e","mined_in_block_height":29801} (Replying to: This is pending, not timed out :))
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 10:59:14
+Message: Thx 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 10:59:31
+Message: These will be processed soon :) 
+--------------------------------------------------
+Channel: tariproject | User: moscowbnb | Date: 2025-06-16 11:00:13
+Message: when :( (Replying to: These will be processed soon :))
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 11:00:27
+Message: Soon 
+--------------------------------------------------
+Channel: tariproject | User: moscowbnb | Date: 2025-06-16 11:02:07
+Message: Estimate 🥲😥😓 (Replying to: Soon)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 11:03:04
+Message: Please what explorer is this? (Replying to: Media message)
+--------------------------------------------------
+Channel: tariproject | User: moscowbnb | Date: 2025-06-16 11:03:17
+Message: Tari 1.2.9 Image (Replying to: Please what explorer is this?)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 11:03:38
+Message: Can i get the site address? (Replying to: Tari 1.2.9 Image)
+--------------------------------------------------
+Channel: tariproject | User: moscowbnb | Date: 2025-06-16 11:03:48
+Message: . (Replying to: Unknown message)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 11:07:12
+Message: Thanks 
+--------------------------------------------------
+Channel: tariproject | User: moscowbnb | Date: 2025-06-16 11:07:30
+Message: You’re welcome mate (Replying to: Thanks)
+--------------------------------------------------
+Channel: tariproject | User: victorpuvo | Date: 2025-06-16 11:10:59
+Message: Sorry to bother you, seems its on desktop and my pc isnt close by. Could you help me check this wallet address 16BgphMZGFn95TY8dMJ3fCm2hcMbkbFYe4fwxTWi2zunASji7SukCnnXdrGVf9KdHNyRxnkH7TZb2NpVMFp7q36TDXS9aMFr1K18b2ry2B49joaDE. (Replying to: You’re welcome mate)
+--------------------------------------------------
+Channel: tariproject | User: dno5iq | Date: 2025-06-16 11:11:14
+Message: that's not how this works 😭 (Replying to: Sorry to bother you, seems its on desktop and my pc isnt close by. Could you help me check this wallet address 16BgphMZGFn95TY8dMJ3fCm2hcMbkbFYe4fwxTWi2zunASji7SukCnnXdrGVf9KdHNyRxnkH7TZb2NpVMFp7q36TDXS9aMFr1K18b2ry2B49joaDE.)
+--------------------------------------------------
+Channel: tariproject | User: victorpuvo | Date: 2025-06-16 11:12:02
+Message: 😭😭😭 (Replying to: that's not how this works 😭)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 11:26:06
+Message: As I said before, you can ask them for the raw details of the transaction. This tx id that they sent is an internal ID for the exchange. Thats why you dont see anything on the explorer (Replying to: Sorry to bother you, seems its on desktop and my pc isnt close by. Could you help me check this wallet address 16BgphMZGFn95TY8dMJ3fCm2hcMbkbFYe4fwxTWi2zunASji7SukCnnXdrGVf9KdHNyRxnkH7TZb2NpVMFp7q36TDXS9aMFr1K18b2ry2B49joaDE.)
+--------------------------------------------------
+Channel: tariproject | User: victorpuvo | Date: 2025-06-16 11:31:02
+Message: Alright i get you now. They sent me the blockchain hieght though. Waiting for receiving exchange to give me feedback (Replying to: As I said before, you can ask them for the raw details of the transaction. This tx id that they sent is an internal ID for the exchange. Thats why you dont see anything on the explorer)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 11:32:07
+Message: Cool, good luck to you (Replying to: Alright i get you now. They sent me the blockchain hieght though. Waiting for receiving exchange to give me feedback)
+--------------------------------------------------
+Channel: tariproject | User: moscowbnb | Date: 2025-06-16 11:32:42
+Message: Boss, I've been waiting for 2 hours and the price of wXTM has started to drop a lot 🥲 (Replying to: Cool, good luck to you)
+--------------------------------------------------
+Channel: tariproject | User: moscowbnb | Date: 2025-06-16 11:33:26
+Message: I see a lot of wallets with successful bridges.. 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 11:34:06
+Message: As I said before, we’re going to manually verify these timed out transactions and mint the wxtm to the wallet you provided 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 11:34:13
+Message: Also please no price discussion 
+--------------------------------------------------
+Channel: tariproject | User: moscowbnb | Date: 2025-06-16 11:35:49
+Message: I'm waiting boss (Replying to: As I said before, we’re going to manually verify these timed out transactions and mint the wxtm to the wallet you provided)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 11:46:11
+Message: Парни , асики манник копают? Смотрю хешрейт в космосе 
+--------------------------------------------------
+Channel: tariproject | User: dno5iq | Date: 2025-06-16 11:47:21
+Message: где хешрейт в космосе? (Replying to: Парни , асики манник копают? Смотрю хешрейт в космосе)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 11:47:48
+Message: На пуле 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 11:48:19
+Message: Штатный эксплорер не показывает хешрейт 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 11:49:04
+Message: Лаки руле прсти уже сеть по пито , 900 терахеш 
+--------------------------------------------------
+Channel: tariproject | User: v_laskin | Date: 2025-06-16 11:50:19
+Message: Курс в очке, а не хешрейт в космосе 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 11:51:00
+Message: Take note all, tradeogre's xtm wallet is offline!! Unable to withdraw!! 
+--------------------------------------------------
+Channel: tariproject | User: dno5iq | Date: 2025-06-16 11:51:29
+Message: а где ты там такое увидел (Replying to: На пуле)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 11:52:39
+Message: Лаки пул открой 
+--------------------------------------------------
+Channel: tariproject | User: ardocrat | Date: 2025-06-16 11:55:29
+Message: значит никто не знает точного хэшрейта (Replying to: Штатный эксплорер не показывает хешрейт)
+--------------------------------------------------
+Channel: tariproject | User: dno5iq | Date: 2025-06-16 11:55:52
+Message: это скриншот с лакипула (Replying to: Лаки пул открой)
+--------------------------------------------------
+Channel: tariproject | User: ardocrat | Date: 2025-06-16 11:56:51
+Message: fpga надо (Replying to: Парни , асики манник копают? Смотрю хешрейт в космосе)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 11:57:28
+Message: Сегодня утром смотрел было 900т хеш (Replying to: это скриншот с лакипула)
+--------------------------------------------------
+Channel: tariproject | User: dno5iq | Date: 2025-06-16 11:57:53
+Message: баг, скачок сложности, всякое бывает
+статистики точной по хешрейту не может быть 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 11:58:54
+Message: Этак хешрейт сом показывает что fpga асики копают монету 
+--------------------------------------------------
+Channel: tariproject | User: dno5iq | Date: 2025-06-16 11:59:22
+Message: fpga уже давно копает
+но не быстрее топовых гпу, только эффективнее по электричеству 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 11:59:56
+Message: Тогда понятен от куда такой хешрейт 
+--------------------------------------------------
+Channel: tariproject | User: dno5iq | Date: 2025-06-16 12:00:18
+Message: то что ты видел это точно просто скачок сложности в сети, хешрейт примерно расчитывается из неё 
+--------------------------------------------------
+Channel: OrderOfSoon | User: efaykue_bot | Date: 2025-06-16 12:00:19
+Message: 📊 Current Tari Network Stats 📊
+Block Height: 29,858
+RandomX (Tari) Hash Rate: 1.27 GH/s
+RandomX (Merged-Mined XMR) Hash Rate: 3.61 GH/s
+SHA3x Hash Rate: 120 TH/s
+
+Want to learn more? Try '/faq mining' to get information about mining Tari. 
+--------------------------------------------------
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-16 12:00:20
+Message: 📊 Current Tari Network Stats 📊
+Block Height: 29,858
+RandomX (Tari) Hash Rate: 1.27 GH/s
+RandomX (Merged-Mined XMR) Hash Rate: 3.61 GH/s
+SHA3x Hash Rate: 120 TH/s
+
+Want to learn more? Try '/faq mining' to get information about mining Tari. 
+--------------------------------------------------
+Channel: tariproject | User: victorpuvo | Date: 2025-06-16 12:39:02
+Message: Sir please are you guys doing any node upgrade?
+Because thats the excuse these exchange people are giving (Replying to: As I said before, we’re going to manually verify these timed out transactions and mint the wxtm to the wallet you provided)
+--------------------------------------------------
+Channel: tariproject | User: The_Golden_Sparrow | Date: 2025-06-16 12:55:08
+Message: /faq are there publicly available API  for blockchain data requests? 
+--------------------------------------------------
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-16 12:55:11
+Message: Yes, Tari provides public-facing API interfaces for blockchain data requests. There are two access points depending on your requirements: Mainnet at https://grpc.mainnet.tari.com and Testing at https://grpc.nextnet.tari.com. (Replying to: /faq are there publicly available API  for blockchain data requests?)
+--------------------------------------------------
+Channel: tariproject | User: The_Golden_Sparrow | Date: 2025-06-16 12:55:59
+Message: /faq what api requests can be used to see active miners on tari? 
+--------------------------------------------------
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-16 12:56:04
+Message: The Tari project provides a public-facing API interface that can be accessed for various purposes. However, specific API requests to see active miners on Tari are not detailed in the available documentation. For more detailed information, you may refer to the API documentation or contact support staff for assistance. (Replying to: /faq what api requests can be used to see active miners on tari?)
+--------------------------------------------------
+Channel: tariproject | User: nyuuzyou | Date: 2025-06-16 12:56:06
+Message: man 😭😭 (Replying to: Yes, Tari provides public-facing API interfaces for blockchain data requests. There are two access points depending on your requirements: Mainnet at https://grpc.mainnet.tari.com and Testing at https://grpc.nextnet.tari.com.)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 12:58:25
+Message: @moscowbnb can you check if you received your wXTM :) 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 13:02:04
+Message: how can i find the block height for my XTM withdraw from XT? 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 13:02:35
+Message: I withdrew from XT to Biconomy but Biconomy won't credit it, they are asking for the block height 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 13:02:52
+Message: You can ask for it from the sender ( xt) 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 13:03:34
+Message: thats the only way? I have the txid but no idea what to do with that (Replying to: You can ask for it from the sender ( xt))
+--------------------------------------------------
+Channel: tariproject | User: moscowbnb | Date: 2025-06-16 13:03:35
+Message: WXTMs have arrived boss, thanks (Replying to: @moscowbnb can you check if you received your wXTM :))
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 13:04:37
+Message: Yes (Replying to: thats the only way? I have the txid but no idea what to do with that)
+--------------------------------------------------
+Channel: tariproject | User: The_Golden_Sparrow | Date: 2025-06-16 13:07:12
+Message: Can i pull somewhere the data of active miner? Would love to display it on my microcontroller epaper display:3 (Replying to: As I said before, we’re going to manually verify these timed out transactions and mint the wxtm to the wallet you provided)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 13:08:24
+Message: Will check (Replying to: Can i pull somewhere the data of active miner? Would love to display it on my microcontroller epaper display:3)
+--------------------------------------------------
+Channel: tariproject | User: victorpuvo | Date: 2025-06-16 13:13:16
+Message: Lol bro, thats the exact issue im facing now . Over 40 hours and my deposit hasnt been credited (Replying to: I withdrew from XT to Biconomy but Biconomy won't credit it, they are asking for the block height)
+--------------------------------------------------
+Channel: OrderOfSoon | User: None | Date: 2025-06-16 13:21:49
+Message: What height is require to used 4gb vram ? 
+--------------------------------------------------
+Channel: OrderOfSoon | User: None | Date: 2025-06-16 13:22:04
+Message: At full capacity 
+--------------------------------------------------
+Channel: OrderOfSoon | User: accountant_linda | Date: 2025-06-16 13:32:37
+Message: Hello guys 
+--------------------------------------------------
+Channel: tariproject | User: victorpuvo | Date: 2025-06-16 13:36:21
+Message: Has it been solved for you? (Replying to: thats the only way? I have the txid but no idea what to do with that)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 13:36:43
+Message: i dm'd you (Replying to: Has it been solved for you?)
+--------------------------------------------------
+Channel: OrderOfSoon | User: nikola4888 | Date: 2025-06-16 13:38:21
+Message: Moon soon? (Replying to: Hello guys)
+--------------------------------------------------
+Channel: tariproject | User: Ziegelbrenner29 | Date: 2025-06-16 13:43:47
+Message: Where to get help with broken transactions from the Android tari universe wallet? 
+--------------------------------------------------
+Channel: tariproject | User: Ziegelbrenner29 | Date: 2025-06-16 13:44:59
+Message: The Android App only Shows payment id, no tx id. Send some xtm to exchange but they are gone... 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 13:46:35
+Message: Can you dm me a screenshot plz (Replying to: Where to get help with broken transactions from the Android tari universe wallet?)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 13:49:43
+Message: Seems like hard work being a contributor working user support 😵‍💫 
+--------------------------------------------------
+Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-16 13:53:23
+Message: I don't think it required much (Replying to: What height is require to used 4gb vram ?)
+--------------------------------------------------
+Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-16 13:53:58
+Message: Randomx is asic resistance using memory as counter so it eat many ram but for sha3 for me it only eat like not much 
+--------------------------------------------------
+Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-16 13:54:17
+Message: Not even 1gb 😂 maybe because I only generate 2.8 MH 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 14:26:42
+Message: Anyone running Tari on Whonix? It sends Tor over Tor traffic and the built-in Tor in the Tari app cannot be switched off. 
+Any suggestions? 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 14:31:38
+Message: How can i fix? 
+Setup failed with error: Waiting for Tor to be ready timed out after 180 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 14:32:13
+Message: You can turn off tor from the settings. (Replying to: How can i fix? 
+Setup failed with error: Waiting for Tor to be ready timed out after 180)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 14:32:26
+Message: Settings -> experimental -> then you can turn off tor 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 14:32:53
+Message: but it is already turn off (Replying to: You can turn off tor from the settings.)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 14:33:10
+Message: Turn on experimental, and then inside turn off tor (Replying to: but it is already turn off)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 14:36:30
+Message: What’s new 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 14:39:53
+Message: Yeah 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 14:40:36
+Message: Oh Lord, thank you. Looks like it will work soon but still have troubles:
+Connecting to network peers 0/3 (Replying to: Turn on experimental, and then inside turn off tor)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 14:41:22
+Message: You have to wait a bit until you find connection :) (Replying to: Oh Lord, thank you. Looks like it will work soon but still have troubles:
+Connecting to network peers 0/3)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 14:41:33
+Message: If its stays like this for over half hour, try the reset button 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 14:44:18
+Message: is it ok through VPN? (Replying to: If its stays like this for over half hour, try the reset button)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 14:46:06
+Message: Um depends, but generally you wont have stable connection with vpn 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 14:46:14
+Message: And will be difficult to connect 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 14:46:23
+Message: Ok thank you 
+--------------------------------------------------
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-16 15:00:02
+Message: 📊 Current Tari Network Stats 📊
+Block Height: 29,957
+RandomX (Tari) Hash Rate: 1.24 GH/s
+RandomX (Merged-Mined XMR) Hash Rate: 3.98 GH/s
+SHA3x Hash Rate: 109 TH/s
+
+Want to learn more? Try '/faq mining' to get information about mining Tari. 
+--------------------------------------------------
+Channel: OrderOfSoon | User: efaykue_bot | Date: 2025-06-16 15:00:02
+Message: 📊 Current Tari Network Stats 📊
+Block Height: 29,957
+RandomX (Tari) Hash Rate: 1.24 GH/s
+RandomX (Merged-Mined XMR) Hash Rate: 3.98 GH/s
+SHA3x Hash Rate: 109 TH/s
+
+Want to learn more? Try '/faq mining' to get information about mining Tari. 
+--------------------------------------------------
+Channel: OrderOfSoon | User: Infinitezero1923 | Date: 2025-06-16 15:00:38
+Message: 😔 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 15:01:15
+Message: Everything green 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 15:01:46
+Message: 😬 
+--------------------------------------------------
+Channel: OrderOfSoon | User: aad342852 | Date: 2025-06-16 15:02:56
+Message: Good evening everyone, is there anyone who wants to be my friend? 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 15:04:44
+Message: Still Not connected to the Tari Network
+0/3 peers
+restart doesn't help 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 15:05:00
+Message: Try reset, not restart (Replying to: Still Not connected to the Tari Network
+0/3 peers
+restart doesn't help)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 15:05:24
+Message: can i leave wallet intact? (Replying to: Try reset, not restart)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 15:07:07
+Message: Resetting settings failed: Could not remove directory: Access Deny. (os error 5) 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 15:12:44
+Message: probably your defender or av is open.. pls try turn off them.. and reinstall universe 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 15:33:50
+Message: Когда новый алгоритм? 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 15:36:42
+Message: возможно владельцы фпга были слишком щедры, что бы менять это 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 15:36:46
+Message: Да они заебали Эд 🤝 (Replying to: Когда новый алгоритм?)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 15:37:39
+Message: Мы блять майним, майним. Они мозги ебут и ебут 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 15:38:09
+Message: Media message 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 15:40:31
+Message: Обещали конец мая, уже пошла вторая середина июня 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 15:41:55
+Message: Ребята почем у не конектится к пирам? Как быть? Ничего не помогает
+Not connected to the Tari Network 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 15:43:45
+Message: Привет, ребята 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 15:44:32
+Message: Я новенький здесь, надеюсь, я приветствую 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 15:49:20
+Message: Здесь денег нет 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 16:10:02
+Message: **Seeing more and more team impersonators. Beware of scams Tari Fam** 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 16:14:08
+Message: Вот проект и идёт по пизде (Replying to: Обещали конец мая, уже пошла вторая середина июня)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 16:14:48
+Message: Началось все с лага кошеля, и нахуй в пропасть понеслась Тари ебаная. Ну Вы внатуре индейцы папуа гвинейские 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 16:28:50
+Message: nothing helps (Replying to: Try reset, not restart)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 16:33:30
+Message: Trying to find the coin on MetaMask under ETH wallet, anyone have to CA and decimal? 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 16:35:14
+Message: Some Russian users are using VPNs, and guess  Tor banned in your country. Try disabling Tor, and if it still doesn't work, you can try using a VPN (Replying to: nothing helps)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 16:36:16
+Message: i tried both but nothing works (Replying to: Some Russian users are using VPNs, and guess  Tor banned in your country. Try disabling Tor, and if it still doesn't work, you can try using a VPN)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 16:36:18
+Message: @Aceman9755 (Replying to: Unknown message)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 16:36:21
+Message: 18 DECIMALS
+
+[0xfd36fa88bb3fea8d1264fc89d70723b6a2b56958](https://etherscan.io/address/0xfd36fa88bb3fea8d1264fc89d70723b6a2b56958) (Replying to: Trying to find the coin on MetaMask under ETH wallet, anyone have to CA and decimal?)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 16:39:31
+Message: dm (Replying to: i tried both but nothing works)
+--------------------------------------------------
+Channel: OrderOfSoon | User: AbdoEleish | Date: 2025-06-16 16:54:13
+Message: Is anyone from the team here? I have a question regarding troubleshooting and issue with the bridge 
+--------------------------------------------------
+Channel: OrderOfSoon | User: adapt7ve | Date: 2025-06-16 17:20:05
+Message: Тип гений. Сделал майнинг с других компов для битка себе в карман. Просто ❤️😂 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 17:57:37
+Message: please don't suggest this thing in the official group, tari labs could be held accountable for suggesting users how  to circumvent sanctions (Replying to: Some Russian users are using VPNs, and guess  Tor banned in your country. Try disabling Tor, and if it still doesn't work, you can try using a VPN)
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 17:58:56
+Message: 4.83 PH/s асики убили и эту монету 
+--------------------------------------------------
+Channel: OrderOfSoon | User: efaykue_bot | Date: 2025-06-16 18:00:17
+Message: 📊 Current Tari Network Stats 📊
+Block Height: 30,052
+RandomX (Tari) Hash Rate: 1.36 GH/s
+RandomX (Merged-Mined XMR) Hash Rate: 4.13 GH/s
+SHA3x Hash Rate: 105 TH/s
+
+Want to learn more? Try '/faq mining' to get information about mining Tari. 
+--------------------------------------------------
+Channel: tariproject | User: efaykue_bot | Date: 2025-06-16 18:00:18
+Message: 📊 Current Tari Network Stats 📊
+Block Height: 30,052
+RandomX (Tari) Hash Rate: 1.36 GH/s
+RandomX (Merged-Mined XMR) Hash Rate: 4.13 GH/s
+SHA3x Hash Rate: 105 TH/s
+
+Want to learn more? Try '/faq mining' to get information about mining Tari. 
+--------------------------------------------------
+Channel: tariproject | User: None | Date: 2025-06-16 18:01:00
+Message: https://x.com/c___f___b/status/1934671769895407735 
 --------------------------------------------------

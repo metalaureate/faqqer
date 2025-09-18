@@ -35,6 +35,24 @@ def format_hash_rate(hash_rate):
     else:
         return f"{int(hash_rate)} {units[unit_index]}"
 
+# Helper function to format Cuckaroo hash rate with graph units
+def format_cuckaroo_rate(hash_rate):
+    units = ['graphs', 'kgraphs', 'Mgraphs', 'Ggraphs', 'Tgraphs', 'Pgraphs', 'Egraphs']
+    unit_index = 0
+    
+    # Adjust the unit until we get a readable number
+    while hash_rate >= 1000 and unit_index < len(units) - 1:
+        hash_rate /= 1000
+        unit_index += 1
+    
+    # Format with appropriate precision based on the value
+    if hash_rate < 10:
+        return f"{hash_rate:.2f} {units[unit_index]}"
+    elif hash_rate < 100:
+        return f"{hash_rate:.1f} {units[unit_index]}"
+    else:
+        return f"{int(hash_rate)} {units[unit_index]}"
+
 # Function to get the latest block height and metadata
 def get_latest_info():
     url = "https://textexplore.tari.com/?json"
@@ -45,14 +63,15 @@ def get_latest_info():
         currentShaHashRate = int(str(data['currentSha3xHashRate']).replace(',', ''))
         currentMoneroHashRate = int(str(data['currentMoneroRandomxHashRate']).replace(',', ''))
         currentTariRXHashRate = int(str(data['currentTariRandomxHashRate']).replace(',', ''))
-        return block_height, currentShaHashRate, currentMoneroHashRate, currentTariRXHashRate
+        currentCuckarooHashRate = float(data['currentCuckarooHashRate'])
+        return block_height, currentShaHashRate, currentMoneroHashRate, currentTariRXHashRate, currentCuckarooHashRate
     else:
         raise Exception(f"Failed to fetch data: {response.status_code}")
 
 async def post_block_height(client):
     try:
         # Fetch the block height stats
-        block_height, x,y,z = get_latest_info()
+        block_height, x, y, z, w = get_latest_info()
 
         # List of sample questions
         questions = [
@@ -102,20 +121,22 @@ def schedule_block_height_job(client, loop):
 async def post_hash_power(client):
     try:
         # Fetch block height and hash rates
-        block_height, current_sha_hash_rate, current_rxm_hash_rate , current_rxt_hash_rate= get_latest_info()
+        block_height, current_sha_hash_rate, current_rxm_hash_rate, current_rxt_hash_rate, current_cuckaroo_hash_rate = get_latest_info()
         
         # Format the hash rates with appropriate units
         formatted_sha_hash_rate = format_hash_rate(current_sha_hash_rate)
         formatted_rxm_hash_rate = format_hash_rate(current_rxm_hash_rate)
         formatted_rxt_hash_rate = format_hash_rate(current_rxt_hash_rate)
+        formatted_cuckaroo_hash_rate = format_cuckaroo_rate(current_cuckaroo_hash_rate)
         
         # Create the hash power stats message
         hash_power_stats = (
             f"📊 Current Tari Network Stats 📊\n"
             f"Block Height: {block_height:,}\n"
-            f"RandomX (Tari) Hash Rate: {formatted_rxt_hash_rate}\n"
-            f"RandomX (Merged-Mined XMR) Hash Rate: {formatted_rxm_hash_rate}\n"
-            f"SHA3x Hash Rate: {formatted_sha_hash_rate}\n\n"
+            f"RandomX (Tari): {formatted_rxt_hash_rate}\n"
+            f"RandomX (Merged-Mined XMR): {formatted_rxm_hash_rate}\n"
+            f"SHA3x: {formatted_sha_hash_rate}\n"
+            f"Cuckaroo 29: {formatted_cuckaroo_hash_rate}\n\n"
             f"Want to learn more? Try '/faq mining' to get information about mining Tari."
         )
         
@@ -152,14 +173,16 @@ def schedule_hash_power_job(client, loop):
 
 if __name__ == "__main__":
     # test post hash power function
-    # call and prin the result
-    block_height, current_sha_hash_rate, current_rxm_hash_rate , current_rxt_hash_rate= get_latest_info()
+    # call and print the result
+    block_height, current_sha_hash_rate, current_rxm_hash_rate, current_rxt_hash_rate, current_cuckaroo_hash_rate = get_latest_info()
     formatted_sha_hash_rate = format_hash_rate(current_sha_hash_rate)
     formatted_rxm_hash_rate = format_hash_rate(current_rxm_hash_rate)
     formatted_rxt_hash_rate = format_hash_rate(current_rxt_hash_rate)
+    formatted_cuckaroo_hash_rate = format_cuckaroo_rate(current_cuckaroo_hash_rate)
     print(f"Block Height: {block_height:,}")
     print(f"RandomX (Tari) Hash Rate: {formatted_rxt_hash_rate}")
     print(f"RandomX (Merged-Mined XMR) Hash Rate: {formatted_rxm_hash_rate}")
     print(f"SHA3x Hash Rate: {formatted_sha_hash_rate}")
+    print(f"Cuckaroo Hash Rate: {formatted_cuckaroo_hash_rate}")
 
 

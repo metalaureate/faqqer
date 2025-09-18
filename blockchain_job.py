@@ -37,7 +37,7 @@ def format_hash_rate(hash_rate):
 
 # Helper function to format Cuckaroo hash rate with graph units
 def format_cuckaroo_rate(hash_rate):
-    units = ['graphs', 'kgraphs', 'Mgraphs', 'Ggraphs', 'Tgraphs', 'Pgraphs', 'Egraphs']
+    units = ['g', 'Kg', 'Mg', 'Gg', 'Tg', 'Pg', 'Eg']
     unit_index = 0
     
     # Adjust the unit until we get a readable number

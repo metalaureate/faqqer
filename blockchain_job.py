@@ -19,7 +19,7 @@ CUSTOMER_SERVICE_GROUP_ID = -1002281038272  # Where to post customer analysis re
 
 # Helper function to format hash rate with appropriate units
 def format_hash_rate(hash_rate):
-    units = ['H/s', 'kH/s', 'MH/s', 'GH/s', 'TH/s', 'PH/s', 'EH/s']
+    units = ['H', 'kH', 'MH', 'GH', 'TH', 'PH', 'EH']
     unit_index = 0
     
     # Adjust the unit until we get a readable number
@@ -37,7 +37,7 @@ def format_hash_rate(hash_rate):
 
 # Helper function to format Cuckaroo hash rate with graph units
 def format_cuckaroo_rate(hash_rate):
-    units = ['g', 'Kg', 'Mg', 'Gg', 'Tg', 'Pg', 'Eg']
+    units = ['g', 'Kg/s', 'Mg', 'Gg', 'Tg', 'Pg', 'Eg']
     unit_index = 0
     
     # Adjust the unit until we get a readable number

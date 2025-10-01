@@ -10,7 +10,7 @@ import random
 logging.basicConfig(level=logging.INFO)
 
 # Group IDs for posting announcements (blockchain stats, customer analysis, etc.)
-group_ids = [-2165121610, -1002281038272, -1188782007]
+group_ids = [ -1002281038272, -1188782007] # -2165121610,
 
 # Customer Analysis Configuration
 ANALYSIS_CHANNELS = ["tariproject", "OrderOfSoon"]  # Channels to analyze for customer issues

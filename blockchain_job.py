@@ -63,7 +63,7 @@ def get_latest_info():
         currentShaHashRate = int(str(data['currentSha3xHashRate']).replace(',', ''))
         currentMoneroHashRate = int(str(data['currentMoneroRandomxHashRate']).replace(',', ''))
         currentTariRXHashRate = int(str(data['currentTariRandomxHashRate']).replace(',', ''))
-        currentCuckarooHashRate = float(data['currentCuckarooHashRate']) * 42
+        currentCuckarooHashRate = float(data['currentCuckarooHashRate']) 
         return block_height, currentShaHashRate, currentMoneroHashRate, currentTariRXHashRate, currentCuckarooHashRate
     else:
         raise Exception(f"Failed to fetch data: {response.status_code}")

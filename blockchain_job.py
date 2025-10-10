@@ -13,7 +13,7 @@ logging.basicConfig(level=logging.INFO)
 group_ids = [ -1002281038272, -1188782007] # -2165121610,
 
 # Customer Analysis Configuration
-ANALYSIS_CHANNELS = ["tariproject", "OrderOfSoon"]  # Channels to analyze for customer issues
+ANALYSIS_CHANNELS = ["tariproject"]  # Channels to analyze for customer issues
 ANALYSIS_HOURS = 3  # Hours back to analyze
 CUSTOMER_SERVICE_GROUP_ID = -1002281038272  # Where to post customer analysis results
 

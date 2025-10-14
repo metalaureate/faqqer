@@ -1,0 +1,223 @@
+# Tari Layer 2 (Ootle) - Frequently Asked Questions
+
+## General Questions
+
+### What is Tari?
+Tari is a blockchain platform designed specifically for digital assets like NFTs, loyalty points, in-game items, and credit card rewards. It's built to be scalable, secure, and easy to use.
+
+### What is Layer 2 (Ootle)?
+Layer 2, also called "Ootle," is Tari's smart contract platform where developers can build and deploy applications. It's where the magic happens - NFTs, tokens, games, and other digital asset applications run here.
+
+### What's the difference between Layer 1 and Layer 2?
+- **Layer 1 (Minotari)**: The base blockchain that provides security through mining. Uses XTM as currency.
+- **Layer 2 (Ootle)**: The smart contract layer where applications run. Uses XTR as currency for transactions.
+
+### What can I build on Tari Layer 2?
+You can build:
+- NFT collections and marketplaces
+- Custom tokens (fungible and non-fungible)
+- Gaming applications with in-game items
+- Digital collectibles
+- Loyalty and rewards programs
+- DeFi applications (exchanges, liquidity pools, lending)
+- Any application involving digital assets
+
+## Currency & Transactions
+
+### What currency does Layer 2 use?
+Layer 2 uses **XTR** (pronounced "X-T-R") as its native currency for paying transaction fees and interacting with smart contracts.
+
+### How do I get XTR?
+- **For Testing**: You can get free testnet XTR from the faucet in your wallet
+- **For Production**: XTR will be available through exchanges and can be bridged from Layer 1
+
+### Are transactions private?
+Yes! Tari offers strong privacy by default:
+- Transaction amounts are hidden
+- User identities are protected
+- Only the parties involved can see transaction details
+
+### How fast are transactions?
+Transactions on Layer 2 are fast, typically confirming within seconds. The network is designed for high throughput and low latency.
+
+## Wallets & Accounts
+
+### What wallets can I use?
+- **Tari Wallet Daemon**: The official wallet with a web interface
+- **Tari Console Wallet**: Command-line wallet for advanced users
+- Mobile and desktop wallets are in development
+
+### How do I create an account?
+When you set up the Tari Wallet Daemon, it automatically creates a default account called "dev" for you. You can create additional accounts as needed.
+
+### Can I have multiple accounts?
+Yes! You can create multiple accounts within your wallet for different purposes or to organize your assets.
+
+### What's a component address vs a template address?
+- **Template address**: Like a blueprint - the reusable code for an application
+- **Component address**: Like a house built from that blueprint - an actual instance of the application
+
+## Development & Testing
+
+### How do I test my application?
+Tari provides the **Igor Testnet**, a live testing environment where:
+- You get free testnet XTR from the faucet
+- You can deploy and test your applications safely
+- No real money is at risk
+
+### Do I need to know blockchain programming?
+While blockchain knowledge helps, Tari is designed to be developer-friendly:
+- Use familiar languages (Rust for smart contracts, JavaScript for frontends)
+- Good documentation and examples
+- Active community support
+
+### Is there a local development environment?
+Yes! You can run a complete local network on your computer using the Tari Swarm Daemon, which gives you:
+- Full control over your test environment
+- No need for internet connectivity
+- Instant resets and testing
+
+## Smart Contracts & Templates
+
+### What's a "template"?
+A template is Tari's term for a smart contract. It's reusable code that defines how a digital asset or application works. Think of it as a blueprint.
+
+### What programming language are templates written in?
+Templates are written in **Rust** and compiled to WebAssembly (WASM). This makes them fast, secure, and portable.
+
+### Can I use existing templates?
+Yes! Many common templates are available:
+- Basic NFT templates
+- Fungible token templates
+- DEX (exchange) templates
+- You can use these as-is or customize them
+
+### What's the difference between deploying and instantiating?
+- **Deploying**: Publishing the template (blueprint) to the blockchain
+- **Instantiating**: Creating an actual working instance from that template (building from the blueprint)
+
+## Network & Infrastructure
+
+### What network should I use?
+- **Igor Testnet**: For testing and development (free testnet XTR available)
+- **Mainnet**: Coming soon for production applications
+- **LocalNet**: Your personal local network for development
+
+### What's a validator node?
+Validator nodes are computers that process transactions and maintain the network. They work together in committees to ensure everything runs smoothly and securely.
+
+### What's an indexer?
+An indexer is a service that helps you search and query blockchain data. It makes it easy to find transactions, check balances, and look up information about assets.
+
+### Is the network decentralized?
+Yes! Tari Layer 2 uses a committee-based consensus system where multiple validator nodes work together. No single entity controls the network.
+
+## Resources & Tokens
+
+### What are resources?
+Resources are digital assets on Tari - things like tokens, NFTs, or any other valuable digital items. They can be fungible (like coins) or non-fungible (like unique collectibles).
+
+### What's a vault?
+A vault is like a secure container in your account that holds your resources (tokens, NFTs, etc.). Each account has vaults for different types of assets.
+
+### What's a badge?
+Badges are special tokens that grant permissions or access rights. For example, an admin badge might let you mint new tokens or update settings.
+
+### Can I create my own token?
+Absolutely! Creating custom tokens is easy with Tari. You can create:
+- Fungible tokens (like coins)
+- Non-fungible tokens (unique items)
+- Tokens with custom rules and properties
+
+## Security & Permissions
+
+### How are permissions handled?
+Tari uses a flexible access control system:
+- You can set rules for who can call which functions
+- Use badges to grant special privileges
+- Define custom permission logic for your application
+
+### Is my data safe?
+Yes! Tari is built with security in mind:
+- Cryptographic protection of all data
+- Privacy by default
+- Battle-tested cryptography (Ristretto points, Pedersen commitments)
+
+### Can smart contracts be upgraded?
+Templates themselves are immutable once deployed, but you can design them to be upgradeable by including update functions protected by appropriate permissions.
+
+## Community & Support
+
+### Where can I get help?
+- Documentation: https://docs.tari.com
+- Discord: Join the Tari Discord server
+- GitHub: Browse code and examples
+- This bot! Ask questions anytime
+
+### Is there a developer community?
+Yes! Tari has an active developer community. You can:
+- Join discussions on Discord
+- Contribute to open-source projects
+- Share your projects and get feedback
+- Participate in hackathons and events
+
+### Where can I find examples?
+Examples are available at:
+- Official templates repository
+- Sample projects on GitHub
+- Documentation site with tutorials
+- Community-created projects
+
+### How can I contribute?
+Tari is open source! You can:
+- Build applications on the platform
+- Contribute code improvements
+- Write documentation
+- Help other developers
+- Report bugs and suggest features
+
+## Getting Started
+
+### What do I need to start building?
+The basics:
+1. Install Rust (for smart contract development)
+2. Install Node.js (for frontend development)
+3. Download the Tari Wallet Daemon
+4. Install the Tari CLI tool
+5. Follow the getting started guide
+
+### How long does it take to build something?
+- Simple token: 10-30 minutes
+- Basic NFT: 30-60 minutes
+- Complex application: Hours to days depending on features
+- The platform is designed to be quick to prototype with!
+
+### Where do I start?
+1. Set up your wallet and get testnet XTR
+2. Try deploying a basic template (like a counter or simple token)
+3. Build a simple frontend to interact with it
+4. Explore more complex examples
+5. Start building your own ideas!
+
+### Do I need cryptocurrency experience?
+Not necessarily! While understanding blockchain concepts helps, Tari is designed to be accessible to regular developers. If you can code, you can build on Tari.
+
+---
+
+## Quick Glossary
+
+- **XTR**: Layer 2 currency for transaction fees
+- **Template**: Smart contract / application code (blueprint)
+- **Component**: Instance of a template (actual running application)
+- **Resource**: Digital asset (token, NFT, etc.)
+- **Vault**: Container holding resources in an account
+- **Badge**: Special token granting permissions
+- **Substate**: A piece of state stored on the blockchain
+- **Indexer**: Service for searching and querying blockchain data
+- **Validator**: Node that processes transactions
+- **Igor**: The testnet for safe testing
+- **WASM**: WebAssembly, the format templates are compiled to
+
+---
+
+**Need more help?** Ask specific questions and I'll provide detailed answers!

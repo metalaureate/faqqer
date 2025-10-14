@@ -331,6 +331,7 @@ async def version_handler(event):
 • `/version` - Show version info
 • `/refresh_faq` - Refresh FAQ content
 • `/analyze_support [hours] [question]` - Run customer analysis
+• `/channel_info` - Show channel subscriptions
 
 **Examples:**
 • `/analyze_support` - Default 3-hour analysis
@@ -344,6 +345,28 @@ async def version_handler(event):
     except Exception as e:
         logging.error(f"Error in version command: {e}")
         await event.reply("❌ Failed to retrieve version information.")
+
+# Channel info command handler
+@client.on(events.NewMessage(pattern=r'/channel_info'))
+async def channel_info_handler(event):
+    try:
+        logging.info("Channel info command requested")
+        await event.reply("🔍 Fetching channel information...")
+        
+        # Get channels and format response
+        dialogs = await client.get_dialogs()
+        channels = [dialog for dialog in dialogs if isinstance(dialog.entity, Channel)]
+        
+        if channels:
+            info = "📡 **Bot Channel Subscriptions:**\n\n"
+            for channel in channels:
+                info += f"• **{channel.name}**\n  ID: `{channel.id}`\n\n"
+            await event.reply(info)
+        else:
+            await event.reply("❌ Bot is not subscribed to any channels.")
+    except Exception as e:
+        logging.error(f"Error in channel info command: {e}")
+        await event.reply("❌ Failed to retrieve channel information.")
 
 # Main execution function
 async def main():
